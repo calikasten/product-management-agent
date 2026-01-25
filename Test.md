@@ -1,2 +1,6 @@
 # test
 adding more information to this file to test things.
+
+# so lets...
+assume that i've edited something here and continuing to update and modify these files. 
+you should probably pull the files every once in a while...
