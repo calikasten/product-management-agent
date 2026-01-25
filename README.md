@@ -42,14 +42,16 @@ Where available, custom tools and projects can be used in conjunction with each 
 ```
 
 ## Providing Context Via File Directories
-While projects and custom tools are commonly referenced through web, desktop, or mobile UIs, agents invoked from the CLI or IDE can instead derive context directly from an exposed project directory. To enable LLMs to effective interact with the project directory, specific files should be included to define how agents should navigate, interpret, and interact with the project directory. Similar to the varition in nomenclature for projects and custom tools, the folder structure setup and exact file names vary.
+While projects and custom tools are commonly referenced through web, desktop, or mobile UIs, agents invoked from the CLI or IDE can instead derive context directly from an exposed project directory. To enable LLMs to effective interact with the project directory, specific files should be included to define how agents should navigate, interpret, and interact with the project directory. 
+
+While not exactly the same, the file directory can act similarly to the concept of a project (either explicitly for development projects, or just as folders to contain context) and custom tools can be invoked with step-by-step instructions on how to complete specific tasks. Similar to the varition in nomenclature for projects and custom tools in UIs, the folder structure setup and exact file names vary across CLIs/IDEs.
 | <center>**Model Provider**</center> | <center>**Tool Name**</center> | <center>**Tool Format**</center> | <center>**Projects**</center> | <center>**Custom Tool**</center> | <center>**User Preferences**</center>            |
 | ----------------------------------- | ------------------------------ | -------------------------------- | ----------------------------- | -------------------------------- | ------------------------------------------------ |
 | Anthropic                           | Claude Code                    | CLI                              | File Directory               | `SKILLS.md`                      | `CLAUDE.md`                                      |
 | OpenAI                              | Codex                          | CLI/IDE Extension                | File Directory               | `SKILL.md`                       | `AGENTS.md`                                      |
-| Google                              | Gemini CLI                     | CLI                              | File Directory               |                                  | `GEMINI.md`                                      |
+| Google                              | Gemini CLI                     | CLI                              | File Directory               | `.gemini/skills/` folder         | `GEMINI.md`                                      |
 | Google                              | Antigravity                    | IDE                              | File Directory               |                                  | `GEMINI.md` (also supports `AGENTS.md`   |
-| Cursor                              | Cursor                         | IDE                              | File Directory               | `.cursor/skills/skill-name/SKILL.md` Folder | `.cursor/rules` Folder                |
+| Cursor                              | Cursor                         | IDE                              | File Directory               | `.cursor/skills/skill-name/` folder containing `SKILL.md` file for that skill | files within `.cursor/rules/` folder |
 
 ### Cursor
 [Cursor](https://cursor.com/) is my current tool of choice for allowing agents to take action on files within my projects directory and utilizing MCP servers, all while having a familiar IDE UI.
