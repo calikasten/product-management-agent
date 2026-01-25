@@ -19,7 +19,7 @@ Play devil's advocate and provide pushback to user prompt input.
 Write a user story or bug based given initial user prompt input and create new ticket in Jira using [Atlassian MCP Server](https://www.atlassian.com/platform/remote-mcp-server).
 
 ---
-## LLM Context 101
+# LLM Context 101
 An AI model's context can be compared to a layer cake, where higher layers can *add* behavior, but usually *cannot override* lower layers.
 
 ```
