@@ -22,10 +22,10 @@ Play devil's advocate and provide pushback to user prompt input.
 Write a user story or bug based given initial user prompt input and create new ticket in Jira using [Atlassian MCP Server](https://www.atlassian.com/platform/remote-mcp-server).
 
 ---
-## Cursor Setup
+### Cursor Setup
 [Cursor](https://cursor.com/) is currently my preferred tool for its filesystem-based customization, built-in MCP server integration, and familiar IDE interface. To use the agent instructions and skills from this GitHub repo, follow these steps to pull the latest agent or skill files and create symlinks to reference additional context in your Cursor project.
 
-### Setting Up Cursor Rules
+## Setting Up Cursor Rules
 Cursor rules control agent behavior within the codebase, similar to AGENTS.md files. Store rules in .cursor/rules/ and create multiple files in `.md` or `.mdc` formats.
 
 1. Create the `.cursor/rules` folders in your project.
@@ -38,7 +38,7 @@ cd /full/folder/path/for/project/.cursor/rules
  curl -s 'https://raw.githubusercontent.com/calikasten/agents/main/Agent%20-%20Effective%20Writer.md' > '.cursor/rules/Effective Writer.mdc'
 ```
 
-### Setting Up Cursor Skills
+## Setting Up Cursor Skills
 Cursor skills are step-by-step guides that teach agents specific tasks. Each skill resides in its own subdirectory under `.cursor/skills/` and contains a `SKILL.md` file with the task instructions.
 
 1. Create the `.cursor/skills/` folders and a subdirectory for the skill.
@@ -50,7 +50,7 @@ cd /full/folder/path/for/project/.cursor/skills/specific-skill-name
 ```shell
  curl -s 'https://raw.githubusercontent.com/calikasten/agents/main/Agent%20-%20Effective%20Writer.md' > '.cursor/skills/specific-skill-name/SKILL.md'
 ```
-### Setting Up Additional Context
+## Setting Up Additional Context
 Additional contextcan be provided to Cursor by by linking other files or folders in your project. Use symlinks to point to the original location so updates are automatically reflected.
 
 1. Navigate to the project folder:
