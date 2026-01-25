@@ -2,8 +2,11 @@
 Instructions and prompts for using LLMs. Last Updated 01/25/2026.
 
 ## Agents
+[Product Manager]
 
-## Product Management Skills
+[Effective Writer]
+
+## Product Manager Skills
 [Create PRD](https://github.com/calikasten/agents/blob/main/Product%20Management/Create%20PRD.md)
 
 [Provide Critical Feedback](https://github.com/calikasten/agents/blob/main/Product%20Management/Provide%20Critical%20Feedback.md)
