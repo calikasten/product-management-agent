@@ -23,34 +23,32 @@ Write a user story or bug based given initial user prompt input and create new t
 
 ---
 ## Cursor Setup
-[Cursor](https://cursor.com/) is currently my preferred tool because of its filesystem-based customization, built-in MCP server integration, and familiar IDE interface. To use the agent instructions and skills stored in this GitHub repo, follow these steps to create symlinks to these files within a Cursor project.
-
-*Note: Symlinks act as pointers to the original files, ensuring that any updates made while interacting with the files in Cursor automatically sync back to the repo, which remains the source of truth.*
+[Cursor](https://cursor.com/) is currently my preferred tool because of its filesystem-based customization, built-in MCP server integration, and familiar IDE interface. To use the agent instructions and skills stored in this GitHub repo, follow these steps to pull the latest version of the agent and/or skill files and create symlinks to reference other folders containing context information in your Cursor project.
 
 ### Setting Up Cursor Rules
-In Cursor, rules control agent behavior within the codebase (functioning like `AGENTS.md` files). Rules are stored in the `.cursor/rules/` folder. This folder can contain multiple rule files, named as you like, in either `.md` or `.mdc` formats.
+In Cursor, rules control agent behavior within the codebase (functioning like `AGENTS.md` files). Rules are stored in the `.cursor/rules/` folder. You can create multiple rule files in `.md` or `.mdc` formats.
 
 1. Create the `.cursor/rules` folders within your project.
-2. Navigate to the project's `.cursor/rules` folder:
+2. Navigate to the `rules` folder:
 ```Shell
 cd /full/folder/path/for/project/.cursor/rules
 ```
-3. Pull the latest version of a specific prompt from this repo and create it as a Cursor rule `.mdc` file:
+3. Pull the latest version of a prompt from this repo and save it as a `.mdc` file:
 ```Shell
  curl -s 'https://raw.githubusercontent.com/calikasten/agents/main/Agent%20-%20Effective%20Writer.md' > '.cursor/rules/Effective Writer.mdc'
 ```
 
 ### Setting Up Cursor Skills
-In Cursor, skills are step-by-step guides that teach agents to perform specific tasks within a project or workflow. Each skill is stored in its own subdirectory under `.cursor/skills/`, containing a `SKILL.md` file with the task instructions.
+In Cursor, skills are step-by-step guides that teach agents specific tasks within a project or workflow. Each skill resides in its own subdirectory under `.cursor/skills/` and contains a `SKILL.md` file with the task instructions.
 
-1. Create the `skills/` directory within the `.cursor/`.
-2. Navigate to the project's `.cursor/skills/` folder:
+1. Create the `.cursor/skills/` folders and a designated subdirectory for a specic skill.
+2. Navigate to the specific skill folder:
 ```Shell
-cd /full/folder/path/for/project/.cursor/skills
+cd /full/folder/path/for/project/.cursor/skills/specific-skill-name
 ```
-4. Pull the latest version of a specific skill from this repo and create it as a Cursor `SKILL.md` file:
+3. Pull the latest version of a skill from this repo:
 ```Shell
- curl -s 'https://raw.githubusercontent.com/calikasten/agents/main/Agent%20-%20Effective%20Writer.md' > '.cursor/rules/Effective Writer.mdc'
+ curl -s 'https://raw.githubusercontent.com/calikasten/agents/main/Agent%20-%20Effective%20Writer.md' > '.cursor/skills/specific-skill-name/SKILL.md'
 ```
 ### Setting Up Additional Context
 In addition to rules and skills, additional context can be provided to Cursor by exposing other files to the project. It's recomended to do this via symlinks that serve as pointers to the original file location in case further modifications are made to the file.
