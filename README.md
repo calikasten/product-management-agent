@@ -117,7 +117,7 @@ In Cursor, skills are step-by-step guides that teach agents to perform specific 
 ```Shell
 cd /full/folder/path/for/project/.cursor
 ```
-3. Create the `/skills` folder:
+3. Create the `skills/` folder:
 ```Shell
 mkdir skills
 ```
