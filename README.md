@@ -87,18 +87,18 @@ This pattern exists across tools, though implementations and file naming convent
 ### Setting Up Cursor Rules
 In Cursor, rules control agent behavior within the codebase (functioning like `AGENTS.md` files). Rules are stored in the `.cursor/rules/` folder. This folder can contain multiple rule files, named as you like, in either `.md` or `.mdc` formats.
 
-1. Copy the full folder path for the selected Cursor project folder to the clipboard as a text string.
+1. Copy the full folder path of your Cursor project to the clipboard.
 2. Navigate to the project folder:
 ```Shell
 cd /full/folder/path/for/project
 ```
 3. Create the `.cursor/rules/` folder:
 ```Shell
-mkdir -p .cursor/rules/
+mkdir -p .cursor/rules
 ```
-4. Navigate to the newly craeated `rules/` folder:
+4. Navigate to the newly created `rules/` folder:
 ```Shell
-cd .cursor/rules/
+cd .cursor/rules
 ```
 5. Copy the full file path for the agent file from GitHub (ensure you pull the latest version).
 6. Create a symbolic link pointing to the agent file:
@@ -110,31 +110,31 @@ ln -s /full/file/path/to/agent/file ./agent-file-name
 - Ensure `.cursor/rules/` contains the linked agent file (e.g., `agent-file-name.md`).
 
 ### Setting Up Cursor Skills
-In Cursor, skills are step-by-step guides that teach agents how to perform specific tasks within a project or workflow. Skills are stored in the `.cursor/skills` folder with each skill existing as its own sub-directory within this folder, containing a `SKILL.md` file specifying the task instructions.
+In Cursor, skills are step-by-step guides that teach agents to perform specific tasks within a project or workflow. Each skill is stored in its own subdirectory under `.cursor/skills/`, containing a `SKILL.md` file with the task instructions.
 
-1. Copy the full folder path for the selected Cursor project folder to the clipboard as a text string.
-2. Navigate to the `.cursor/` folder within the project folder:
+1. Copy the full folder path of your Cursor project to the clipboard.
+2. Navigate to the project’s `.cursor/` folder:
 ```Shell
-cd /full/folder/path/for/project/.cursor/
+cd /full/folder/path/for/project/.cursor
 ```
 3. Create the `/skills` folder:
 ```Shell
-mkdir skills/
+mkdir skills
 ```
 4. Navigate to the newly created `skills/` folder:
 ```Shell
-cd skills/
+cd skills
 ```
-5. Create a sub-directory within `skills/` for the specific skill:
+5. Create a subdirectory for the specific skill: 
 ```Shell
-mkdir specific-skill-name/
+mkdir specific-skill-name
 ```
-6. Navigate to the newly created sub-directory:
+6. Navigate to the newly created skill subdirectory:
 ```Shell
-cd specific-skill-name/
+cd specific-skill-name
 ```
 7. Copy the full file path for the skill file from GitHub (ensure you pull the latest version).
-8. Create a symbolic link for a `SKILL.md` file pointing to the skills file:
+8. Create a symbolic link for the  `SKILL.md` file:
 ```Shell
 ln -s /full/file/path/to/skill/file ./SKILL
 ```
