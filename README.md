@@ -113,7 +113,7 @@ cd .cursor/rules
 5. Copy the full file path for the agent file from GitHub (ensure you pull the latest version).
 6. Create a symbolic link pointing to the agent file:
 ```Shell
-ln -s /full/file/path/to/agent/file ./agent-file-name
+ln -s /full/file/path/to/agent/file ./agent-file-name.md
 ```
 7. Verify in Cursor:
 - Confirm that `.cursor/` and `.cursor/rules/` folders exist in the project directory.
@@ -146,8 +146,8 @@ cd specific-skill-name
 7. Copy the full file path for the skill file from GitHub (ensure you pull the latest version).
 8. Create a symbolic link for the  `SKILL.md` file:
 ```Shell
-ln -s /full/file/path/to/skill/file ./SKILL
+ln -s /full/file/path/to/skill/file ./SKILL.md
 ```
 9. Verify in Cursor:
 - Confirm that `.cursor/skills/` and `.cursor/rules/specific-skill-name/` folders exist in the project directory.
-- Ensure `.cursor/rules/specific-skill-name/` contains the linked skill file named `SKILL.MD`.
+- Ensure `.cursor/rules/specific-skill-name/` contains the linked skill file named `SKILL.md`.
