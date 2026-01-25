@@ -4,6 +4,11 @@ Instructions and prompts for using LLMs. Last Updated 01/25/2026.
 ## Agents
 
 ## Product Management Skills
+[Create PRD]
+
+[Provide Critical Feedback]
+
+[Write Jira Ticket]
 
 ---
 ## LLM Context 101
@@ -68,7 +73,7 @@ This pattern exists across tools, though implementations and file naming convent
 
 | **Tool Name** | **Tool Format** | **Project Representation** | **System-Level Instructions** | **Task-Specific Instructions** |
 | ------------- | --------------- | -------------------------- | ----------------------------- | ------------------------------ |
-| Claude Code   | CLI             | Project folder             | `CLAUDE.md`                   | `SKILLS.md` |
+| Claude Code   | CLI             | Project folder             | `CLAUDE.md`                   | `SKILL.md` |
 | Gemini CLI    | CLI             | Project folder             | `GEMINI.md`                   | `.gemini/skills/` folder |
 | Cursor        | IDE             | Project folder             | Files in `.cursor/rules/`     | `.cursor/skills/<skill-name>/SKILL.md` |
 | Antigravity   | IDE             | Project folder             | `GEMINI.md` (also supports `AGENTS.md`) | `.agent/skills/<skill-name>/SKILL.md` |
@@ -79,21 +84,21 @@ This pattern exists across tools, though implementations and file naming convent
 
 *Note: Symlinks act as pointers to the original files, ensuring that any updates made while interacting with the files in Cursor automatically sync back to the repo, which remains the source of truth.*
 
-### Cursor Rules
-In Cursor, rules control agent behavior within the codebase, functioning like `AGENTS.md` files. Rules are stored in the `.cursor/rules/` folder. This folder can contain multiple rule files, named as you like, in either `.md` or `.mdc` formats.
+### Setting Up Cursor Rules
+In Cursor, rules control agent behavior within the codebase (functioning like `AGENTS.md` files). Rules are stored in the `.cursor/rules/` folder. This folder can contain multiple rule files, named as you like, in either `.md` or `.mdc` formats.
 
 1. Copy the full folder path for the selected Cursor project folder to the clipboard as a text string.
 2. Navigate to the project folder:
 ```Shell
 cd /full/folder/path/for/project
 ```
-3. Create the .cursor/rules folder:
+3. Create the `.cursor/rules/` folder:
 ```Shell
-mkdir -p .cursor/rules
+mkdir -p .cursor/rules/
 ```
-4. Navigate to the rules folder:
+4. Navigate to the newly craeated `rules/` folder:
 ```Shell
-cd .cursor/rules
+cd .cursor/rules/
 ```
 5. Copy the full file path for the agent file from GitHub (ensure you pull the latest version).
 6. Create a symbolic link pointing to the agent file:
@@ -104,4 +109,35 @@ ln -s /full/file/path/to/agent/file ./agent-file-name
 - Confirm that `.cursor/` and `.cursor/rules/` folders exist in the project directory.
 - Ensure `.cursor/rules/` contains the linked agent file (e.g., `agent-file-name.md`).
 
-### Cursor Skills
+### Setting Up Cursor Skills
+In Cursor, skills are step-by-step guides that teach agents how to perform specific tasks within a project or workflow. Skills are stored in the `.cursor/skills` folder with each skill existing as its own sub-directory within this folder, containing a `SKILL.md` file specifying the task instructions.
+
+1. Copy the full folder path for the selected Cursor project folder to the clipboard as a text string.
+2. Navigate to the `.cursor/` folder within the project folder:
+```Shell
+cd /full/folder/path/for/project/.cursor/
+```
+3. Create the `/skills` folder:
+```Shell
+mkdir skills/
+```
+4. Navigate to the newly created `skills/` folder:
+```Shell
+cd skills/
+```
+5. Create a sub-directory within `skills/` for the specific skill:
+```Shell
+mkdir specific-skill-name/
+```
+6. Navigate to the newly created sub-directory:
+```Shell
+cd specific-skill-name/
+```
+7. Copy the full file path for the skill file from GitHub (ensure you pull the latest version).
+8. Create a symbolic link for a `SKILL.md` file pointing to the skills file:
+```Shell
+ln -s /full/file/path/to/skill/file ./SKILL
+```
+9. Verify in Cursor:
+- Confirm that `.cursor/skills/` and `.cursor/rules/specific-skill-name/` folders exist in the project directory.
+- Ensure `.cursor/rules/specific-skill-name/` contains the linked skill file named `SKILL.MD`.
