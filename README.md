@@ -4,11 +4,11 @@ Instructions and prompts for using LLMs. Last Updated 01/25/2026.
 ## Agents
 
 ## Product Management Skills
-[Create PRD]
+[Create PRD](https://github.com/calikasten/agents/blob/main/Product%20Management/Create%20PRD.md)
 
-[Provide Critical Feedback]
+[Provide Critical Feedback](https://github.com/calikasten/agents/blob/main/Product%20Management/Provide%20Critical%20Feedback.md)
 
-[Write Jira Ticket]
+[Write Jira Ticket](https://github.com/calikasten/agents/blob/main/Product%20Management/Write%20Jira%20Ticket.md)
 
 ---
 ## LLM Context 101
@@ -92,7 +92,7 @@ In Cursor, rules control agent behavior within the codebase (functioning like `A
 ```Shell
 cd /full/folder/path/for/project
 ```
-3. Create the `.cursor/rules/` folder:
+3. Create the `.cursor/rules/` folders:
 ```Shell
 mkdir -p .cursor/rules
 ```
