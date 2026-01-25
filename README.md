@@ -2,16 +2,16 @@
 Instructions and prompts for using LLMs. Last Updated 01/25/2026.
 
 ## Agents
-[Product Manager]
+[Product Manager](https://github.com/calikasten/agents/blob/main/Agent%20-%20Product%20Manager.md)
 
-[Effective Writer]
+[Effective Writer](https://github.com/calikasten/agents/blob/main/Agent%20-%20Effective%20Writer.md)
 
 ## Product Manager Skills
-[Create PRD](https://github.com/calikasten/agents/blob/main/Product%20Management/Create%20PRD.md)
+[Create PRD](https://github.com/calikasten/agents/blob/main/Product%20Manager%20Skills/Create%20PRD.md)
 
-[Provide Critical Feedback](https://github.com/calikasten/agents/blob/main/Product%20Management/Provide%20Critical%20Feedback.md)
+[Provide Critical Feedback](https://github.com/calikasten/agents/blob/main/Product%20Manager%20Skills/Provide%20Critical%20Feedback.md)
 
-[Write Jira Ticket](https://github.com/calikasten/agents/blob/main/Product%20Management/Write%20Jira%20Ticket.md)
+[Write Jira Ticket](https://github.com/calikasten/agents/blob/main/Product%20Manager%20Skills/Write%20Jira%20Ticket.md)
 
 ---
 ## LLM Context 101
