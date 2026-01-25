@@ -44,7 +44,8 @@ Where available, custom tools and projects can be used in conjunction with each 
 └─────────────────────────────────────────────────┘
 ```
 
-## Providing Context Via File Directories 
+## Providing Context Via File Directories
+While projects and custom tools are commonly referenced through web, desktop, or mobile UIs, agents invoked from the CLI or IDE can instead derive context directly from an exposed project directory. To enable LLMs to effective interact with the project directory, specific files should be included to define how agents should navigate, interpret, and interact with the project directory. Similar to the varition in nomenclature for projects and custom tools, the folder structure setup and exact file names vary.
 
 ### Cursor
 [Cursor](https://cursor.com/) is my current tool of choice for allowing agents to take action on files within my projects directory and utilizing MCP servers, all while having a familiar IDE UI.
