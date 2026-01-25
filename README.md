@@ -80,26 +80,28 @@ This pattern exists across tools, though implementations and file naming convent
 *Note: Symlinks act as pointers to the original files, ensuring that any updates made while interacting with the files in Cursor automatically sync back to the repo, which remains the source of truth.*
 
 ### Cursor Rules
-In Cursor, rules control agent behavior within the codebase, functioning like `AGENTS.md` files. Rules are stored in the `.cursor/rules/` folder. This folder can hold multiple rule files, named as you like, in either .md or .mdc formats.
+In Cursor, rules control agent behavior within the codebase, functioning like `AGENTS.md` files. Rules are stored in the `.cursor/rules/` folder. This folder can contain multiple rule files, named as you like, in either `.md` or `.mdc` formats.
 
-1. Copy the full folder path name for the selected Cursor project folder to the clipboard as a text string
-2. Navigate to the selected project folder:
+1. Copy the full folder path for the selected Cursor project folder to the clipboard as a text string.
+2. Navigate to the project folder:
 ```Shell
-cd /'full folder path name for project'
+cd /full/folder/path/for/project
 ```
-3. Create a `.cursor/rules` folder:
+3. Create the .cursor/rules folder:
 ```Shell
 mkdir -p .cursor/rules
 ```
-4. Navigate to the `rules` folder:
+4. Navigate to the rules folder:
 ```Shell
 cd .cursor/rules
 ```
-5. Copy the full file path name for the agent file from Github (pull latest from Github)
-6. Create symlink pointing at agent file:
+5. Copy the full file path for the agent file from GitHub (ensure you pull the latest version).
+6. Create a symbolic link pointing to the agent file:
 ```Shell
-ln -s 'full file path name' ./'agent file name'
+ln -s /full/file/path/to/agent/file ./agent-file-name
 ```
-7. Navigate to Cursor and confirm new folders for `.cursor/` and `/rules` folders exist in project directory and `.cursor/rules/` contains `agent file name.md` file
+7. Verify in Cursor:
+- Confirm that `.cursor/` and `.cursor/rules/` folders exist in the project directory.
+- Ensure `.cursor/rules/` contains the linked agent file (e.g., `agent-file-name.md`).
 
 ### Cursor Skills
