@@ -1,5 +1,7 @@
 # Agents
-Instructions and prompts for using LLMs. Last Updated 01/25/2026.
+Instructions and prompts for using LLMs. Last Updated 01/25/2026. 
+
+For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents?tab=readme-ov-file#llm-context-101).
 
 ## Agents
 [Product Manager](https://github.com/calikasten/agents/blob/main/Agent%20-%20Product%20Manager.md) <br>
