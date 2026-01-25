@@ -1,8 +1,9 @@
 # Agents
 Instructions and prompts for using LLMs. Last Updated 01/25/2026. 
 
-For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents?tab=readme-ov-file#llm-context-101).
+For more information on how to effectively use these prompt files and set up agents, see Cursor Set Up().
 
+---
 ## Agents
 [Product Manager](https://github.com/calikasten/agents/blob/main/Agent%20-%20Product%20Manager.md) <br>
 Agent instructions for completing basic Product Management tasks grounded in context on product strategy and discovery, agile methodology, and go-to-market best practices.
@@ -19,6 +20,50 @@ Play devil's advocate and provide pushback to user prompt input.
 
 [Write Jira Ticket](https://github.com/calikasten/agents/blob/main/Product%20Manager%20Skills/Write%20Jira%20Ticket.md) <br>
 Write a user story or bug based given initial user prompt input and create new ticket in Jira using [Atlassian MCP Server](https://www.atlassian.com/platform/remote-mcp-server).
+
+---
+## Cursor Setup
+[Cursor](https://cursor.com/) is currently my preferred tool because of its filesystem-based customization, built-in MCP server integration, and familiar IDE interface. To use the agent instructions and skills stored in this GitHub repo, follow these steps to create symlinks to these files within a Cursor project.
+
+*Note: Symlinks act as pointers to the original files, ensuring that any updates made while interacting with the files in Cursor automatically sync back to the repo, which remains the source of truth.*
+
+### Setting Up Cursor Rules
+In Cursor, rules control agent behavior within the codebase (functioning like `AGENTS.md` files). Rules are stored in the `.cursor/rules/` folder. This folder can contain multiple rule files, named as you like, in either `.md` or `.mdc` formats.
+
+1. Create the `.cursor/rules` folders within your project.
+2. Navigate to the project's `.cursor/rules` folder:
+```Shell
+cd /full/folder/path/for/project/.cursor/rules
+```
+3. Pull the latest version of a specific prompt from this repo and create it as a Cursor rule `.mdc` file:
+```Shell
+ curl -s 'https://raw.githubusercontent.com/calikasten/agents/main/Agent%20-%20Effective%20Writer.md' > '.cursor/rules/Effective Writer.mdc'
+```
+
+### Setting Up Cursor Skills
+In Cursor, skills are step-by-step guides that teach agents to perform specific tasks within a project or workflow. Each skill is stored in its own subdirectory under `.cursor/skills/`, containing a `SKILL.md` file with the task instructions.
+
+1. Create the `skills/` directory within the `.cursor/`.
+2. Navigate to the project's `.cursor/skills/` folder:
+```Shell
+cd /full/folder/path/for/project/.cursor/skills
+```
+4. Pull the latest version of a specific skill from this repo and create it as a Cursor `SKILL.md` file:
+```Shell
+ curl -s 'https://raw.githubusercontent.com/calikasten/agents/main/Agent%20-%20Effective%20Writer.md' > '.cursor/rules/Effective Writer.mdc'
+```
+### Setting Up Additional Context
+In addition to rules and skills, additional context can be provided to Cursor by exposing other files to the project. It's recomended to do this via symlinks that serve as pointers to the original file location in case further modifications are made to the file.
+
+1. Navigate to the project folder:
+```Shell
+cd /full/folder/path/for/project
+```
+2. Copy the full path for the file/folder you want to reference as context.
+3. Create a symbolic link pointing to the context file/folder:
+```Shell
+ln -s /full/file/path/to/context/folder ./folder-name
+```
 
 ---
 # LLM Context 101
@@ -41,7 +86,6 @@ An AI model's context can be compared to a layer cake, where higher layers can *
 │ Model Alignment & Training │
 └────────────────────────────┘
 ```
-
 These layers generally exist across different model providers and tools, though their exact behavior and naming vary.
 
 | **Model Provider** | **Tool Name** | **Tool Format** | **Projects** | **Custom Tool** | **User Preferences** |
@@ -51,7 +95,6 @@ These layers generally exist across different model providers and tools, though 
 | Google             | Gemini        | UI              | NotebookLM   | Gemini Gems     | Settings > Instructions |
 
 Where available, custom tools and projects can be used together. Projects act as the top-level container for collaboration, shared context, and workflow organization. Custom tools then operate within a project, inheriting shared resources and configuration while remaining reusable assistants with their own prompts, tools, and task focus.
-
 ```
 ┌─────────────────────────────────────────────────┐
 │ Project                                         │
@@ -64,7 +107,6 @@ Where available, custom tools and projects can be used together. Projects act as
 │  └───────────────────┘   └───────────────────┘  │
 └─────────────────────────────────────────────────┘
 ```
-
 ## Providing Context Via File Directories
 Providing context via projects, custom tools, and user preferences is primarily done through web, desktop, or mobile apps with dedicated UIs. In contrast, agents invoked from the CLI or IDE derive context directly from an exposed project directory.
 
@@ -83,71 +125,10 @@ This pattern exists across tools, though implementations and file naming convent
 
 | **Tool Name** | **Tool Format** | **Project Representation** | **System-Level Instructions** | **Task-Specific Instructions** |
 | ------------- | --------------- | -------------------------- | ----------------------------- | ------------------------------ |
-| Claude Code   | CLI             | Project folder             | `CLAUDE.md`                   | `SKILL.md` |
-| Gemini CLI    | CLI             | Project folder             | `GEMINI.md`                   | `.gemini/skills/` folder |
+| Claude Code   | CLI             | Project folder             | `CLAUDE.md`                   | `SKILL.md`                     |
+| Gemini CLI    | CLI             | Project folder             | `GEMINI.md`                   | `.gemini/skills/` folder       |
 | Cursor        | IDE             | Project folder             | Files in `.cursor/rules/`     | `.cursor/skills/<skill-name>/SKILL.md` |
 | Antigravity   | IDE             | Project folder             | `GEMINI.md` (also supports `AGENTS.md`) | `.agent/skills/<skill-name>/SKILL.md` |
-| Codex         | CLI / IDE extension | Project folder             | `AGENTS.md`                   | `SKILL.md` |
-
-## Cursor Setup
-[Cursor](https://cursor.com/) is currently my preferred tool because of its filesystem-based customization, built-in MCP server integration, and familiar IDE interface. To use the agent instructions and skills stored in this GitHub repo, follow these steps to create symlinks to these files within a Cursor project.
-
-*Note: Symlinks act as pointers to the original files, ensuring that any updates made while interacting with the files in Cursor automatically sync back to the repo, which remains the source of truth.*
-
-### Setting Up Cursor Rules
-In Cursor, rules control agent behavior within the codebase (functioning like `AGENTS.md` files). Rules are stored in the `.cursor/rules/` folder. This folder can contain multiple rule files, named as you like, in either `.md` or `.mdc` formats.
-
-1. Copy the full folder path of your Cursor project to the clipboard.
-2. Navigate to the project folder:
-```Shell
-cd /full/folder/path/for/project
-```
-3. Create the `.cursor/rules/` folders:
-```Shell
-mkdir -p .cursor/rules
-```
-4. Navigate to the newly created `rules/` folder:
-```Shell
-cd .cursor/rules
-```
-5. Copy the full file path for the agent file from GitHub (ensure you pull the latest version).
-6. Create a symbolic link pointing to the agent file:
-```Shell
-ln -s /full/file/path/to/agent/file ./agent-file-name.md
-```
-7. Verify in Cursor:
-- Confirm that `.cursor/` and `.cursor/rules/` folders exist in the project directory.
-- Ensure `.cursor/rules/` contains the linked agent file (e.g., `agent-file-name.md`).
-
-### Setting Up Cursor Skills
-In Cursor, skills are step-by-step guides that teach agents to perform specific tasks within a project or workflow. Each skill is stored in its own subdirectory under `.cursor/skills/`, containing a `SKILL.md` file with the task instructions.
-
-1. Copy the full folder path of your Cursor project to the clipboard.
-2. Navigate to the project’s `.cursor/` folder:
-```Shell
-cd /full/folder/path/for/project/.cursor
-```
-3. Create the `skills/` folder:
-```Shell
-mkdir skills
-```
-4. Navigate to the newly created `skills/` folder:
-```Shell
-cd skills
-```
-5. Create a subdirectory for the specific skill: 
-```Shell
-mkdir specific-skill-name
-```
-6. Navigate to the newly created skill subdirectory:
-```Shell
-cd specific-skill-name
-```
-7. Copy the full file path for the skill file from GitHub (ensure you pull the latest version).
-8. Create a symbolic link for the  `SKILL.md` file:
-```Shell
-ln -s /full/file/path/to/skill/file ./SKILL.md
-```
-9. Verify in Cursor:
+| Codex         | CLI / IDE extension | Project folder         | `AGENTS.md`                   | `SKILL.md`                     |
 - Confirm that `.cursor/skills/` and `.cursor/rules/specific-skill-name/` folders exist in the project directory.
 - Ensure `.cursor/rules/specific-skill-name/` contains the linked skill file named `SKILL.md`.
