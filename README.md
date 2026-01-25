@@ -13,14 +13,14 @@ An AI model's context can be compared to a layer cake, where higher layers can *
 ├────────────────────────────┤
 │ Custom Tool                │    <- a reusable AI instance with context and reference knowledge for a domain-specific capability
 ├────────────────────────────┤
-| Project Set Up             |    <- a centralized location to organize multiple chats and tasks in a dedicated space
+| Project                    |    <- a centralized location to organize multiple chats and tasks in a dedicated space
 ├────────────────────────────┤
 │ Model System Prompt        │
 ├────────────────────────────┤
 │ Model Alignment & Training │
 └────────────────────────────┘
 ```
-These layers generally exist across different model providers and tools but are unique in their exact functinoality and nomenclature.
+These layers generally exist across different model providers and tools but are unique in their exact functionality and nomenclature.
 | <center>**Model Provider**</center> | <center>**Tool Name**</center> | <center>**Tool Format**</center> | <center>**Projects**</center> | <center>**Custom Tool**</center> | <center>**User Preferences**</center>            |
 | ----------------------------------- | ------------------------------ | -------------------------------- | ----------------------------- | -------------------------------- | ------------------------------------------------ |
 | Anthropic                           | Claude                         | UI                               | Projects                      |                                  | Settings > General > Personal Preferences        |
@@ -30,5 +30,21 @@ These layers generally exist across different model providers and tools but are 
 | Google                              | Gemini                         | UI                               | NotebookLM                    | Gemini Gems                      | Settings > Instructions                          |
 | Google                              | Gemini CLI                     | CLI                              |                               |                                  | `GEMINI.md`                                      |
 
-## Cursor
+Where available, custom tools and projects can be used in conjunction with each other. Projects operate as the top-level "folder" that handles collaboration, resource sharing, and workflow organization. Custom tools can then be used inside a project, inheriting the shared resources and configuration of the project while still functioning as reusable assistants, each with its own instructions and task focus. 
+```
+┌─────────────────────────────────────────────────┐
+│ Project                                         |
+| (Containis shared context and resources)        │
+│  ┌───────────────────┐   ┌───────────────────┐  │
+│  │ Custom Tool 1     │   │ Custom Tool 2     │  │
+│  │ - Prompt          │   │ - Prompt          │  │
+│  │ - Tools / Data    │   │ - Tools / Data    │  │
+│  │ - Behavior        │   │ - Behavior        │  │
+│  └───────────────────┘   └───────────────────┘  │
+└─────────────────────────────────────────────────┘
+```
+
+## Providing Context Via File Directories 
+
+### Cursor
 [Cursor](https://cursor.com/) is my current tool of choice for allowing agents to take action on files within my projects directory and utilizing MCP servers, all while having a familiar IDE UI.
