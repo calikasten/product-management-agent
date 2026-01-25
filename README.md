@@ -23,43 +23,43 @@ Write a user story or bug based given initial user prompt input and create new t
 
 ---
 ## Cursor Setup
-[Cursor](https://cursor.com/) is currently my preferred tool because of its filesystem-based customization, built-in MCP server integration, and familiar IDE interface. To use the agent instructions and skills stored in this GitHub repo, follow these steps to pull the latest version of the agent and/or skill files and create symlinks to reference other folders containing context information in your Cursor project.
+[Cursor](https://cursor.com/) is currently my preferred tool for its filesystem-based customization, built-in MCP server integration, and familiar IDE interface. To use the agent instructions and skills from this GitHub repo, follow these steps to pull the latest agent or skill files and create symlinks to reference additional context in your Cursor project.
 
 ### Setting Up Cursor Rules
-In Cursor, rules control agent behavior within the codebase (functioning like `AGENTS.md` files). Rules are stored in the `.cursor/rules/` folder. You can create multiple rule files in `.md` or `.mdc` formats.
+Cursor rules control agent behavior within the codebase, similar to AGENTS.md files. Store rules in .cursor/rules/ and create multiple files in .md or .mdc formats.
 
-1. Create the `.cursor/rules` folders within your project.
+1. Create the `.cursor/rules` folders in your project.
 2. Navigate to the `rules` folder:
-```Shell
+```shell
 cd /full/folder/path/for/project/.cursor/rules
 ```
 3. Pull the latest version of a prompt from this repo and save it as a `.mdc` file:
-```Shell
+```shell
  curl -s 'https://raw.githubusercontent.com/calikasten/agents/main/Agent%20-%20Effective%20Writer.md' > '.cursor/rules/Effective Writer.mdc'
 ```
 
 ### Setting Up Cursor Skills
-In Cursor, skills are step-by-step guides that teach agents specific tasks within a project or workflow. Each skill resides in its own subdirectory under `.cursor/skills/` and contains a `SKILL.md` file with the task instructions.
+Cursor skills are step-by-step guides that teach agents specific tasks. Each skill resides in its own subdirectory under `.cursor/skills/` and contains a `SKILL.md` file with the task instructions.
 
-1. Create the `.cursor/skills/` folders and a designated subdirectory for a specic skill.
+1. Create the `.cursor/skills/` folders and a subdirectory for the skill.
 2. Navigate to the specific skill folder:
-```Shell
+```shell
 cd /full/folder/path/for/project/.cursor/skills/specific-skill-name
 ```
 3. Pull the latest version of a skill from this repo:
-```Shell
+```shell
  curl -s 'https://raw.githubusercontent.com/calikasten/agents/main/Agent%20-%20Effective%20Writer.md' > '.cursor/skills/specific-skill-name/SKILL.md'
 ```
 ### Setting Up Additional Context
-In addition to rules and skills, additional context can be provided to Cursor by exposing other files to the project. It's recomended to do this via symlinks that serve as pointers to the original file location in case further modifications are made to the file.
+Additional contextcan be provided to Cursor by by linking other files or folders in your project. Use symlinks to point to the original location so updates are automatically reflected.
 
 1. Navigate to the project folder:
-```Shell
+```shell
 cd /full/folder/path/for/project
 ```
-2. Copy the full path for the file/folder you want to reference as context.
-3. Create a symbolic link pointing to the context file/folder:
-```Shell
+2. Copy the full path of the file or folder to reference.
+3. Create a symbolic link pointing to the reference file/folder:
+```shell
 ln -s /full/file/path/to/context/folder ./folder-name
 ```
 
