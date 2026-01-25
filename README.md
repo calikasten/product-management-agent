@@ -128,5 +128,3 @@ This pattern exists across tools, though implementations and file naming convent
 | Cursor        | IDE             | Project folder             | Files in `.cursor/rules/`     | `.cursor/skills/<skill-name>/SKILL.md` |
 | Antigravity   | IDE             | Project folder             | `GEMINI.md` (also supports `AGENTS.md`) | `.agent/skills/<skill-name>/SKILL.md` |
 | Codex         | CLI / IDE extension | Project folder         | `AGENTS.md`                   | `SKILL.md`                     |
-- Confirm that `.cursor/skills/` and `.cursor/rules/specific-skill-name/` folders exist in the project directory.
-- Ensure `.cursor/rules/specific-skill-name/` contains the linked skill file named `SKILL.md`.
