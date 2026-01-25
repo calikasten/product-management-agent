@@ -1,7 +1,7 @@
 # Agents
 Instructions and prompts for using LLMs. Last Updated 01/25/2026. 
 
-For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](Copy the full path of the file or folder to reference.) and [Cursor Set Up](Copy the full path of the file or folder to reference.).
+For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101]([Copy the full path of the file or folder to reference.](https://github.com/calikasten/agents/blob/main/README.md#llm-context-101)) and [Cursor Set Up]([Copy the full path of the file or folder to reference.](https://github.com/calikasten/agents/blob/main/README.md#cursor-setup)).
 
 ---
 ## Agents
