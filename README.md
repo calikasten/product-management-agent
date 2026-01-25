@@ -54,7 +54,12 @@ In practice, UI-based context concepts map to filesystem-based equivalents as fo
 - **Projects** → Project directory
 - **Custom Tools** → Task-specific instructions
 
-A key difference is that while user preferences shape the interaction experience, CLI and IDE workflows are governed by documents that define system-level constraints and operating rules for the agent. This pattern exists across tools, though implementations and file naming conventions vary.
+A key difference is that while user preferences shape the interaction experience, CLI and IDE workflows are governed by documents that define system-level constraints and operating rules for the agent. Certain files provide structured context that explains how to navigate and interact with the project directory:
+
+- **`AGENTS.md`** files define how an agent should interpret the project directory and its contents.
+- **`SKILLS.md`** files provide step-by-step instructions for completing specific tasks within that project.
+
+This pattern exists across tools, though implementations and file naming conventions vary.
 
 | **Tool Name** | **Tool Format** | **Project Representation** | **System-Level Instructions** | **Task-Specific Instructions** |
 | ------------- | --------------- | -------------------------- | ----------------------------- | ------------------------------ |
@@ -64,9 +69,5 @@ A key difference is that while user preferences shape the interaction experience
 | Antigravity   | IDE             | Project folder             | `GEMINI.md` (also supports `AGENTS.md`) | `.agent/skills/<skill-name>/SKILL.md` |
 | Codex         | CLI / IDE extension | Project folder             | `AGENTS.md`                   | `SKILL.md` |
 
-### Instruction Files
-Certain files provide structured context that explains how to navigate and interact with the project directory.
-
-- **AGENTS.md** files define how an agent should interpret the project directory and its contents.
-- **SKILLS.md** files provide step-by-step instructions for completing specific tasks within that project.
-
+## Cursor Setup
+[Cursor](https://cursor.com/) is currently my preferred tool due to its filesystem-based customization, built-in MCP server integration, and familiar IDE interface. To leverage the agent instructions and skills I store in this Github repo, use the following instructions for creating symlinks to these files within a cursor project.
