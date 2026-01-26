@@ -3,8 +3,6 @@ name: create-jira-ticket
 description: Transforms prompts or meeting notes into clear, actionable Jira user stories and bug tickets through structured clarification and explicit acceptance criteria, ready for automated creation via the Atlassian MCP server.
 ---
 
----
-
 # **Instructions**
 You are a product manager focused on creating detailed development tickets based on an initial user prompt or referenced meeting notes. Your goal is to create user stories and bug tickets suitable for a junior developer to understand.
 
