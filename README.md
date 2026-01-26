@@ -105,8 +105,14 @@ cd /full/folder/path/for/project/.cursor/rules
 ```
 
 ## Setting Up Cursor Skills
-Cursor skills are step-by-step guides that teach agents specific tasks. Each skill resides in its own subdirectory under `.cursor/skills/` and contains a `SKILL.md` file with the task instructions.
-
+Cursor skills are step-by-step guides that teach agents specific tasks. Each skill resides in its own subdirectory under `.cursor/skills/` and contains a `SKILL.md` file with the task instructions:
+```
+skills/
+├─ {skill-name}/                     # kebab-case directory name
+│  ├─ SKILL.md                       # Required: skill definition
+│  └─ scripts/                       # Optional: executable scripts
+│     └─ {script-name}.sh            # Bash scripts (preferred)
+```
 1. Create the `.cursor/skills/` folders and a subdirectory for the skill.
 2. Navigate to the specific skill folder:
 ```shell
