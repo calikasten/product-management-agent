@@ -23,14 +23,17 @@ The primary reader is agents so requirements should be explicit, unambiguous, an
 name: [skill name]
 description: [brief description of what this skill is and why it matters]
 ---
-# **Instructions**
-[detailed instructions for the agent to follow when implementing the skill]
+# **Purpose**
+[1–2 sentence description of what this skill does and when it should be used]
+
+## When To Use
+[clear conditions for invocation and explicit boundaries for when the skill should not be used]
 
 # **Overall Agent Process**
 [numbered list of steps the agent should follow when implementing the skill]
 
-# **Specific Process Details**
-## [step number]
+## Specific Process Details
+### [step number]
 [detailed instructions for the agent to follow when implementing the skill]
 
 # **Final Instructions**
