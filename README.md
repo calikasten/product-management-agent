@@ -13,10 +13,10 @@ Agent instructions for completing basic Product Management tasks grounded in con
 
 ## Product Manager Skills
 [Create PRD](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20PRD.md) <Br>
-Create PRD given initial user prompt input.
+Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
 
 [Provide Critical Feedback](https://github.com/calikasten/agent-skills/blob/main/Skills/Provide%20Critical%20Feedback.md) <br>
-Play devil's advocate and provide pushback to user prompt input.
+Provides direct, evidence-based feedback on product ideas and artifacts by challenging assumptions, surfacing strategic gaps, and offering concrete guidance to strengthen product thinking, decision-making, and communication.
 
 [Write Jira Ticket](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20Jira%20Ticket.md) <br>
 Write a user story or bug based given initial user prompt input and create new ticket in Jira using [Atlassian MCP Server](https://www.atlassian.com/platform/remote-mcp-server).
