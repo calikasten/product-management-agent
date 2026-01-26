@@ -48,7 +48,7 @@ cd /full/folder/path/for/project/.cursor/skills/specific-skill-name
 ```
 3. Pull the latest version of a skill from this repo:
 ```shell
- curl -s 'https://raw.githubusercontent.com/calikasten/agents/main/Agent%20-%20Effective%20Writer.md' > '.cursor/skills/specific-skill-name/SKILL.md'
+ curl -s 'https://github.com/calikasten/agents//main/Product%20Manager%20Skills/Create%20PRD.md' > '.cursor/skills/create-prd/SKILL.md'
 ```
 ## Setting Up Additional Context
 Additional contextcan be provided to Cursor by by linking other files or folders in your project. Use symlinks to point to the original location so updates are automatically reflected.
