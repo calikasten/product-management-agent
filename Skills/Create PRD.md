@@ -41,7 +41,7 @@ The Al should adapt its *actual questions* based on the user's initial prompt, a
 ## 3. Generate PRD
 * **Voice:** The primary reader is a *junior* developer, so requirements should be explicit, unambiguous, and avoid jargon where possible; make sure to provide enough detail for them to understand the feature's purpose and core logic
 *  **Document Layout/Structure**:
-```Markdown
+```markdown
 # **Overview**
 [Brief 2-3 sentence description of what this feature is and why it matters.]
 ## Problem Statement
