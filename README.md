@@ -1,5 +1,5 @@
 # Agents & Skills
-Instructions and prompts for using LLMs as autonomous agents. Last Updated 01/25/2026. 
+Instructions and prompts for using LLMs as autonomous agents. Last Updated 01/26/2026. 
 
 For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents/blob/main/README.md#llm-context-101) and [Cursor Set Up](https://github.com/calikasten/agents/blob/main/README.md#cursor-setup).
 
@@ -24,7 +24,8 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 
 [Split User Stories] <br>
 
-[Sprint Review Report] <br>
+[Sprint Review Report](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20Sprint%20Review%20Summary.md) <br>
+Summarizes weekly sprint progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities.
 
 ---
 # LLM Context 101
