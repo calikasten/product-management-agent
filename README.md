@@ -79,12 +79,12 @@ A key difference is that while user preferences shape the interaction experience
 
 This pattern exists across tools, though implementations and file naming conventions vary.
 
-| **Tool Name** | **Tool Format** | **Project Representation** | **System-Level Instructions** | **Task-Specific Instructions** |
+| **Tool Name** | **Tool Format** | **Project Representation** | **System-Level Instructions** | **Task-Specific Instructions** | 
 | ------------- | --------------- | -------------------------- | ----------------------------- | ------------------------------ |
 | Claude Code   | CLI             | Project folder             | `CLAUDE.md`                   | `SKILL.md`                     |
-| Gemini CLI    | CLI             | Project folder             | `GEMINI.md`                   | `.gemini/skills/` folder       |
-| Cursor        | IDE             | Project folder             | Files in `.cursor/rules/`     | `.cursor/skills/<skill-name>/SKILL.md` |
-| Antigravity   | IDE             | Project folder             | `GEMINI.md` (also supports `AGENTS.md`) | `.agent/skills/<skill-name>/SKILL.md` |
+| Cursor        | IDE             | Project folder             | Files in `.cursor/rules/`     | `SKILL.md`                     |
+| Gemini CLI    | CLI             | Project folder             | `GEMINI.md`                   | `SKILL.md`                     |
+| Antigravity   | IDE             | Project folder             | `GEMINI.md` (also supports `AGENTS.md`) | `SKILL.md`           |
 | Codex         | CLI / IDE extension | Project folder         | `AGENTS.md`                   | `SKILL.md`                     |
 
 ---
@@ -105,13 +105,25 @@ cd /full/folder/path/for/project/.cursor/rules
 ```
 
 ## Setting Up Cursor Skills
-Cursor skills are step-by-step guides that teach agents specific tasks. Each skill resides in its own subdirectory under `.cursor/skills/` and contains a `SKILL.md` file with the task instructions:
+Cursor skills are step-by-step guides that teach agents specific tasks. Skills can be utilized on a project level or on a global level:
+
+| **Tool Name** | **Project Path** | **Global Path** |
+| ------------- | ---------------- | --------------- |
+| Claude Code   | `.claude/skills/` | `~/.claude/skills/` |
+| Cursor        | `.cursor/skills/` | `~/.cursor/skills/` |
+| Gemini CLI    |	`.gemini/skills/` |	`~/.gemini/skills/` |
+| Antigravity   | `.agent/skills/`  | `~/.gemini/antigravity/skills/` |
+| Codex         | `.codex/skills/`  | `~/.codex/skills/` |
+
+Each skill resides in its own subdirectory under `.cursor/skills/` and contains a `SKILL.md` file:
 ```
 skills/
-├─ {skill-name}/                     # kebab-case directory name
-│  ├─ SKILL.md                       # required skill definition
-│  └─ scripts/                       # optional executable scripts
-│     └─ {script-name}.sh            # Bash scripts (preferred)
+├── my-skill/                       
+│  ├── SKILL.md                       (required) instructions and metadata
+│  └── scripts/                       (optional) executable scripts/tools
+│     └── script-name.sh              
+│  └── references/                    (optional) static documentation and examples
+│  └── assets/                        (optional) templates and binary resources
 ```
 1. Create the `.cursor/skills/` folders and a subdirectory for the skill.
 2. Navigate to the specific skill folder:
