@@ -3,18 +3,24 @@ name: create-prd
 description: Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
 ---
 
-# **Instructions**
-You are a product manager focused on creating a detailed Product Requirements Document (PRD) in Markdown format, based on an initial user prompt. Your goal is to create a PRD that is clear, actionable, and suitable for a junior developer to understand and implement the feature.
+# **Purpose**
+Creates a detailed, implementation-ready Product Requirements Document (PRD) in Markdown format by asking structured clarifying questions and organizing validated inputs into a clear, standardized template suitable for junior developers.
+
+## When To Use
+Use this skill when the user wants to create a PRD for a new feature or functionality. Do not use this skill for tasks that don't involve PRD creation, or when the user explicitly wants to draft requirements in a different format or structure.
 
 # **Overall Agent Process**
 1. **Receive Initial Prompt:** The user provides a brief description or request for a new feature or functionality.
-2. **Ask Clarifying Questions:** Before writing the PRD, the AI *must* ask clarifying questions to gather sufficient detail. The goal is to understand the "what" and "why" of the feature, not necessarily the "how" (which the developer will figure out).
+2. **Ask Clarifying Questions:** Before writing the PRD, ask clarifying questions to gather sufficient detail. The goal is to understand the "what" and "why" of the feature, not necessarily the "how" (which the developer will figure out).
 3. **Write PRD:** Based on the initial prompt and the user's answers to the clarifying questions, write the PRD.
-4. **Save PRD:** Save the generated document as "[PRD - Feature Name].md" and ask me which directory it should be saved in.
+4. **Save PRD:** Save the generated document as "[PRD - Feature Name].md" and ask the user which directory it should be saved in.
 
-# **Specific Process Details**
-## 2. Ask Clarifying Questions
-When asking clarifying questions, the AI *must* format them as a numbered list. This list should support nested sub-questions using dot notation (e.g., 1, 2, 2.1, 2.2, 3). There should only be one atomic question per list item.
+## Specific Process Details
+### 1. Receive Initial Prompt
+The user provides a brief description or request for a new feature or functionality.
+
+### 2. Ask Clarifying Questions
+When asking clarifying questions, format them as a numbered list. This list should support nested sub-questions using dot notation (e.g., 1, 2, 2.1, 2.2, 3). There should only be one atomic question per list item.
 
 Example Format:
 1. Top-level question 1?
@@ -23,7 +29,7 @@ Example Format:
 	- 2.2. Another sub-question related to question 2?
 3. Top-level question 3?
 
-The Al should adapt its *actual questions* based on the user's initial prompt, aiming to cover relevant areas like:
+Adapt the *actual questions* based on the user's initial prompt, aiming to cover relevant areas like:
 - **Goal:** What is the primary goal?
 	- **Problem Statement:** What problem does this feature solve? 
 	- **Target User:** Who is this feature for?
@@ -38,7 +44,7 @@ The Al should adapt its *actual questions* based on the user's initial prompt, a
 	- **Edge Cases:** What potential errors or unusual situations should be considered?
 	- **(Optional) Dependencies:** What integrations are needed?
 
-## 3. Generate PRD
+### 3. Write PRD
 The primary reader is a *junior* developer, so requirements should be explicit, unambiguous, and avoid jargon where possible; make sure to provide enough detail for them to understand the feature's purpose and core logic. Your final output should follow this exact template:
 ```markdown
 # **Overview**
@@ -77,13 +83,13 @@ The primary reader is a *junior* developer, so requirements should be explicit, 
 [List of risks, their corresponding impact if they occur, and a potential mitigation strategy for each risk.]
 ```
 
-## 4. Save PRD
-* **Format:** markdown (`.md`)
-- **Filename:** "[PRD - Feature Name].md -- e.g., `PRD - User Profile Editing.md`
-- **Location:** ask me which directory to save the file in
+### 4. Save PRD
+- **Format:** markdown (`.md`)
+- **Filename:** "[PRD - Feature Name].md" -- e.g., `PRD - User Profile Editing.md`
+- **Location:** ask the user which directory to save the file in
 
 # **Final Instructions**
-1. Do NOT start implementing the PRD
-2. Make sure to ask the user clarifying questions
-3. Take the user's answers to the clarifying questions and improve the PRD
-4. Make sure the PRD output follows the specified document layout/structure
+1. Do NOT start implementing the PRD.
+2. Make sure to ask the user clarifying questions before writing the PRD.
+3. Take the user's answers to the clarifying questions and improve the PRD accordingly.
+4. Make sure the PRD output follows the specified document layout/structure.
