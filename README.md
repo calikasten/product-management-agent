@@ -100,11 +100,11 @@ Each skill resides in its own subdirectory under `.cursor/skills/` and contains 
 ```
 skills/
 ├── my-skill/                       
-│  ├── SKILL.md                       (required) instructions and metadata
-│  └── scripts/                       (optional) executable scripts/tools
+│  ├── SKILL.md                       ← (required) instructions and metadata
+│  └── scripts/                       ← (optional) executable scripts/tools
 │     └── script-name.sh              
-│  └── references/                    (optional) static documentation and examples
-│  └── assets/                        (optional) templates and binary resources
+│  └── references/                    ← (optional) static documentation and examples
+│  └── assets/                        ← (optional) templates and binary resources
 ```
 
 ---
