@@ -42,5 +42,5 @@ description: [brief description of what this skill is and why it matters]
 ## 4. Save SKILL.md File
 Create a new directory within `.cursor/skills/` for [skill-name-in-kebab-case] and save the generated document as `SKILL.md`.
 
-# Final Instructions
+# **Final Instructions**
 1. Ask clarifying questions if context is missing
