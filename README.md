@@ -12,6 +12,9 @@ Transforms prompts or meeting notes into clear, actionable Jira user stories and
 
 [Create Jobs To Be Done]
 
+[Create New AI Skill](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20New%20AI%20Skill.md)
+Generates a standardized SKILL.md file for a new AI skill by clarifying requirements, producing clear, agent-ready instructions, and saving it to the correct directory.
+
 [Create PRD](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20PRD.md) <br>
 Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
 
