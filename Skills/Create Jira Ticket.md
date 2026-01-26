@@ -1,5 +1,5 @@
 ---
-name: create-dev-tickets
+name: create-jira-ticket
 description: Transforms prompts or meeting notes into clear, actionable Jira user stories and bug tickets through structured clarification and explicit acceptance criteria.
 ---
 
