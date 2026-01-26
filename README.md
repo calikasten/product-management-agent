@@ -101,7 +101,7 @@ cd /full/folder/path/for/project/.cursor/rules
 ```
 3. Pull the latest version of a prompt from this repo and save it as a `.mdc` file:
 ```shell
- curl -s 'https://raw.githubusercontent.com/calikasten/agent-skills/main/Agent%20-%20Effective%20Writer.md' > './Effective Writer.mdc'
+ curl -s 'https://raw.githubusercontent.com/calikasten/agent-skills/main/Agents/Effective%20Writer.md' > './Effective Writer.mdc'
 ```
 
 ## Setting Up Cursor Skills
@@ -114,7 +114,7 @@ cd /full/folder/path/for/project/.cursor/skills/specific-skill-name
 ```
 3. Pull the latest version of a skill from this repo:
 ```shell
- curl -s 'https://raw.githubusercontent.com/calikasten/agent-skills/main/Product%20Manager%20Skills/Create%20PRD.md' > './SKILL.md'  
+ curl -s 'https://raw.githubusercontent.com/calikasten/agent-skills/main/Skills/Create%20PRD.md' > './SKILL.md'  
 ```
 ## Setting Up Additional Context
 Additional contextcan be provided to Cursor by by linking other files or folders in your project. Use symlinks to point to the original location so updates are automatically reflected.
