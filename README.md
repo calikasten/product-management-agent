@@ -31,13 +31,13 @@ An AI model's context can be compared to a layer cake, where higher layers can *
 ├────────────────────────────┤
 │ Chat History               │
 ├────────────────────────────┤
-│ User Preferences           │    # personalization settings that instruct the AI how to communicate, behave, and respond
+│ User Preferences           │    ← personalization settings that instruct the AI how to communicate, behave, and respond
 ├────────────────────────────┤
-│ Custom Tool                │    # a reusable, named AI configuration with scoped context, tools, and instructions
+│ Custom Tool                │    ← a reusable, named AI configuration with scoped context, tools, and instructions
 ├────────────────────────────┤
-│ Project                    │    # a centralized space to organize multiple chats, tasks, and shared resources
+│ Project                    │    ← a centralized space to organize multiple chats, tasks, and shared resources
 ├────────────────────────────┤
-│ Model System Prompt        │    # global instructions that define the AI's role and rules across all interactions
+│ Model System Prompt        │    ← global instructions that define the AI's role and rules across all interactions
 ├────────────────────────────┤
 │ Model Alignment & Training │
 └────────────────────────────┘
@@ -87,26 +87,7 @@ This pattern exists across tools, though implementations and file naming convent
 | Antigravity   | IDE             | Project folder             | `GEMINI.md` (also supports `AGENTS.md`) | `SKILL.md`           |
 | Codex         | CLI / IDE extension | Project folder         | `AGENTS.md`                   | `SKILL.md`                     |
 
----
-# Cursor Setup
-[Cursor](https://cursor.com/) is currently my preferred tool for its filesystem-based customization, built-in MCP server integration, and familiar IDE interface. To use the agent instructions and skills from this GitHub repo, follow these steps to pull the latest agent or skill files and create symlinks to reference additional context in your Cursor project.
-
-## Setting Up Cursor Rules
-Cursor rules control agent behavior within the codebase, similar to AGENTS.md files. Store rules in .cursor/rules/ and create multiple files in `.md` or `.mdc` formats.
-
-1. Create the `.cursor/rules` folders in your project.
-2. Navigate to the `rules` folder:
-```shell
-cd /full/folder/path/for/project/.cursor/rules
-```
-3. Pull the latest version of a prompt from this repo and save it as a `.mdc` file:
-```shell
- curl -s 'https://raw.githubusercontent.com/calikasten/agent-skills/main/Agents/Effective%20Writer.md' > './effective-writer.mdc'
-```
-
-## Setting Up Cursor Skills
-Cursor skills are step-by-step guides that teach agents specific tasks. Skills can be utilized on a project level or on a global level:
-
+Skills can be utilized on a project level or on a global level:
 | **Tool Name** | **Project Path** | **Global Path** |
 | ------------- | ---------------- | --------------- |
 | Claude Code   | `.claude/skills/` | `~/.claude/skills/` |
@@ -125,6 +106,27 @@ skills/
 │  └── references/                    (optional) static documentation and examples
 │  └── assets/                        (optional) templates and binary resources
 ```
+
+---
+# Cursor Setup
+[Cursor](https://cursor.com/) is currently my preferred tool for its filesystem-based customization, built-in MCP server integration, and familiar IDE interface. To use the agent instructions and skills from this GitHub repo, follow these steps to pull the latest agent or skill files and create symlinks to reference additional context in your Cursor project.
+
+## Setting Up Cursor Rules
+Cursor rules control agent behavior within the codebase, similar to AGENTS.md files. Store rules in .cursor/rules/ and create multiple files in `.md` or `.mdc` formats.
+
+1. Create the `.cursor/rules` folders in your project.
+2. Navigate to the `rules` folder:
+```shell
+cd /full/folder/path/for/project/.cursor/rules
+```
+3. Pull the latest version of a prompt from this repo and save it as a `.mdc` file:
+```shell
+ curl -s 'https://raw.githubusercontent.com/calikasten/agent-skills/main/Agents/Effective%20Writer.md' > './effective-writer.mdc'
+```
+
+## Setting Up Cursor Skills
+Cursor skills are step-by-step guides that teach agents specific tasks. 
+
 1. Create the `.cursor/skills/` folders and a subdirectory for the skill.
 2. Navigate to the specific skill folder:
 ```shell
