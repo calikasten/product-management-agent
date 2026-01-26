@@ -101,7 +101,7 @@ cd /full/folder/path/for/project/.cursor/rules
 ```
 3. Pull the latest version of a prompt from this repo and save it as a `.mdc` file:
 ```shell
- curl -s 'https://raw.githubusercontent.com/calikasten/agent-skills/main/Agents/Effective%20Writer.md' > './Effective Writer.mdc'
+ curl -s 'https://raw.githubusercontent.com/calikasten/agent-skills/main/Agents/Effective%20Writer.md' > './effective-writer.mdc'
 ```
 
 ## Setting Up Cursor Skills
