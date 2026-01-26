@@ -20,9 +20,11 @@ Maintains an up-to-date Markdown task list by adding, updating, reordering, and 
 [Provide Critical Feedback](https://github.com/calikasten/agent-skills/blob/main/Skills/Provide%20Critical%20Feedback.md) <br>
 Provides direct, evidence-based feedback on product ideas and artifacts by challenging assumptions, surfacing strategic gaps, and offering concrete guidance to strengthen product thinking, decision-making, and communication.
 
-[Write Release Notes] <br>
+[Write Release Notes](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20Release%20Notes.md) <br>
+Creates clear, non-technical release notes by analyzing shipped Jira tickets and translating recent features and fixes into concise explanations of workflow changes and user benefits.
 
 [Split User Stories] <br>
+Original author [Dean Peters](https://github.com/deanpeters).
 
 [Sprint Review Report](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20Sprint%20Review%20Summary.md) <br>
 Summarizes weekly sprint progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities.
