@@ -12,14 +12,14 @@ Agent instructions for producing written material that is concise, clear, and re
 Agent instructions for completing basic Product Management tasks grounded in context on product strategy and discovery, agile methodology, and go-to-market best practices.
 
 ## Product Manager Skills
+[Create Jira Ticket](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20Jira%20Ticket.md) <br>
+Transforms prompts or meeting notes into clear, actionable Jira user stories and bug tickets through structured clarification and explicit acceptance criteria, ready for automated creation via the [Atlassian MCP server](https://www.atlassian.com/platform/remote-mcp-server).
+
 [Create PRD](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20PRD.md) <Br>
 Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
 
 [Provide Critical Feedback](https://github.com/calikasten/agent-skills/blob/main/Skills/Provide%20Critical%20Feedback.md) <br>
 Provides direct, evidence-based feedback on product ideas and artifacts by challenging assumptions, surfacing strategic gaps, and offering concrete guidance to strengthen product thinking, decision-making, and communication.
-
-[Write Jira Ticket](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20Jira%20Ticket.md) <br>
-Write a user story or bug based given initial user prompt input and create new ticket in Jira using [Atlassian MCP Server](https://www.atlassian.com/platform/remote-mcp-server).
 
 ---
 # LLM Context 101
