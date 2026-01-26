@@ -31,13 +31,13 @@ An AI model's context can be compared to a layer cake, where higher layers can *
 ├────────────────────────────┤
 │ Chat History               │
 ├────────────────────────────┤
-│ User Preferences           │    ← personalization settings that instruct the AI how to communicate, behave, and respond
+│ User Preferences           │    # personalization settings that instruct the AI how to communicate, behave, and respond
 ├────────────────────────────┤
-│ Custom Tool                │    ← a reusable, named AI configuration with scoped context, tools, and instructions
+│ Custom Tool                │    # a reusable, named AI configuration with scoped context, tools, and instructions
 ├────────────────────────────┤
-│ Project                    │    ← a centralized space to organize multiple chats, tasks, and shared resources
+│ Project                    │    # a centralized space to organize multiple chats, tasks, and shared resources
 ├────────────────────────────┤
-│ Model System Prompt        │    ← global instructions that define the AI's role and rules across all interactions
+│ Model System Prompt        │    # global instructions that define the AI's role and rules across all interactions
 ├────────────────────────────┤
 │ Model Alignment & Training │
 └────────────────────────────┘
@@ -109,8 +109,8 @@ Cursor skills are step-by-step guides that teach agents specific tasks. Each ski
 ```
 skills/
 ├─ {skill-name}/                     # kebab-case directory name
-│  ├─ SKILL.md                       # Required: skill definition
-│  └─ scripts/                       # Optional: executable scripts
+│  ├─ SKILL.md                       # required skill definition
+│  └─ scripts/                       # optional executable scripts
 │     └─ {script-name}.sh            # Bash scripts (preferred)
 ```
 1. Create the `.cursor/skills/` folders and a subdirectory for the skill.
