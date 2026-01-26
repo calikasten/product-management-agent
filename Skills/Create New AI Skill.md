@@ -18,27 +18,29 @@ If any jargon in the initial prompt or description is confusing or unclear, ask 
 
 ## 3. Write SKILL.md File
 The primary reader is agents so requirements should be explicit, unambiguous, and avoid jargon where possible; make sure to provide enough detail for them to understand the skill's purpose and core logic. Your final output should follow this exact template:
+
 ```markdown
 ---
-name: [skill name]
-description: [brief description of what this skill is and why it matters]
+name: [Skill name.]
+description: [Brief description of what this skill is and why it matters.]
 ---
 # **Purpose**
-[1–2 sentence description of what this skill does and when it should be used]
+[1–2 sentence description of what this skill does and when it should be used.]
 
 ## When To Use
-[clear conditions for invocation and explicit boundaries for when the skill should not be used]
+[Clear conditions for invocation and explicit boundaries for when the skill should not be used.]
 
 # **Overall Agent Process**
-[numbered list of steps the agent should follow when implementing the skill]
+[Numbered list of steps the agent should follow when implementing the skill.]
 
 ## Specific Process Details
-### [step number]
-[detailed instructions for the agent to follow when implementing the skill]
+### [Step Number and step name.]
+[Detailed instructions for the agent to follow when implementing the skill.]
 
 # **Final Instructions**
-[final instructions for the agent to follow when implementing the skill]
+[Final instructions for the agent to follow when implementing the skill.]
 ```
+
 ## 4. Save SKILL.md File
 Create a new directory within `.cursor/skills/` for [skill-name-in-kebab-case] and save the generated document as `SKILL.md`.
 
