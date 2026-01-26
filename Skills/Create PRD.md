@@ -1,6 +1,6 @@
 ---
 name: create-prd
-description: Instructions on how to create PRD by asking clarifying questions about a user's initial prompt input and structuring that information into the proper PRD template.
+description: Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
 ---
 
 # **Instructions**
@@ -68,7 +68,7 @@ The Al should adapt its *actual questions* based on the user's initial prompt, a
 [Considerations of what kind of data this feature will require as inputs and what kind of data this feature will produce.]
 ## [Optional] Edge Cases
 [Potential scenarios that "break" the workflow and features defined above and how to handle each instance.]
-## Dependences
+## Dependencies
 [Any known technical constraints, cross-functional or third-party dependencies.]
 
 # **Assumptions & Risks**
