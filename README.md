@@ -5,20 +5,20 @@ For more information on how to effectively use these prompt files and set up age
 
 ---
 ## Agents
-[Product Manager](https://github.com/calikasten/agents/blob/main/Agent%20-%20Product%20Manager.md) <br>
-Agent instructions for completing basic Product Management tasks grounded in context on product strategy and discovery, agile methodology, and go-to-market best practices.
-
-[Effective Writer](https://github.com/calikasten/agents/blob/main/Agent%20-%20Effective%20Writer.md) <br>
+[Effective Writer](https://github.com/calikasten/agent-skills/blob/main/Agents/Effective%20Writer.md) <br>
 Agent instructions for producing written material that is concise, clear, and readable with context on avoiding AI writing patterns and maintaining the user's natural tone of voice.
 
+[Product Manager](https://github.com/calikasten/agent-skills/blob/main/Agents/Product%20Manager.md) <br>
+Agent instructions for completing basic Product Management tasks grounded in context on product strategy and discovery, agile methodology, and go-to-market best practices.
+
 ## Product Manager Skills
-[Create PRD](https://github.com/calikasten/agents/blob/main/Product%20Manager%20Skills/Create%20PRD.md) <Br>
+[Create PRD](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20PRD.md) <Br>
 Create PRD given initial user prompt input.
 
-[Provide Critical Feedback](https://github.com/calikasten/agents/blob/main/Product%20Manager%20Skills/Provide%20Critical%20Feedback.md) <br>
+[Provide Critical Feedback](https://github.com/calikasten/agent-skills/blob/main/Skills/Provide%20Critical%20Feedback.md) <br>
 Play devil's advocate and provide pushback to user prompt input.
 
-[Write Jira Ticket](https://github.com/calikasten/agents/blob/main/Product%20Manager%20Skills/Write%20Jira%20Ticket.md) <br>
+[Write Jira Ticket](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20Jira%20Ticket.md) <br>
 Write a user story or bug based given initial user prompt input and create new ticket in Jira using [Atlassian MCP Server](https://www.atlassian.com/platform/remote-mcp-server).
 
 ---
