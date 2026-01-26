@@ -17,7 +17,7 @@ You are a scrum master focused on assessing the development team performance and
 ## 5. Write Summary Report
 Write a status report update geared towards executive cross-functional partners that describes everything that has happened in the last week for the Jira project. Add notes where relevant with additional context, especially around describing the impact of each work item for users and user experience. Call out if there are any comments indicating delays or blockers for specific work items. Start the status report update with a one sentence summary of the progress this week. Use bullet points for each work item and list the items based on their summary/ticket title and hyperlink that text to the exact Jira ticket. Your output should follow this format:
 
-```Markdown
+```markdown
 **Summary:** [1 sentence summary of progress for this week.]
 
 **Shipped:**
