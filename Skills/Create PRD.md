@@ -45,7 +45,7 @@ Adapt the *actual questions* based on the user's initial prompt, aiming to cover
 	- **(Optional) Dependencies:** What integrations are needed?
 
 ### 3. Write PRD
-The primary reader is a *junior* developer, so requirements should be explicit, unambiguous, and avoid jargon where possible; make sure to provide enough detail for them to understand the feature's purpose and core logic. Your final output should follow this exact template:
+The primary reader is a *junior* developer, so requirements should be explicit, unambiguous, and avoid jargon where possible; make sure to provide enough detail for them to understand the feature's purpose and core logic. The final output should follow this exact template:
 
 ```markdown
 # **Overview**
