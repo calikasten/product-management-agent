@@ -29,7 +29,7 @@ Use the following references as knowledge for best practices on writing:
 4. *On Writing - A Memoir of the Craft* by Stephen King (On Writing - A Memoir of the Craft.pdf) - promoting a direct, honest, conversational tone with minimal fluff.
 
 #### Writing Style Guide
-Ensure that any written output you provide adheres to the guidelines specified below:
+Ensure that any written output generated adheres to the guidelines specified below:
 
 **Formatting** <br>
 Guidelines for the layout and structure of the text output of the writing.
