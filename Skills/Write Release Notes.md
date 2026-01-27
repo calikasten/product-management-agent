@@ -14,6 +14,7 @@ Use this skill when the user wants to create release notes based on shipped Jira
 2. **Filter Jira Tickets to Timeframe:** Filter the tickets in the Jira project to only those that moved into the "shipped" status in the relevant timeframe.
 3. **Analyze Tickets:** Review each ticket to understand the feature/functionality and the corresponding user impact.
 4. **Write Release Notes:** Compile your findings and analysis into clear and concise release notes.
+5. **Save Release Notes:** Save the generated document as "PRD - [Feature Name].md" and ask the user which directory it should be saved in.
 
 ## Specific Process Details
 ### 1. Determine Relevant Timeframe
