@@ -37,7 +37,8 @@ GIVEN
 WHEN
 THEN
 
-[Optional] **Notes:** [bullet point list of important reminders or specifications]
+[Optional] **Notes:**
+- [Bullet point list of important reminders or specifications]
 ```
 
 If requested to write a bug ticket, the final output should follow this exact bug ticket template:
@@ -47,13 +48,17 @@ If requested to write a bug ticket, the final output should follow this exact bu
 
 **Summary:** [Description of the problem.]
 
-**Steps to Recreate:** [numbered step by step instructions for how to reproduce the issue]
+**Steps to Recreate:**
+1. [Numbered step by step instructions for how to reproduce the issue]
 
-**Expected Outcome:** [bullet point(s) of what the intended result is]
+**Expected Outcome:**
+- [Bullet point(s) of what the intended result is]
 
-**Actual Outcome:** [bullet point(s) of the incorrect behavior that's occurring instead]
+**Actual Outcome:**
+- [Bullet point(s) of the incorrect behavior that's occurring instead]
 
-[Optional] **Notes:** [bullet point list of important reminders or specifications]
+[Optional] **Notes:**
+- [Bullet point list of important reminders or specifications]
 ```
 
 ### 4. Create Ticket
