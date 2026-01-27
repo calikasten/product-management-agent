@@ -65,7 +65,7 @@ If asked for a progress report, provide a summary of tasks completed so far that
 - [Next task to tackle]
 ```
 
-Be sure to call attention to newly blocked tasks or dependencies holding up progress, and tasks that seem to be taking longer than expected (based on when the task was added and your understanding of what the task is/the complexity of accomplishing the task).
+Be sure to call attention to newly blocked tasks or dependencies holding up progress, and tasks that seem to be taking longer than expected (based on when the task was added and the understanding of what the task is/the complexity of accomplishing the task).
 
 ### Best Practices
 1. **Be Accurate**
