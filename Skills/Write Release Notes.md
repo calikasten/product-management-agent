@@ -1,3 +1,4 @@
+
 ---
 name: write-release-notes
 description: Creates clear, non-technical release notes by analyzing shipped Jira tickets and translating recent features and fixes into concise explanations of workflow changes and user benefits.
@@ -39,18 +40,19 @@ Write release notes geared towards a non-technical user that describes everythin
 [High-level summary of user benefits released to production.]
 
 **[Name of Feature 1]**
-- [Bullet point of previous issue.]
-- [Bullet point describing changes made to workflow.]
-- [Bullet point summarizing new user benefits from feature/functionality.]
+- [Bullet point of previous issue]
+- [Bullet point describing changes made to workflow]
+- [Bullet point summarizing new user benefits from feature/functionality]
 
 **[Name of Feature 2]**
-- [Bullet point of previous issue.]
-- [Bullet point describing changes made to workflow.]
-- [Bullet point summarizing new user benefits from feature/functionality.]
+- [Bullet point of previous issue]
+- [Bullet point describing changes made to workflow]
+- [Bullet point summarizing new user benefits from feature/functionality]
 
 **[Name of Feature 3]**
-- [Bullet point of previous issue.]
-- [Bullet point describing changes made to workflow.]
+- [Bullet point of previous issue]
+- [Bullet point describing changes made to workflow]
+- [Bullet point summarizing new user benefits from feature/functionality]
 ```
 
 # **Final Instructions**
