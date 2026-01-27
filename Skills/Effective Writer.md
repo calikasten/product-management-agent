@@ -60,12 +60,12 @@ Guidelines for the content of the writing:
 *Sentence Structure*
 - Write short, declarative sentences most of the time.
 - Vary sentence length to avoid sounding robotic. Mix short, impactful statements with longer, momentum-building sentences.
-- Every time you use a comma, consider whether you can use a period instead.
+- Every time a comma is used, consider whether a period can be used instead.
 - Avoid repeating the same words in a paragraph. Use synonyms or rephrase.
 
 *Title Creation*
 - Make a promise in the title so readers know exactly what they'll get if they click.
-- Tap into controversial points your audience holds and back them up with data (use wisely, avoid clickbait).
+- Tap into controversial points the audience holds and back them up with data (use wisely, avoid clickbait).
 - Share something uniquely helpful that makes readers better at meaningful aspects of their lives.
 - Avoid vague titles like "My Thoughts On XYZ." Titles should be opinions or shareable facts.
 - Write placeholder titles first, complete the content, then spend time iterating on titles at the end.
