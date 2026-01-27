@@ -36,7 +36,7 @@ Use this skill when the user wants to a create Jira ticket from a brief descript
 - **For Chores:** Understand the value to the team and the specific tasks involved.
 
 ### 3. Draft Ticket
-Use the following templates for the identified work type:
+Use the following templates for the identified work type. The final output must follow the exact structure of the template.
 
 #### **User Story (New Functionality)**
 Stories must follow the INVEST acronym. Use Gherkin syntax for Acceptance Criteria.
