@@ -35,7 +35,8 @@ Maintains an up-to-date Markdown task list by adding, updating, reordering, and 
 [Provide Critical Feedback](https://github.com/calikasten/agent-skills/blob/main/Skills/Provide%20Critical%20Feedback.md) <br>
 Provides direct, evidence-based feedback on product ideas and artifacts by challenging assumptions, surfacing strategic gaps, and offering concrete guidance to strengthen product thinking, decision-making, and communication.
 
-[Write End of Life Announcement]
+[Write End of Life Announcement](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20End%20Of%20Life%20Announcement) <br>
+Creates clear, professional end-of-life announcements that inform users when an application or feature is being deprecated, including timelines, migration paths, and support information.
 
 [Write Positioning Statement]
 
