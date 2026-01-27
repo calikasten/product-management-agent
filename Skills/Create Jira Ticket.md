@@ -25,7 +25,7 @@ For a user story, the goal of asking clarifying questions is to primarily unders
 ### 3. Write Ticket Draft
 If something in the initial prompt or ticket description relates to specifics on "how" the developer should proceed with implementation, make sure to include that within the acceptance criteria and/or the notes section of the ticket.
 
-If requested to write a user story ticket, your final output should follow this exact user story template:
+If requested to write a user story ticket, the final output should follow this exact user story template:
 
 ```markdown
 [Short Descriptive Title]
@@ -40,7 +40,7 @@ THEN
 [Optional] **Notes:** [Bullet point list of important reminders or specifications.]
 ```
 
-If requested to write a bug ticket, your final output should follow this exact bug ticket template:
+If requested to write a bug ticket, the final output should follow this exact bug ticket template:
 
 ```markdown
 [Short Descriptive Title]
