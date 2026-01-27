@@ -4,93 +4,96 @@ description: Creates an implementation-ready PRD (Product Requirements Document)
 ---
 
 # **Purpose**
-Creates a detailed, implementation-ready Product Requirements Document (PRD) in Markdown format by asking structured clarifying questions and organizing validated inputs into a clear, standardized template suitable for junior developers.
+Creates a detailed, implementation-ready PRD (Product Requirements Document ) to align goals, outcomes, and requirements. It serves as the initial proposal to guide discovery, structure development efforts, and define the MVP critical path.
 
 ## When To Use
-Use this skill when the user wants to create a PRD for a new feature or functionality. Do not use this skill for tasks that don't involve PRD creation, or when the user explicitly wants to draft requirements in a different format or structure.
+Use this skill when the user wants to create a PRD for a new product, feature, or functionality. It is especially useful for complex projects requiring alignment across business, user, and technical perspectives.
 
 # **Overall Agent Process**
-1. **Receive Initial Prompt:** The user provides a brief description or request for a new feature or functionality.
-2. **Ask Clarifying Questions:** Before writing the PRD, ask clarifying questions to gather sufficient detail. The goal is to understand the "what" and "why" of the feature, not necessarily the "how" (which the developer will figure out).
-3. **Write PRD:** Based on the initial prompt and the user's answers to the clarifying questions, write the PRD.
-4. **Save PRD:** Save the generated document as "[PRD - Feature Name].md" and ask the user which directory it should be saved in.
+1. **Ask Clarifying Questions:** Gather details across the five requirement types (Business, Functional, User, Technical, Non-functional) and identify the core problem/root cause.
+2. **Write PRD:** Organize inputs into the standardized template, including gap analysis and MVP definition.
+3. **Save PRD:** Save as "PRD - [Feature Name].md" in the user's specified directory.
 
 ## Specific Process Details
-### 1. Receive Initial Prompt
-The user provides a brief description or request for a new feature or functionality.
 
-### 2. Ask Clarifying Questions
-When asking clarifying questions, format them as a numbered list. This list should support nested sub-questions using dot notation (e.g., 1, 2, 2.1, 2.2, 3). There should only be one atomic question per list item.
+### 1. Ask Clarifying Questions
+Structure questions as a numbered list with nested sub-questions (e.g., 1, 2, 2.1). Cover:
+- **Problem & Root Cause:** Why is this important? Who is impacted? What is the root cause?
+- **Gap Analysis:** What is the current state? What is the desired state?
+- **Target Audience:** Market assessment and target demographics.
+- **Requirement Types:**
+    - *Business:* Why is the product needed?
+    - *Functional:* What should the product do?
+    - *User:* Tasks the user can perform.
+    - *Technical:* Security, network, platform, or integration needs.
+    - *Non-functional:* Performance, reliability, scalability (Sprint 0 concerns).
+- **Success & Evaluation:** How will we measure if the solution was beneficial?
 
-Example Format:
-1. Top-level question 1?
-2. Top-level question 2?
-	- 2.1. Sub-question related to question 2?
-	- 2.2. Another sub-question related to question 2?
-3. Top-level question 3?
-
-Adapt the *actual questions* based on the user's initial prompt, aiming to cover relevant areas like:
-- **Goal:** What is the primary goal?
-	- **Problem Statement:** What problem does this feature solve? 
-	- **Target User:** Who is this feature for?
-	- **Success Metrics:** How do we define success for this feature?
-- **Core Functionality:** What are the essential actions the user must be able to perform?
-	- **Features Summary:** What are must-have features and the user benefits of each one?
-	- **(Optional) System Design:** What are key elements that are integral to supporting the core functionality?
-	- **(Optional) UI Concepts**: Are there mockups or specific UI preferences?
-- **Considerations:** What has not been mentioned that should also be thought about for building this feature?
-	- **Scope:** What should this feature explicitly *not* do?
-	- **Data:**  What information needs to be displayed or managed?
-	- **Edge Cases:** What potential errors or unusual situations should be considered?
-	- **(Optional) Dependencies:** What integrations are needed?
-
-### 3. Write PRD
-The primary reader is a *junior* developer, so requirements should be explicit, unambiguous, and avoid jargon where possible; make sure to provide enough detail for them to understand the feature's purpose and core logic. The final output should follow this exact template:
+### 2. Write PRD Template
+The final output must follow the exact structure of this template:
 
 ```markdown
 # **Overview**
-[Brief 2-3 sentence description of what this feature is and why it matters.]
-## Problem Statement
-[What problem does this feature solve? Why is solving it important now?]
+[Brief 2-3 sentence description of what this feature/product is and why it matters.]
+
+## Problem Statement & Root Cause
+[What problem does this feature solve? Why is solving it important now? What is the root cause?]
+
 ## Goal
-[What is the primary goal?]
-### Success Metrics
-[What are the specific, measurable objectives indicating the feature was successful?]
-## Target Users
-[Who is this feature for? Be specific about user segments, roles, or personas.]
+[What is the primary goal? How does it align with business requirements?]
+
+### Success Metrics & Evaluation Plan
+[What are the specific, measurable objectives? How will we measure if the solution was beneficial?]
+
+## Target Users & Market Assessment
+[Who is this feature for? Include user segments, roles, or personas and target demographics.]
+
+## Gap Analysis
+### Current State
+[Description of the existing problem or how things work today.]
+### Desired State
+[The vision for how things should work once implemented.]
+### The Gap
+[The specific delta between current and desired states.]
 
 # **Core Functionality**
 ## Workflow & Features Summary
-[What are the essential actions that must be performed? Break these out into individual sub-features numbered chronologically with H2 feature name. Each individual sub-feature should clearly state the specific functionalities that feature must have. Use clear, concise language (e.g., "The system must allow users to upload a profile picture.")]
-## [Optional] Design Considerations
-[Layout or design consideration, links to wireframes/mockups, descriptions of relevant components/styles, accessibility requirements, and/or mobile vs desktop differences.]
-## [Optional] Non-Functional Requirements
-[Description of non-functional requirements to consider for this feature.]
+[Break these out into individual sub-features numbered chronologically as ## Feature Name. Include both User Requirements (tasks) and Functional Requirements (behaviors). Each individual sub-feature should clearly state the specific functionalities that feature must have.]
 
-# [Optional] **Considerations**
+# **MVP & Implementation Considerations**
+## Critical Path & MVP Definition
+[Identify the coherent list of what needs to be done to deliver the MVP as the first releasable instance for user feedback.]
+
 ## Scope
-[Manage the scope of this feature by clearly stating what this feature will NOT include.]
+[Clearly state what this feature will NOT include.]
+
+## [Optional] Design Considerations
+[Layout, wireframes/mockups, descriptions of relevant components/styles, accessibility requirements, and/or operational logistics like workflows or process maps.]
+
+## [Optional] Technical & Non-Functional Requirements
+[Security, network, platform, or integrations. Include Sprint 0 concerns like performance, reliability, maintainability, scalability, or usability.]
+
 ## [Optional] Data
 [Considerations of what kind of data this feature will require as inputs and what kind of data this feature will produce.]
-## [Optional] Edge Cases
-[Potential scenarios that "break" the workflow and features defined above and how to handle each instance.]
-## Dependencies
-[Any known technical constraints, cross-functional or third-party dependencies.]
 
 # **Assumptions & Risks**
 ## Assumptions
 [Hypothesis that must be true in order for this feature to be successful.]
-### Risks
-[List of risks, their corresponding impact if they occur, and a potential mitigation strategy for each risk.]
+
+## [Optional] Edge Cases & Dependencies
+[Potential scenarios that "break" the workflow and how to handle them. Include any known technical constraints or third-party dependencies.]
+
+## Risks
+[List of risks, impact, and mitigation strategies.]
 ```
 
-### 4. Save PRD
+### 3. Save PRD
 - **Format:** markdown (`.md`)
-- **Filename:** "[PRD - Feature Name].md" -- e.g., `PRD - User Profile Editing.md`
-- **Location:** ask the user which directory to save the file in
+- **Filename:** `PRD - [Feature Name].md`
+- **Location:** Ask the user which directory to save the file in.
 
 # **Final Instructions**
-1. Do NOT start implementing the PRD.
-2. Make sure to ask the user clarifying questions before writing the PRD.
-3. Take the user's answers to the clarifying questions and improve the PRD accordingly.
-4. Make sure the PRD output follows the specified document layout/structure.
+1. **Focus on the "Why" and "What":** Communicate the value and behaviors needed, leaving the "how" for design/system blueprints.
+2. **Prioritize the MVP:** Clearly distinguish between the critical path for the MVP and future iterations.
+3. **Address the Gap:** Ensure the transition from Current State to Desired State is logical and fully addressed by the requirements.
+4. **Sprint 0 Thinking:** Include explicit non-functional requirements to inform the system's architecture and constraints.
