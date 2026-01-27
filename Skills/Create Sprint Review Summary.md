@@ -32,24 +32,24 @@ Review comments from each ticket to understand if there is any additional contex
 Write a status report update geared towards executive cross-functional partners that describes everything that has happened in the last week for the Jira project. Add notes where relevant with additional context, especially around describing the impact of each work item for users and user experience. Call out if there are any comments indicating delays or blockers for specific work items. Start the status report update with a one sentence summary of the progress this week. Use bullet points for each work item and list the items based on their summary/ticket title and hyperlink that text to the exact Jira ticket. The final output should follow this exact template:
 
 ```markdown
-**Summary:** [1 sentence summary of progress for this week.]
+**Summary:** [1-2 sentence high-level summary of progress for this week.]
 
 **Shipped:**
-- Ticket 1 - Additional ticket context stating user or business value.
-- Ticket 2 - Additional ticket context stating user or business value.
+- Ticket 1 - additional ticket context stating user or business value
+- Ticket 2 - additional ticket context stating user or business value
 
 **Blockers:**
-- Ticket 3 - Additional ticket context explaining the blocker.
-- Ticket 4 - Additional ticket context explaining the blocker.
+- Ticket 3 - additional ticket context explaining the blocker
+- Ticket 4 - additional ticket context explaining the blocker
   
 **In Progress:**
-- Ticket 5 - Additional ticket context stating user or business value.
-- Ticket 6 - Additional ticket context stating user or business value.
-- Ticket 7 - Additional ticket context stating user or business value.
+- Ticket 5 - additional ticket context stating user or business value
+- Ticket 6 - additional ticket context stating user or business value
+- Ticket 7 - additional ticket context stating user or business value
 
 **Up Next:**
-- Ticket 8 - Additional ticket context stating user or business value.
-- Ticket 9 - Additional ticket context stating user or business value.
+- Ticket 8 - additional ticket context stating user or business value
+- Ticket 9 - additional ticket context stating user or business value
 ```
 
 # **Final Instructions**
