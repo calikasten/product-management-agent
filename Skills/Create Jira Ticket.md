@@ -12,7 +12,7 @@ Use this skill when the user wants to create a Jira ticket (user story or bug) f
 # **Overall Agent Process**
 1. **Receive Initial Prompt:** The user provides a brief description of the task/user story or issue/bug, or references meeting notes containing the task/issue description.
 2. **Ask Clarifying Questions:** Ask clarifying questions to gather sufficient details that a junior developer will need to know in order to implement the ticket.
-3. **Write Ticket Draft:** Based on the initial prompt and the user's answers to the clarifying questions, write the user story or bug ticket following the appropriate template.
+3. **Draft the Ticket:** Based on the initial prompt and the user's answers to the clarifying questions, write the user story or bug ticket following the appropriate template.
 4. **Create Ticket:** Use the Atlassian MCP server to create the corresponding user story or bug ticket in Jira.
 
 ## Specific Process Details
