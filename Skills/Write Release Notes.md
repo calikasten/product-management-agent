@@ -13,7 +13,7 @@ Use this skill when the user wants to create release notes based on shipped Jira
 1. **Determine Relevant Timeframe:** If not provided in the initial prompt, ask the user for the date range to analyze tickets for; e.g.: if writing release notes for tickets shipped this week, the timeframe is today -7.
 2. **Filter Jira Tickets to Timeframe:** Filter the tickets in the Jira project to only those that moved into the "shipped" status in the relevant timeframe.
 3. **Analyze Tickets:** Review each ticket to understand the feature/functionality and the corresponding user impact.
-4. **Write Release Notes:** Compile your findings and analysis into clear and concise release notes.
+4. **Write Release Notes:** Compile the findings and analysis into clear and concise release notes.
 5. **Save Release Notes:** Save the generated document as "PRD - [Feature Name].md" and ask the user which directory it should be saved in.
 
 ## Specific Process Details
@@ -31,7 +31,7 @@ Review each ticket to understand the feature/functionality and the corresponding
 - User benefits from the shipped tickets
 
 ### 4. Write Release Notes
-Write release notes geared towards a non-technical user that describes everything that has been released ("shipped") for the Jira project in the specified timeframe. Start the release notes with a one sentence, high-level summary of the user benefits addressed in the released tickets. Group related tickets into the overarching features/functionality. Use bullet points under each feature to describe the issue or problem the user was previously encountering and how the shipped tickets remedy this. Include a summary of the changes, especially around updates to user workflows and describing the impact of the changes for user experience. Your output should follow this format:
+Write release notes geared towards a non-technical user that describes everything that has been released ("shipped") for the Jira project in the specified timeframe. Start the release notes with a one sentence, high-level summary of the user benefits addressed in the released tickets. Group related tickets into the overarching features/functionality. Use bullet points under each feature to describe the issue or problem the user was previously encountering and how the shipped tickets remedy this. Include a summary of the changes, especially around updates to user workflows and describing the impact of the changes for user experience. The final output should follow this exact template:
 
 ```markdown
 **[date] Release Notes**
