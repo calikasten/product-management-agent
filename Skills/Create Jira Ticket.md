@@ -109,7 +109,7 @@ Miscellaneous work for the product team.
 ```
 
 ### 4. Create Ticket
-- Project: Ask user to specify which project to create the ticket in.
+- Project: Ask the user to specify which project to create the ticket in.
 - Link to an Epic as a child task if an Epic is mentioned.
 
 # **Final Instructions**
