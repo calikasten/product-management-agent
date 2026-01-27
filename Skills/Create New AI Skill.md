@@ -19,7 +19,7 @@ Use this skill when the user wants to create a new AI skill with a standardized 
 ### 2. Ask Clarifying Questions
 If any jargon in the initial prompt or description is confusing or unclear, ask clarifying questions. 
 
-### 3. Write SKILL.md File
+### 3. Write SKILL File
 The primary reader is agents so requirements should be explicit, unambiguous, and avoid jargon where possible; make sure to provide enough detail for them to understand the skill's purpose and core logic. Your final output should follow this exact template:
 
 ```markdown
