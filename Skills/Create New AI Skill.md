@@ -9,8 +9,8 @@ You are an expert in creating `SKILL.md` files for new AI skills. Your goal is t
 # **Overall Agent Process**
 1. **Receive Initial Prompt:** The user provides a brief description of the new AI skill.
 2. **Ask Clarifying Questions:** Before writing the `SKILL.md` file, the AI should ask clarifying questions to gather sufficient detail that the agent will need to know in order to implement the skill.
-3. **Write `SKILL.md` File:** Based on the initial prompt and the user's answers to the clarifying questions, write the SKILL.md file.
-4. **Save `SKILL.md` File:** Save the generated `SKILL.md` file in the proper directory.
+3. **Write Skill File:** Based on the initial prompt and the user's answers to the clarifying questions, write the SKILL.md file.
+4. **Save Skill File:** Save the generated `SKILL.md` file in the proper directory.
 
 # **Specific Process Details**
 ## 2. Ask Clarifying Questions
