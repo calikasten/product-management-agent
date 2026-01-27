@@ -28,7 +28,7 @@ name: [Skill Name]
 description: [Brief description of what this skill is and why it matters.]
 ---
 # **Purpose**
-[1–2 sentence description of what this skill does and when it should be used.]
+[1–2 sentence description of what this skill does.]
 
 ## When To Use
 [Clear conditions for invocation and explicit boundaries for when the skill should not be used.]
@@ -44,7 +44,7 @@ description: [Brief description of what this skill is and why it matters.]
 1. [Final instructions for the agent to follow when implementing the skill]
 ```
 
-### 4. Save SKILL.md File
+### 4. Save SKILL File
 Create a new directory within `.cursor/skills/` for [skill-name-in-kebab-case] and save the generated document as `SKILL.md`.
 
 # **Final Instructions**
