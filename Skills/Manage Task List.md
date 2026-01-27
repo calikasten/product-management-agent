@@ -59,10 +59,10 @@ If asked for a progress report, provide a summary of tasks completed so far that
 - [Task 2]
 
 **Blocked:**
-- [Blocked task] - [Blocker reason]
+- [Task 3] - [blocker reason]
 
 **Up Next:**
-- [Next task to tackle]
+- [Task 4]
 ```
 
 Be sure to call attention to newly blocked tasks or dependencies holding up progress, and tasks that seem to be taking longer than expected (based on when the task was added and the understanding of what the task is/the complexity of accomplishing the task).
