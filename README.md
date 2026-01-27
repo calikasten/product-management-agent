@@ -5,6 +5,8 @@ For more information on how to effectively use these prompt files and set up age
 
 ---
 ## Skills
+[Calculate TAM]
+
 [Conduct Market Research]
 
 [Create Jira Ticket](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20Jira%20Ticket.md) <br>
@@ -15,14 +17,24 @@ Transforms prompts or meeting notes into clear, actionable Jira user stories and
 [Create New AI Skill](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20New%20AI%20Skill.md)
 Generates a standardized SKILL.md file for a new AI skill by clarifying requirements, producing clear, agent-ready instructions, and saving it to the correct directory.
 
+[Create Now-Next-Later Roadmap]
+
 [Create PRD](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20PRD.md) <br>
 Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
 
 [Create Storyboard]
 
-[Create User Journey Map]
+[Create Customer Journey Map]
 
 [Create User Story Map]
+
+[Create Market Validation Plan]
+
+[Create Product Validation Plan]
+
+[Customer Interview Prep]
+
+[Discovery Brainstorm]
 
 [Effective Writer](https://github.com/calikasten/agent-skills/blob/main/Agents/Effective%20Writer.md) <br>
 Creates or edits content to be concise, clear, and high-impact, preserving the user’s tone while optimizing for busy professionals, applying evidence-based writing principles and rigorous editing standards.
@@ -38,6 +50,8 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 [Write End of Life Announcement](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20End%20Of%20Life%20Announcement) <br>
 Creates clear, professional end-of-life announcements that inform users when an application or feature is being deprecated, including timelines, migration paths, and support information.
 
+[Write OKRs]
+
 [Write Positioning Statement]
 
 [Write Release Notes](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20Release%20Notes.md) <br>
@@ -48,6 +62,8 @@ Original author [Dean Peters](https://github.com/deanpeters).
 
 [Sprint Review Report](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20Sprint%20Review%20Summary.md) <br>
 Summarizes weekly sprint progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities.
+
+[Strategy Brainstorm]
 
 ---
 # LLM Context 101
