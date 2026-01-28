@@ -1,5 +1,5 @@
-# Agents & Skills
-Instructions and prompts for using LLMs as autonomous agents. Last Updated 01/28/2026. 
+# Product Management Agent
+Instructions and prompts for using LLMs as an autonomous partner in product management work. Last Updated 01/28/2026. 
 
 For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents/blob/main/README.md#llm-context-101) and [Cursor Set Up](https://github.com/calikasten/agents/blob/main/README.md#cursor-setup).
 
