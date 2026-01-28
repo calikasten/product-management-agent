@@ -24,6 +24,8 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 
 [Conduct Market Research]
 
+[Create Now-Next-Later Roadmap]
+
 [Frame Problem Space]
 
 [Lean Canvas Brainstorm]
@@ -49,8 +51,6 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 [Discovery Brainstorm]
 
 ## Product Definition
-
-[Create Now-Next-Later Roadmap]
 
 [Create PRD](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20PRD.md) <br>
 Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
