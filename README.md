@@ -64,7 +64,7 @@ Creates an implementation-ready PRD (Product Requirements Document) by asking st
 [Create Jira Ticket](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20Jira%20Ticket.md) <br>
 Transforms prompts or meeting notes into clear, actionable Jira user stories and bug tickets through structured clarification and explicit acceptance criteria, ready for automated creation via the [Atlassian MCP server](https://www.atlassian.com/platform/remote-mcp-server).
 
-[Split User Stories]
+[Split User Story](https://github.com/calikasten/product-management-agent/blob/main/Skills/Split%20User%20Story) <br>
 
 [Sprint Review Summary](https://github.com/calikasten/product-management-agent/blob/main/Skills/Sprint%20Review%20Summary.md) <br>
 Summarizes weekly sprint progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities.
