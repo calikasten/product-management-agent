@@ -1,45 +1,16 @@
 # Agents & Skills
-Instructions and prompts for using LLMs as autonomous agents. Last Updated 01/27/2026. 
+Instructions and prompts for using LLMs as autonomous agents. Last Updated 01/28/2026. 
 
 For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents/blob/main/README.md#llm-context-101) and [Cursor Set Up](https://github.com/calikasten/agents/blob/main/README.md#cursor-setup).
 
----
-## Skills
-[Calculate TAM]
+## General Skills
+AI skills that can be used across a multiple tasks regardless of domain.
 
-[Conduct Market Research]
-
-[Create Jira Ticket](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20Jira%20Ticket.md) <br>
-Transforms prompts or meeting notes into clear, actionable Jira user stories and bug tickets through structured clarification and explicit acceptance criteria, ready for automated creation via the [Atlassian MCP server](https://www.atlassian.com/platform/remote-mcp-server).
-
-[Create Jobs To Be Done]
-
-[Create New AI Skill](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20New%20AI%20Skill.md)
+[Create New AI Skill](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20New%20AI%20Skill.md) <br>
 Generates a standardized SKILL.md file for a new AI skill by clarifying requirements, producing clear, agent-ready instructions, and saving it to the correct directory.
-
-[Create Now-Next-Later Roadmap]
-
-[Create PRD](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20PRD.md) <br>
-Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
-
-[Create Storyboard]
-
-[Create Customer Journey Map]
-
-[Create User Story Map]
-
-[Create Market Validation Plan]
-
-[Create Product Validation Plan]
-
-[Customer Interview Prep]
-
-[Discovery Brainstorm]
 
 [Effective Writer](https://github.com/calikasten/agent-skills/blob/main/Agents/Effective%20Writer.md) <br>
 Creates or edits content to be concise, clear, and high-impact, preserving the user’s tone while optimizing for busy professionals, applying evidence-based writing principles and rigorous editing standards.
-
-[Frame Problem Space]
 
 [Manage Task List](https://github.com/calikasten/agent-skills/blob/main/Skills/Manage%20Task%20List.md) <br>
 Maintains an up-to-date Markdown task list by adding, updating, reordering, and archiving tasks, tracking blockers and priorities, and generating clear progress summaries for fast visibility and informed decision-making.
@@ -47,23 +18,70 @@ Maintains an up-to-date Markdown task list by adding, updating, reordering, and 
 [Provide Critical Feedback](https://github.com/calikasten/agent-skills/blob/main/Skills/Provide%20Critical%20Feedback.md) <br>
 Provides direct, evidence-based feedback on product ideas and artifacts by challenging assumptions, surfacing strategic gaps, and offering concrete guidance to strengthen product thinking, decision-making, and communication.
 
-[Write End of Life Announcement](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20End%20Of%20Life%20Announcement) <br>
-Creates clear, professional end-of-life announcements that inform users when an application or feature is being deprecated, including timelines, migration paths, and support information.
+## Market Analysis Skills
+AI skills for...
 
-[Write OKRs]
+[Calculate TAM]
+
+[Conduct Market Research]
+
+[Lean Canvas Brainstorm]
+
+## Vision & Positioning Skills
+AI skills for...
 
 [Write Positioning Statement]
 
-[Write Release Notes](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20Release%20Notes.md) <br>
-Creates clear, non-technical release notes by analyzing shipped Jira tickets and translating recent features and fixes into concise explanations of workflow changes and user benefits.
+[Create Market Validation Plan]
 
-[Split User Stories] <br>
-Original author [Dean Peters](https://github.com/deanpeters).
+
+## Product Discovery Skills
+AI skills to create agentic partnership in market research, customer research, problem space definition, and product discovery.
+
+[Create Customer Journey Map]
+
+[Create Jobs To Be Done]
+
+[Create PRD](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20PRD.md) <br>
+Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
+
+[Create Storyboard]
+
+[Create User Story Map]
+
+[Customer Interview Prep]
+
+[Discovery Brainstorm]
+
+[Create Product Validation Plan]
+
+## Strategy Skills
+AI skills to 
+
+[Create Now-Next-Later Roadmap]
+
+[Frame Problem Space]
+
+[Strategy Brainstorm]
+
+[Write OKRs]
+
+## Agile Development Skills
+AI skills to automate recurring Product Owner or Scrum Master tasks that a PM might be responsible for in relation to the agile development of a product.
+
+[Create Jira Ticket](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20Jira%20Ticket.md) <br>
+Transforms prompts or meeting notes into clear, actionable Jira user stories and bug tickets through structured clarification and explicit acceptance criteria, ready for automated creation via the [Atlassian MCP server](https://www.atlassian.com/platform/remote-mcp-server).
+
+[Split User Stories]
 
 [Sprint Review Report](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20Sprint%20Review%20Summary.md) <br>
 Summarizes weekly sprint progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities.
 
-[Strategy Brainstorm]
+[Write End of Life Announcement](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20End%20Of%20Life%20Announcement) <br>
+Creates clear, professional end-of-life announcements that inform users when an application or feature is being deprecated, including timelines, migration paths, and support information.
+
+[Write Release Notes](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20Release%20Notes.md) <br>
+Creates clear, non-technical release notes by analyzing shipped Jira tickets and translating recent features and fixes into concise explanations of workflow changes and user benefits.
 
 ---
 # LLM Context 101
