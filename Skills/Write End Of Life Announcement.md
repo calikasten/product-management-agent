@@ -1,60 +1,77 @@
 ---
-name: sprint-review-summary
-description: Creates a status report update that summarizes development team progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities for a specified timeframe.
+name: write-end-of-life-announcement
+description: Creates clear, professional end-of-life announcements that inform users when an application or feature is being deprecated, including timelines, migration paths, and support information.
 ---
 
 # **Purpose**
-Creates a status report update that summarizes development team progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities for a specified timeframe.
+Creates clear, professional end-of-life announcements that inform users when an application or feature is being deprecated, including timelines, migration paths, and support information.
 
 ## When To Use
-Use this skill when the user wants to create a sprint review summary or weekly status report based on Jira tickets. Do not use this skill for tasks that don't involve analyzing Jira tickets or creating status reports, or when the user wants a different format or analysis approach.
+Use this skill when the user wants to create an end-of-life announcement for an application, feature, or service that is being discontinued. Do not use this skill for tasks that don't involve creating end-of-life announcements, or when the user wants to document deprecations in a different format or structure.
 
 # **Overall Agent Process**
-1. **Determine Relevant Timeframe:** Identify the date range to analyze tickets for; e.g.: if reviewing the past week's progress, the timeframe is today -7.
-2. **Filter Jira Tickets to Timeframe:** Filter the tickets in the SFOJira project to only those updated in the relevant timeframe.
-3. **Determine Ticket Statuses:** Review the status of each ticket updated to understand what was completed ("shipped"), what is in progress ("in progress"/"testing/code review"), and what is up next ("ready for development").
-4. **Analyze Ticket Comments:** Review comments from each ticket to understand if there is any additional context relevant to that ticket like a blocker description, dependency, or reminders.
-5. **Write Summary Report:** Compile the findings and analysis into a summary report of development team progress for the timeframe.
+1. **Receive Initial Prompt:** The user provides a brief description of the what is being deprecated.
+2. **Ask Clarifying Questions:** Ask clarifying questions for any critical information that's missing.
+3. **Write End of Life Announcement:** Create a comprehensive end-of-life announcement following best practices.
+4. **Save End of Life Announcement:** Save the generated document as "[Feature Name] - End of Life.md" and ask the user which directory it should be saved in.
 
 ## Specific Process Details
-### 1. Determine Relevant Timeframe
-Identify the date range to analyze tickets for; e.g.: if reviewing the past week's progress, the timeframe is today -7.
+### 1. Receive Initial Prompt:
+The user provides a brief description of what's being deprecated.
 
-### 2. Filter Jira Tickets to Timeframe
-Filter the tickets in the SFO Jira project to only those updated in the relevant timeframe.
+### 2. Clarify Missing Details
+If critical information is missing, ask specific clarifying questions to ensure the collection of key details about what's being deprecated, timelines, alternatives, and support information. Ensure understanding of:
+- **What is being deprecated:** The name of the application, feature, or service.
+- **End-of-life date:** When the service/feature will be discontinued.
+- **Reason for deprecation:** Why it's being discontinued (optional but helpful).
+- **Alternative solutions:** What users should use instead.
+- **Migration timeline:** Key dates (e.g., feature freeze, final support date, shutdown date).
+- **Support information:** How users can get help during the transition.
+- **Data export/migration:** Any steps users need to take to preserve data or migrate.
+- **Contact information:** Who to reach out to with questions.
 
-### 3. Determine Ticket Statuses
-Review the status of each ticket updated to understand what was completed ("shipped"), what is in progress ("in progress"/"testing/code review"), and what is up next ("ready for development").
-
-### 4. Analyze Ticket Comments
-Review comments from each ticket to understand if there is any additional context relevant to that ticket like a blocker description, dependency, or reminders.
-
-### 5. Write Summary Report
-Write a status report update geared towards executive cross-functional partners that describes everything that has happened in the last week for the SFO Jira project. Add notes where relevant with additional context, especially around describing the impact of each work item for users and user experience. Call out if there are any comments indicating delays or blockers for specific work items. Start the status report update with a one sentence summary of the progress this week. Use bullet points for each work item and list the items based on their summary/ticket title and hyperlink that text to the exact Jira ticket. The final output should follow this exact template:
+### 3. Write End of Life Announcement
+Write a comprehensive end-of-life announcement that informs a non-technical user of the deprecation. The final output should follow this exact template:
 
 ```markdown
-**Summary:** [1-2 sentence high-level summary of progress for this week.]
+**[date] End of Life Notice**
 
-**Shipped:**
-- [Ticket 1 Title] - [Additional ticket context stating user or business value]
-- [Ticket 2 Title] - [Additional ticket context stating user or business value]
+[1-2 sentence high-level summary of what's being deprecated and when.]
 
-**Blockers:**
-- [Ticket 3 Title] - [Additional ticket context explaining the blocker]
-- [Ticket 4 Title] - [Additional ticket context explaining the blocker]
-  
-**In Progress:**
-- [Ticket 5 Title] - [Additional ticket context stating user or business value]
-- [Ticket 6 Title] - [Additional ticket context stating user or business value]
-- T[icket 7 Title] - [Additional ticket context stating user or business value]
+**Customer Impact:**:
+- [Bullet point clearly explaining the impact from the customer's perspective]
+- [Bullet point stating what will stop working and when]
+- [Bullet point describing any actions users must take]
 
-**Up Next:**
-- [Ticket 8] - [Additional ticket context stating user or business value]
-- [Ticket 9] - [Additional ticket context stating user or business value]
+---
+
+Our product [name of the product being phased out] is a [brief description of the product and its primary function] that has served [target customer/user] for [duration or timeframe] by providing [key benefits or solutions the product offered].
+
+For [target customer/user affected by the EOL] that currently use [name of the product being phased out], [name of the replacement product] is a [definition of the replacement product category] that [statement of benefit to the user, focusing on continuity and improvements]. 
+
+Like [name of product being phased out], [name of the replacement product] provides [how the replacement maintains key benefits of the old product] while also offering [new benefits or improvements].
+
+**Transition Support:**
+- [Bullet point(s) with links to migration instructions and/or documentation and resources]
+- [Bullet point(s) with contact information or support channels to get help during transition]
+
+**Timeline:**
+- [Bullet points of key dates in a clear, chronological format including date for end-of-life support and final shutdown date]
+
+**Next Steps:**
+- [Bullet points of steps users need to take to export/migrate data or other actions items]
 ```
 
+**Tone and Style Guidelines**
+- Use clear, direct language.
+- Be empathetic but firm.
+- Avoid jargon and technical details unless necessary.
+- Focus on user impact and actionable next steps.
+- Use a professional but approachable tone.
+
 # **Final Instructions**
-1. Ask clarifying questions if context is missing, such as the specific timeframe to analyze or which Jira project to review.
-2. Ensure all ticket titles are hyperlinked to their corresponding Jira tickets.
-3. Focus on user and business value when describing work items.
-4. Clearly call out any blockers or delays mentioned in ticket comments.
+1. Ask clarifying questions if critical information is missing, especially around dates, alternatives, and migration requirements.
+2. Prioritize clarity and user actionability over technical details.
+3. Ensure all dates are clearly stated and consistent throughout the announcement.
+4. Make it easy for users to understand what they need to do and when.
+5. Apply effective writing principles to keep the announcement concise and impactful while maintaining a professional, empathetic tone.
