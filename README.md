@@ -4,7 +4,7 @@ Instructions and prompts for using LLMs as autonomous agents. Last Updated 01/28
 For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents/blob/main/README.md#llm-context-101) and [Cursor Set Up](https://github.com/calikasten/agents/blob/main/README.md#cursor-setup).
 
 ## General Skills
-AI skills that can be used across a multiple tasks regardless of domain.
+AI skills that can be used across multiple tasks regardless of domain.
 
 [Create New AI Skill](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20New%20AI%20Skill.md) <br>
 Generates a standardized SKILL.md file for a new AI skill by clarifying requirements, producing clear, agent-ready instructions, and saving it to the correct directory.
@@ -18,29 +18,39 @@ Maintains an up-to-date Markdown task list by adding, updating, reordering, and 
 [Provide Critical Feedback](https://github.com/calikasten/agent-skills/blob/main/Skills/Provide%20Critical%20Feedback.md) <br>
 Provides direct, evidence-based feedback on product ideas and artifacts by challenging assumptions, surfacing strategic gaps, and offering concrete guidance to strengthen product thinking, decision-making, and communication.
 
-## Market Analysis Skills
-AI skills for...
+## Strategy & Planning
 
 [Calculate TAM]
 
 [Conduct Market Research]
 
+[Frame Problem Space]
+
 [Lean Canvas Brainstorm]
 
-## Vision & Positioning Skills
-AI skills for...
+[Strategy Brainstorm]
+
+[Write OKRs]
 
 [Write Positioning Statement]
 
-[Create Market Validation Plan]
-
-
-## Product Discovery Skills
-AI skills to create agentic partnership in market research, customer research, problem space definition, and product discovery.
+## Discovery & Validation
 
 [Create Customer Journey Map]
 
 [Create Jobs To Be Done]
+
+[Create Market Validation Plan]
+
+[Create Product Validation Plan]
+
+[Customer Interview Prep]
+
+[Discovery Brainstorm]
+
+## Product Definition
+
+[Create Now-Next-Later Roadmap]
 
 [Create PRD](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20PRD.md) <br>
 Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
@@ -49,25 +59,7 @@ Creates an implementation-ready PRD (Product Requirements Document) by asking st
 
 [Create User Story Map]
 
-[Customer Interview Prep]
-
-[Discovery Brainstorm]
-
-[Create Product Validation Plan]
-
-## Strategy Skills
-AI skills to 
-
-[Create Now-Next-Later Roadmap]
-
-[Frame Problem Space]
-
-[Strategy Brainstorm]
-
-[Write OKRs]
-
-## Agile Development Skills
-AI skills to automate recurring Product Owner or Scrum Master tasks that a PM might be responsible for in relation to the agile development of a product.
+## Execution & Delivery
 
 [Create Jira Ticket](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20Jira%20Ticket.md) <br>
 Transforms prompts or meeting notes into clear, actionable Jira user stories and bug tickets through structured clarification and explicit acceptance criteria, ready for automated creation via the [Atlassian MCP server](https://www.atlassian.com/platform/remote-mcp-server).
