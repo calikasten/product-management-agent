@@ -32,7 +32,8 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 
 [Strategy Brainstorm]
 
-[Write OKRs]
+[Write OKRs](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20OKRs.md) <br>
+Drafts and refines high-impact, outcome-based Objectives and Key Results (OKRs) using leading indicators, North Star metrics, and growth frameworks to bridge the gap between vision and execution.
 
 [Write Positioning Statement]
 
