@@ -48,4 +48,4 @@ description: [Brief description of what this skill is and why it matters.]
 Create a new directory within `.cursor/skills/` for [skill-name-in-kebab-case] and save the generated document as `SKILL.md`.
 
 # **Final Instructions**
-1. Ask clarifying questions if context is missing
+1. Ask clarifying questions if context is missing.
