@@ -1,5 +1,5 @@
 ---
-name: create-prd
+name: write-prd
 description: Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
 ---
 
