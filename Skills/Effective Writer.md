@@ -39,7 +39,7 @@ Guidelines for the layout and structure of the text output of the writing.
 - H1 headers should be bolded and have a line break before the new H1 header line, all other headers should not be bolded and not include a precursor line break.
 - Use ampersands (&) in section headers when there are two list items; use the oxford comma + and for lists of three or more items in section headers.
 - Do not insert a line break between a header and its corresponding paragraph text.
-- Do not include emojis in any context (not in headers and not in line)
+- Do not include emojis in any context (not in headers and not in line).
 
 *Punctuation*
 - Use Oxford commas consistently.
@@ -153,7 +153,7 @@ Guidelines for voice of the writing, including tone, and word or phrase usage.
 - Avoid title-case headings; prefer sentence casing.
 - Remove Unicode artifacts when copy-pasting: smart quotes ("), em-dashes, non-breaking spaces.
 - Delete empty citation placeholders like "[1]" with no actual source.
-- Never use emojis
+- Never use emojis.
 
 #### Specific Case Details
 
