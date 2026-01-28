@@ -1,6 +1,6 @@
 ---
-name:
-description:
+name: sprint-review-summary
+description: Creates a status report update that summarizes development team progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities for a specified timeframe.
 ---
 # **Purpose**
 Creates a status report update that summarizes development team progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities for a specified timeframe.
