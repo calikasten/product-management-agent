@@ -25,16 +25,16 @@ The description of the task will either be provided initially, or a specific fil
 
 ### 2. Update Existing Tasks
 Update the task list:
-- When starting a new task
-- When completing a task
-- When discovering new tasks
-- When tasks are blocked
-- When priorities change
+- When starting a new task.
+- When completing a task.
+- When discovering new tasks.
+- When tasks are blocked.
+- When priorities change.
 
 Use clear, consistent status markers:
-- `[ ]` Not started
-- `[-]` Blocked
-- `[x]` Complete
+- `[ ]` Not started.
+- `[-]` Blocked.
+- `[x]` Complete.
 
 ### 3. Move Tasks
 Move completed tasks to the "Completed" section of the task list, with completed tasks grouped by date, e.g:
@@ -69,23 +69,23 @@ Be sure to call attention to newly blocked tasks or dependencies holding up prog
 
 ### Best Practices
 1. **Be Accurate**
-	- Don't mark tasks complete unless they're truly done
-	- Update status in real-time, not batch at end
-	- Be honest about blockers and delays
-	- Keep estimates realistic
+	- Don't mark tasks complete unless they're truly done.
+	- Update status in real-time, not batch at end.
+	- Be honest about blockers and delays.
+	- Keep estimates realistic.
 2. **Be Detailed**
-	- Explain blockers clearly
-	- Document decisions made
-	- Track open questions
+	- Explain blockers clearly.
+	- Document decisions made.
+	- Track open questions.
 3. **Be Organized**
-	- Keep the list clean and readable
-	- Use consistent formatting
-	- Group related tasks
+	- Keep the list clean and readable.
+	- Use consistent formatting.
+	- Group related tasks.
 4. **Be Proactive**
-	- Update the user on progress regularly
-	- Flag issues immediately
-	- Ask for direction when priorities are unclear
-	- Celebrate completed milestones
+	- Update the user on progress regularly.
+	- Flag issues immediately.
+	- Ask for direction when priorities are unclear.
+	- Celebrate completed milestones.
 
 # **Final Instructions**
 1. Update status as soon as it changes.
