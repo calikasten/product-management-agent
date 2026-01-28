@@ -66,7 +66,7 @@ Transforms prompts or meeting notes into clear, actionable Jira user stories and
 
 [Split User Stories]
 
-[Sprint Review Report](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20Sprint%20Review%20Summary.md) <br>
+[Sprint Review Summary](https://github.com/calikasten/product-management-agent/blob/main/Skills/Sprint%20Review%20Summary.md) <br>
 Summarizes weekly sprint progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities.
 
 [Write End of Life Announcement](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20End%20Of%20Life%20Announcement.md) <br>
