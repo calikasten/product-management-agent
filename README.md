@@ -6,16 +6,16 @@ For more information on how to effectively use these prompt files and set up age
 ## General Skills
 AI skills that can be used across multiple tasks regardless of domain.
 
-[Create New AI Skill](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20New%20AI%20Skill.md) <br>
+[Create New AI Skill](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20New%20AI%20Skill.md) <br>
 Generates a standardized SKILL.md file for a new AI skill by clarifying requirements, producing clear, agent-ready instructions, and saving it to the correct directory.
 
-[Effective Writer](https://github.com/calikasten/agent-skills/blob/main/Agents/Effective%20Writer.md) <br>
+[Effective Writer](https://github.com/calikasten/product-management-agent/blob/main/Skills/Effective%20Writer.md) <br>
 Creates or edits content to be concise, clear, and high-impact, preserving the user’s tone while optimizing for busy professionals, applying evidence-based writing principles and rigorous editing standards.
 
-[Manage Task List](https://github.com/calikasten/agent-skills/blob/main/Skills/Manage%20Task%20List.md) <br>
+[Manage Task List](https://github.com/calikasten/product-management-agent/blob/main/Skills/Manage%20Task%20List.md) <br>
 Maintains an up-to-date Markdown task list by adding, updating, reordering, and archiving tasks, tracking blockers and priorities, and generating clear progress summaries for fast visibility and informed decision-making.
 
-[Provide Critical Feedback](https://github.com/calikasten/agent-skills/blob/main/Skills/Provide%20Critical%20Feedback.md) <br>
+[Provide Critical Feedback](https://github.com/calikasten/product-management-agent/blob/main/Skills/Provide%20Critical%20Feedback.md) <br>
 Provides direct, evidence-based feedback on product ideas and artifacts by challenging assumptions, surfacing strategic gaps, and offering concrete guidance to strengthen product thinking, decision-making, and communication.
 
 ## Strategy & Planning
@@ -52,7 +52,7 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 
 ## Product Definition
 
-[Create PRD](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20PRD.md) <br>
+[Create PRD](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20PRD.md) <br>
 Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
 
 [Create Storyboard]
@@ -61,7 +61,7 @@ Creates an implementation-ready PRD (Product Requirements Document) by asking st
 
 ## Execution & Delivery
 
-[Create Jira Ticket](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20Jira%20Ticket.md) <br>
+[Create Jira Ticket](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20Jira%20Ticket.md) <br>
 Transforms prompts or meeting notes into clear, actionable Jira user stories and bug tickets through structured clarification and explicit acceptance criteria, ready for automated creation via the [Atlassian MCP server](https://www.atlassian.com/platform/remote-mcp-server).
 
 [Split User Stories]
@@ -69,10 +69,10 @@ Transforms prompts or meeting notes into clear, actionable Jira user stories and
 [Sprint Review Report](https://github.com/calikasten/agent-skills/blob/main/Skills/Create%20Sprint%20Review%20Summary.md) <br>
 Summarizes weekly sprint progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities.
 
-[Write End of Life Announcement](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20End%20Of%20Life%20Announcement) <br>
+[Write End of Life Announcement](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20End%20Of%20Life%20Announcement.md) <br>
 Creates clear, professional end-of-life announcements that inform users when an application or feature is being deprecated, including timelines, migration paths, and support information.
 
-[Write Release Notes](https://github.com/calikasten/agent-skills/blob/main/Skills/Write%20Release%20Notes.md) <br>
+[Write Release Notes](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20Release%20Notes.md) <br>
 Creates clear, non-technical release notes by analyzing shipped Jira tickets and translating recent features and fixes into concise explanations of workflow changes and user benefits.
 
 ---
