@@ -52,12 +52,12 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 
 ## Product Definition
 
-[Create PRD](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20PRD.md) <br>
-Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
-
 [Create Storyboard]
 
 [Create User Story Map]
+
+[Write PRD](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20PRD.md) <br>
+Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
 
 ## Execution & Delivery
 
