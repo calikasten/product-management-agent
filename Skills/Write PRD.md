@@ -88,8 +88,8 @@ The final output must follow the exact structure of this template:
 ```
 
 ### 3. Save PRD
-- **Format:** markdown (`.md`)
-- **Filename:** `PRD - [Feature Name].md`
+- **Format:** markdown (`.md`).
+- **Filename:** `PRD - [Feature Name].md`.
 - **Location:** Ask the user which directory to save the file in.
 
 # **Final Instructions**
