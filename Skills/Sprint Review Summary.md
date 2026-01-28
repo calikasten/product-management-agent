@@ -2,6 +2,7 @@
 name: sprint-review-summary
 description: Creates a status report update that summarizes development team progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities for a specified timeframe.
 ---
+
 # **Purpose**
 Creates a status report update that summarizes development team progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities for a specified timeframe.
 
@@ -35,21 +36,21 @@ Write a status report update geared towards executive cross-functional partners 
 **Summary:** [1-2 sentence high-level summary of progress for this week.]
 
 **Shipped:**
-- Ticket 1 - additional ticket context stating user or business value
-- Ticket 2 - additional ticket context stating user or business value
+- Ticket 1 - Additional ticket context stating user or business value.
+- Ticket 2 - Additional ticket context stating user or business value.
 
 **Blockers:**
-- Ticket 3 - additional ticket context explaining the blocker
-- Ticket 4 - additional ticket context explaining the blocker
+- Ticket 3 - Additional ticket context explaining the blocker.
+- Ticket 4 - Additional ticket context explaining the blocker.
   
 **In Progress:**
-- Ticket 5 - additional ticket context stating user or business value
-- Ticket 6 - additional ticket context stating user or business value
-- Ticket 7 - additional ticket context stating user or business value
+- Ticket 5 - Additional ticket context stating user or business value.
+- Ticket 6 - Additional ticket context stating user or business value.
+- Ticket 7 - Additional ticket context stating user or business value.
 
 **Up Next:**
-- Ticket 8 - additional ticket context stating user or business value
-- Ticket 9 - additional ticket context stating user or business value
+- Ticket 8 - Additional ticket context stating user or business value.
+- Ticket 9 - Additional ticket context stating user or business value.
 ```
 
 # **Final Instructions**
