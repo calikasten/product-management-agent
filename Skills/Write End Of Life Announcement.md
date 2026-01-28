@@ -21,14 +21,14 @@ The user provides a brief description of what's being deprecated.
 
 ### 2. Clarify Missing Details
 If critical information is missing, ask specific clarifying questions to ensure the collection of key details about what's being deprecated, timelines, alternatives, and support information. Ensure understanding of:
-- **What is being deprecated:** The name of the application, feature, or service
-- **End-of-life date:** When the service/feature will be discontinued
-- **Reason for deprecation:** Why it's being discontinued (optional but helpful)
-- **Alternative solutions:** What users should use instead
-- **Migration timeline:** Key dates (e.g., feature freeze, final support date, shutdown date)
-- **Support information:** How users can get help during the transition
-- **Data export/migration:** Any steps users need to take to preserve data or migrate
-- **Contact information:** Who to reach out to with questions
+- **What is being deprecated:** The name of the application, feature, or service.
+- **End-of-life date:** When the service/feature will be discontinued.
+- **Reason for deprecation:** Why it's being discontinued (optional but helpful).
+- **Alternative solutions:** What users should use instead.
+- **Migration timeline:** Key dates (e.g., feature freeze, final support date, shutdown date).
+- **Support information:** How users can get help during the transition.
+- **Data export/migration:** Any steps users need to take to preserve data or migrate.
+- **Contact information:** Who to reach out to with questions.
 
 ### 3. Write End of Life Announcement
 Write a comprehensive end-of-life announcement that informs a non-technical user of the deprecation. The final output should follow this exact template:
@@ -63,11 +63,11 @@ Like [name of product being phased out], [name of the replacement product] provi
 ```
 
 **Tone and Style Guidelines**
-- Use clear, direct language
-- Be empathetic but firm
-- Avoid jargon and technical details unless necessary
-- Focus on user impact and actionable next steps
-- Use a professional but approachable tone
+- Use clear, direct language.
+- Be empathetic but firm.
+- Avoid jargon and technical details unless necessary.
+- Focus on user impact and actionable next steps.
+- Use a professional but approachable tone.
 
 # **Final Instructions**
 1. Ask clarifying questions if critical information is missing, especially around dates, alternatives, and migration requirements.
