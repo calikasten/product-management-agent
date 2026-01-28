@@ -167,7 +167,7 @@ skills/
 [Cursor](https://cursor.com/) is currently my preferred tool for its filesystem-based customization, built-in MCP server integration, and familiar IDE interface. To use the agent instructions and skills from this GitHub repo, follow these steps to pull the latest agent or skill files and create symlinks to reference additional context in your Cursor project.
 
 ## Setting Up Cursor Rules
-Cursor rules control agent behavior within the codebase, similar to AGENTS.md files. Store rules in .cursor/rules/ and create multiple files in `.md` or `.mdc` formats.
+Cursor rules control agent behavior within the codebase, similar to `AGENTS.md` files. Store rules in `.cursor/rules/` and create multiple files in `.md` or `.mdc` formats.
 
 1. Create the `.cursor/rules` folders in your project.
 2. Navigate to the `rules` folder:
