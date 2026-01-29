@@ -107,11 +107,11 @@ An AI model's context can be compared to a layer cake, where higher layers can *
 ```
 These layers generally exist across different model providers and tools, though their exact behavior and naming vary.
 
-| **Model Provider** | **Tool Name** | **Tool Format** | **Projects** | **Custom Tool** | **User Preferences** |
-| ------------------ | ------------- | --------------- | ------------ | --------------- | -------------------- |
-| Anthropic          | Claude        | UI              | Projects     |                 | Settings > General > Personal Preferences |
+| **Model Provider** | **Tool Name** | **Tool Format** | **Projects** | **Custom Tool** | **User Preferences**                             |
+| ------------------ | ------------- | --------------- | ------------ | --------------- | ------------------------------------------------ |
+| Anthropic          | Claude        | UI              | Projects     |                 | Settings > General > Personal Preferences        |
 | OpenAI             | ChatGPT       | UI              | Projects     | Custom GPTs     | Settings > Personalization > Custom Instructions |
-| Google             | Gemini        | UI              | NotebookLM   | Gemini Gems     | Settings > Instructions |
+| Google             | Gemini        | UI              | NotebookLM   | Gemini Gems     | Settings > Instructions                          |
 
 Where available, custom tools and projects can be used together. Projects act as the top-level container for collaboration, shared context, and workflow organization. Custom tools then operate within a project, inheriting shared resources and configuration while remaining reusable assistants with their own prompts, tools, and task focus.
 ```
@@ -142,22 +142,22 @@ A key difference is that while user preferences shape the interaction experience
 
 This pattern exists across tools, though implementations and file naming conventions vary.
 
-| **Tool Name** | **Tool Format** | **Project Representation** | **System-Level Instructions** | **Task-Specific Instructions** | 
-| ------------- | --------------- | -------------------------- | ----------------------------- | ------------------------------ |
-| Claude Code   | CLI             | Project folder             | `CLAUDE.md`                   | `SKILL.md`                     |
-| Cursor        | IDE             | Project folder             | Files in `.cursor/rules/`     | `SKILL.md`                     |
-| Gemini CLI    | CLI             | Project folder             | `GEMINI.md`                   | `SKILL.md`                     |
-| Antigravity   | IDE             | Project folder             | `GEMINI.md` (also supports `AGENTS.md`) | `SKILL.md`           |
-| Codex         | CLI / IDE extension | Project folder         | `AGENTS.md`                   | `SKILL.md`                     |
+| **Tool Name** | **Tool Format**     | **Project Representation** | **System-Level Instructions**           | **Task-Specific Instructions** | 
+| ------------- | ------------------- | -------------------------- | --------------------------------------- | ------------------------------ |
+| Claude Code   | CLI                 | Project folder             | `CLAUDE.md`                             | `SKILL.md`                     |
+| Cursor        | IDE                 | Project folder             | Files in `.cursor/rules/`               | `SKILL.md`                     |
+| Gemini CLI    | CLI                 | Project folder             | `GEMINI.md`                             | `SKILL.md`                     |
+| Antigravity   | IDE                 | Project folder             | `GEMINI.md` (also supports `AGENTS.md`) | `SKILL.md`                     |
+| Codex         | CLI / IDE extension | Project folder             | `AGENTS.md`                             | `SKILL.md`                     |
 
 Skills can be utilized on a project level or on a global level:
-| **Tool Name** | **Project Path** | **Global Path** |
-| ------------- | ---------------- | --------------- |
-| Claude Code   | `.claude/skills/` | `~/.claude/skills/` |
-| Cursor        | `.cursor/skills/` | `~/.cursor/skills/` |
-| Gemini CLI    |	`.gemini/skills/` |	`~/.gemini/skills/` |
+| **Tool Name** | **Project Path**  | **Global Path**                 |
+| ------------- | ----------------- | ------------------------------- |
+| Claude Code   | `.claude/skills/` | `~/.claude/skills/`             |
+| Cursor        | `.cursor/skills/` | `~/.cursor/skills/`             |
+| Gemini CLI    |	`.gemini/skills/` |	`~/.gemini/skills/`             |
 | Antigravity   | `.agent/skills/`  | `~/.gemini/antigravity/skills/` |
-| Codex         | `.codex/skills/`  | `~/.codex/skills/` |
+| Codex         | `.codex/skills/`  | `~/.codex/skills/`              |
 
 Each skill resides in its own subdirectory under `.cursor/skills/` and contains a `SKILL.md` file:
 ```
