@@ -20,7 +20,8 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 
 ## Strategy & Planning
 
-[Calculate TAM]
+[Calculate TAM](https://github.com/calikasten/product-management-agent/blob/main/Skills/Calculate%20TAM.md) <br>
+Sizes the Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) to expose, challenge, and test assumptions for market opportunity.
 
 [Conduct Market Research]
 
