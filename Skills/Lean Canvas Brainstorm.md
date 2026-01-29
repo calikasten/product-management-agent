@@ -34,7 +34,7 @@ Use the following ASCII/Code-block structure for the final output to mimic the L
 
 ```markdown
 | **PROBLEM **                    | **SOLUTION                   | **UNIQUE VALUE PROPOSITION**        | **UNFAIR ADVANTAGE**                     | **CUSTOMER SEGMENTS**   |
-| :------------------------------ | :--------------------------- | :---------------------------------- | :--------------------------------------- | :---------------------- |
+| ------------------------------- | ---------------------------- | ----------------------------------- | ---------------------------------------- | ----------------------- |
 | **1.** [Problem 1]              | **1.** [Solution 1]          | [Single, clear, compelling message] | [Something that cannot be easily copied] | [Target customers]      |
 | **2.** [Problem 2]              | **2.** [Solution 2]          |                                     |                                          |                         |
 | **3.** [Problem 3]              | **3.** [Solution 3]          |                                     |                                          |                         |
@@ -43,7 +43,7 @@ Use the following ASCII/Code-block structure for the final output to mimic the L
 | [How problems are solved today] | [Numbers that track success] |                                     | [Path to customers]                      |                         |
 
 | COST STRUCTURE             | REVENUE STREAMS                        |
-| :------------------------- | :------------------------------------- |
+| -------------------------- | -------------------------------------- |
 | [Fixed and variable costs] | [Sources of revenue and pricing model] |
 ```
 
