@@ -31,6 +31,9 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 [Lean Canvas Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Lean%20Canvas%20Brainstorm.md) <br>
 Facilitates a structured Lean Canvas brainstorming session to deconstruct product ideas into actionable business models, identifying market demand, core problems, and unique value.
 
+[Prioritization Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Prioritization%20Brainstorm.md) <br>
+Facilitates a structured brainstorming session to prioritize problems, features, or tasks using prioritization frameworks.
+
 [Strategy Brainstorm](https://github.com/calikasten/product-management-agent/tree/main/Skills) <br>
 Acts as a strategic collaborator to pressure-test product ideas, identify market opportunities, and apply structured stratagic frameworks.
 
