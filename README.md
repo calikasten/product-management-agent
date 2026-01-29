@@ -30,7 +30,8 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 
 [Lean Canvas Brainstorm]
 
-[Strategy Brainstorm]
+[Strategy Brainstorm](https://github.com/calikasten/product-management-agent/tree/main/Skills) <br>
+Acts as a strategic collaborator to pressure-test product ideas, identify market opportunities, and apply structured stratagic frameworks.
 
 [Write OKRs](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20OKRs.md) <br>
 Drafts and refines high-impact, outcome-based Objectives and Key Results (OKRs) using leading indicators, North Star metrics, and growth frameworks to bridge the gap between vision and execution.
