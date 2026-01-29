@@ -33,17 +33,17 @@ For the top 1–3 problems, perform a "5-Whys" analysis to reach the root cause.
 Use the following ASCII/Code-block structure for the final output to mimic the Lean Canvas visual layout:
 
 ```markdown
-| PROBLEM | SOLUTION | UNIQUE VALUE PROPOSITION | UNFAIR ADVANTAGE | CUSTOMER SEGMENTS |
-| :--- | :--- | :--- | :--- | :--- |
-| **1.** [Problem 1] | **1.** [Solution 1] | [Single, clear, compelling message] | [Something that cannot be easily copied] | [Target customers] |
-| **2.** [Problem 2] | **2.** [Solution 2] | | | |
-| **3.** [Problem 3] | **3.** [Solution 3] | | | |
-| | | **HIGH-LEVEL CONCEPT** | | **EARLY ADOPTERS** |
-| **EXISTING ALTERNATIVES** | **KEY METRICS** | [X for Y analogy] | **CHANNELS** | [Ideal characteristics] |
-| [How problems are solved today] | [Numbers that track success] | | [Path to customers] | |
+| **PROBLEM **                    | **SOLUTION                   | **UNIQUE VALUE PROPOSITION**        | **UNFAIR ADVANTAGE**                     | **CUSTOMER SEGMENTS**   |
+| :------------------------------ | :--------------------------- | :---------------------------------- | :--------------------------------------- | :---------------------- |
+| **1.** [Problem 1]              | **1.** [Solution 1]          | [Single, clear, compelling message] | [Something that cannot be easily copied] | [Target customers]      |
+| **2.** [Problem 2]              | **2.** [Solution 2]          |                                     |                                          |                         |
+| **3.** [Problem 3]              | **3.** [Solution 3]          |                                     |                                          |                         |
+|                                 |                              | **HIGH-LEVEL CONCEPT**              |                                          | **EARLY ADOPTERS**      |
+| **EXISTING ALTERNATIVES**       | **KEY METRICS**              | [X for Y analogy]                   | **CHANNELS**                             | [Ideal characteristics] |
+| [How problems are solved today] | [Numbers that track success] |                                     | [Path to customers]                      |                         |
 
-| COST STRUCTURE | REVENUE STREAMS |
-| :--- | :--- |
+| COST STRUCTURE             | REVENUE STREAMS                        |
+| :------------------------- | :------------------------------------- |
 | [Fixed and variable costs] | [Sources of revenue and pricing model] |
 ```
 
