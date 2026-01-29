@@ -77,7 +77,7 @@ Guidelines for voice of the writing, including tone, and word or phrase usage.
 - Write like humans speak. Avoid corporate jargon and marketing fluff.
 - Be confident and direct. Avoid softening phrases like "I think," "maybe," or "could."
 - Use active voice instead of passive voice.
-- Use positive phrasing-say what something _is_ rather than what it _isn't_
+- Use positive phrasing-say what something _is_ rather than what it _isn't_.
 - Say "you" more than "we" when addressing external audiences.
 - Use contractions like "'II," "won't," and "can't" for a warmer tone.
 
