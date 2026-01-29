@@ -44,7 +44,8 @@ Drafts and refines high-impact, outcome-based Objectives and Key Results (OKRs) 
 
 ## Discovery & Validation
 
-[Create Customer Journey Map]
+[Create Customer Journey Map](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20Customer%20Journey%20Map.md) <br>
+Visually diagrams the path a user takes to reach a goal, identifying core activities, tasks, and the critical user stories required for delivery.
 
 [Create Jobs To Be Done]
 
