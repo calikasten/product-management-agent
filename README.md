@@ -55,7 +55,8 @@ Visually diagrams the path a user takes to reach a goal, identifying core activi
 [Discovery Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Discovery%20Brainstorm.md) <br>
 Facilitates a structured product discovery session to validate market opportunities, define user problems, and chart paths to outcomes using discoverey frameworks.
 
-[Market Validation Plan]
+[Market Validation Plan](https://github.com/calikasten/product-management-agent/blob/main/Skills/Market%20Validation%20Plan.md) <br>
+Facilitates continual validation throughout the SDLC (Software Development Lifecycle) to ensure product-market fit, justify investments, and measure success using structured assessment tools.
 
 [Product Validation Plan](https://github.com/calikasten/product-management-agent/blob/main/Skills/Product%20Validation%20Plan.md) <br>
 Designs a strategy to validate product hypotheses using the leanest possible methods, ranging from low-fidelity prototypes to production experiments and Minimum Viable Products (MVPs).
