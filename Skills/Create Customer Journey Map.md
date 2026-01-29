@@ -48,13 +48,12 @@ Present the journey map using a structured markdown format like the one below:
 **Persona:** [Name/Role]  
 **Goal:** [Desired Outcome]
 
-| Phase | [Phase 1: e.g. Discover] | [Phase 2: e.g. Try] | [Phase 3: e.g. Buy] |
-| :--- | :--- | :--- | :--- |
-| **User Actions** | [Action A, B] | [Action C, D] | [Action E] |
-| **Mindset/Needs** | [Thoughts/Questions] | [Information Needs] | [Frictions] |
-| **Pain Points** | [Avoid X] | [Avoid Y] | [Avoid Z] |
-| **User Stories** | **1.** [Story 1.1] | **1.** [Story 2.1] | **1.** [Story 3.1] |
-| | **2.** [Story 1.2] | **2.** [Story 2.2] | |
+| Phase             | [Phase 1: e.g. Discover] | [Phase 2: e.g. Try] | [Phase 3: e.g. Buy] |
+| :---------------- | :----------------------- | :------------------ | :------------------ |
+| **User Actions**  | [Action A, B]            | [Action C, D]       | [Action E]          |
+| **Mindset/Needs** | [Thoughts/Questions]     | [Information Needs] | [Frictions]         |
+| **Pain Points**   | [Avoid X]                | [Avoid Y]           | [Avoid Z]           |
+
 ```
 
 # **Final Instructions**
