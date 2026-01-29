@@ -57,7 +57,8 @@ Visually diagrams the path a user takes to reach a goal, identifying core activi
 
 [Create Jobs To Be Done]
 
-[Customer Interview Prep]
+[Customer Interview Prep](https://github.com/calikasten/product-management-agent/blob/main/Skills/Customer%20Interview%20Prep.md) <br>
+Prepares high-impact, story-based customer interview guides to uncover actual user behavior and unmet needs while avoiding the trap of perceived behavior.
 
 [Discovery Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Discovery%20Brainstorm.md) <br>
 Facilitates a structured product discovery session to validate market opportunities, define user problems, and chart paths to outcomes using discoverey frameworks.
