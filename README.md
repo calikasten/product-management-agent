@@ -56,7 +56,8 @@ Visually diagrams the path a user takes to reach a goal, identifying core activi
 
 [Customer Interview Prep]
 
-[Discovery Brainstorm]
+[Discovery Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Discovery%20Brainstorm.md) <br>
+Facilitates a structured product discovery session to validate market opportunities, define user problems, and chart paths to outcomes using discoverey frameworks.
 
 ## Product Definition
 
