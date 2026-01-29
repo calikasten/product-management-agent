@@ -20,6 +20,9 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 
 ## Strategy & Planning
 
+[Calculate ROI](https://github.com/calikasten/product-management-agent/blob/main/Skills/Calculate%20ROI.md) <br>
+Forecasts the profitability of a new product or feature by calculating the 3-year Return on Investment (ROI) based on initial CapEx, ongoing OpEx, and projected revenue.
+
 [Calculate TAM](https://github.com/calikasten/product-management-agent/blob/main/Skills/Calculate%20TAM.md) <br>
 Sizes the Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) to expose, challenge, and test assumptions for market opportunity.
 
