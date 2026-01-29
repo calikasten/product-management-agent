@@ -4,7 +4,7 @@ Instructions and prompts for using an agent as an autonomous partner for product
 For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents/blob/main/README.md#llm-context-101) and [Cursor Set Up](https://github.com/calikasten/agents/blob/main/README.md#cursor-setup).
 
 ## General Skills
-AI skills that can be used across multiple tasks regardless of domain.
+_AI skills that can be used across multiple tasks regardless of domain._
 
 [Create New AI Skill](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20New%20AI%20Skill.md) <br>
 Generates a standardized SKILL.md file for a new AI skill by clarifying requirements, producing clear, agent-ready instructions, and saving it to the correct directory.
@@ -41,6 +41,9 @@ Facilitates a strategic session to determine acquisition strategies, sales tacti
 
 [Prioritization Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Prioritization%20Brainstorm.md) <br>
 Facilitates a structured brainstorming session to prioritize problems, features, or tasks using prioritization frameworks.
+
+[Risk Mitigation Plan](https://github.com/calikasten/product-management-agent/blob/main/Skills/Risk%20Mitigation%20Plan.md) <br>
+Facilitates risk identification and mitigation using pre-mortems, anti-pattern detection, and structured likelihood vs. impact matrices to safeguard project success.
 
 [Strategy Brainstorm](https://github.com/calikasten/product-management-agent/tree/main/Skills) <br>
 Acts as a strategic collaborator to pressure-test product ideas, identify market opportunities, and apply structured stratagic frameworks.
