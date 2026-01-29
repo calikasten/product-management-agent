@@ -25,7 +25,7 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 [Conduct Market Research]
 
 [Create Now-Next-Later Roadmap](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20Now-Next-Later%20Roadmap.md) <br>
-Collaborative partner for producing outcome-driven "Now, Next, Later" roadmaps that illustrate progress as predictions rather than rigid promises.
+Creates outcome-driven "Now, Next, Later" roadmaps that illustrate progress as predictions rather than rigid promises.
 
 [Frame Problem Space]
 
