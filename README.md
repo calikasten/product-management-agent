@@ -50,14 +50,15 @@ Visually diagrams the path a user takes to reach a goal, identifying core activi
 
 [Create Jobs To Be Done]
 
-[Create Market Validation Plan]
-
-[Create Product Validation Plan]
-
 [Customer Interview Prep]
 
 [Discovery Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Discovery%20Brainstorm.md) <br>
 Facilitates a structured product discovery session to validate market opportunities, define user problems, and chart paths to outcomes using discoverey frameworks.
+
+[Market Validation Plan]
+
+[Product Validation Plan](https://github.com/calikasten/product-management-agent/blob/main/Skills/Product%20Validation%20Plan.md) <br>
+Designs a strategy to validate product hypotheses using the leanest possible methods, ranging from low-fidelity prototypes to production experiments and Minimum Viable Products (MVPs).
 
 ## Product Definition
 
