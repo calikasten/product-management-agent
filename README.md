@@ -36,7 +36,7 @@ Creates outcome-driven "Now, Next, Later" roadmaps that illustrate progress as p
 [Lean Canvas Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Lean%20Canvas%20Brainstorm.md) <br>
 Facilitates a structured Lean Canvas brainstorming session to deconstruct product ideas into actionable business models, identifying market demand, core problems, and unique value.
 
-[Pricing Brainstorm[(https://github.com/calikasten/product-management-agent/blob/main/Skills/Pricing%20Brainstorm.md) <br>
+[Pricing Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Pricing%20Brainstorm.md) <br>
 Facilitates a strategic session to determine acquisition strategies, sales tactics, and pricing models using pricing frameworks.
 
 [Prioritization Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Prioritization%20Brainstorm.md) <br>
