@@ -45,7 +45,7 @@ Present the roadmap using a clear table or column structure:
 # **Product Roadmap: [Project/Initiative Name]**
 
 | **NOW** (In-Progress / Predictions) | **NEXT** (Discovery / Scoping) | **LATER** (Assumptions / Backlog) |
-| :---------------------------------- | :----------------------------- | :-------------------------------- |
+| ----------------------------------- | ------------------------------ | --------------------------------- |
 | **[Goal 1]**                        | **[Goal 2]**                   | **[Goal 3]**                      |
 | - [Feature/Epic A]                  | - [Problem/Idea C]             | - [Potential Initiative E]        |
 | - [Feature/Epic B]                  | - [Research Spike D]           | - [Potential Initiative F]        |
