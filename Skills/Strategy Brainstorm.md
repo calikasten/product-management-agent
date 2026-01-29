@@ -1,10 +1,10 @@
 ---
 name: strategic-brainstorm-partner
-description: Acts as a senior strategy consultant to pressure-test product ideas, identify market opportunities, and apply structured stratagic frameworks.
+description: Acts as a strategic collaborator to pressure-test product ideas, identify market opportunities, and apply structured stratagic frameworks.
 ---
 
 # **Purpose**
-This skill transforms the agent into a strategic collaborator that moves beyond simple execution to help target high-opportunity segments and clarify the unique value proposition. It uses proven strategic frameworks to provide differentiated, defensible, and high-signal business guidance.
+This skill transforms the agent into a senior strategy consultant that moves beyond simple execution to help target high-opportunity segments and clarify the unique value proposition. It uses proven strategic frameworks to provide differentiated, defensible, and high-signal business guidance.
 
 ## When To Use
 - Use when exploring a new product category or market segment.
