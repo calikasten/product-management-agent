@@ -44,7 +44,7 @@ Focus on metrics that predict long-term growth:
 To find the right metrics, complete this template:
 "Right now we are working to increase the **[attribute]** of/to/between **[variable hypothesis]** for **[persona]**, which we could potentially measure by tracking **[metrics]**."
 
-*Attributes to consider:* Speed, Quality, Ease, Efficiency, Growth, Reliability, Maintainability.
+_Attributes to consider:_ Speed, Quality, Ease, Efficiency, Growth, Reliability, Maintainability.
 
 ### 5. Formulate Key Results (AARM Framework)
 Categorize KRs using the AARM model to ensure holistic coverage:
@@ -53,7 +53,7 @@ Categorize KRs using the AARM model to ensure holistic coverage:
 - **Retention:** Recurring behavior (e.g., checking feed, inviting friends).
 - **Monetization:** Revenue per user (ARPU) or conversion to paid.
 
-*Note: Ensure KRs are predictive (leading) rather than just final outcomes (lagging).*
+_Note: Ensure KRs are predictive (leading) rather than just final outcomes (lagging)._
 
 ### 6. Validate Outcomes
 - **Output (Avoid):** "Launch feature X" or "Complete documentation."
@@ -61,6 +61,6 @@ Categorize KRs using the AARM model to ensure holistic coverage:
 
 # **Final Instructions**
 1. **Focus on Impact:** Prioritize metrics that move the retention curve or drive the North Star inputs.
-2. **Avoid Vanity Metrics:** Do not use total registrations or page views without context; focus on *active* and *retained* users.
+2. **Avoid Vanity Metrics:** Do not use total registrations or page views without context; focus on _active_ and _retained_ users.
 3. **Leading vs. Lagging:** Ensure at least one KR is a leading indicator (e.g., activation) that predicts a lagging result (e.g., monetization).
 4. **No Conjunctions:** Keep Objectives and Key Results focused by removing "and," "or," and "but" from the value statements.
