@@ -22,11 +22,11 @@ Structure questions as a numbered list with nested sub-questions (e.g., 1, 2, 2.
 - **Gap Analysis:** What is the current state? What is the desired state?
 - **Target Audience:** Market assessment and target demographics.
 - **Requirement Types:**
-    - *Business:* Why is the product needed?
-    - *Functional:* What should the product do?
-    - *User:* Tasks the user can perform.
-    - *Technical:* Security, network, platform, or integration needs.
-    - *Non-functional:* Performance, reliability, scalability (Sprint 0 concerns).
+    - _Business:_ Why is the product needed?
+    - _Functional:_ What should the product do?
+    - _User:_ Tasks the user can perform.
+    - _Technical:_ Security, network, platform, or integration needs.
+    - _Non-functional:_ Performance, reliability, scalability (Sprint 0 concerns).
 - **Success & Evaluation:** How will we measure if the solution was beneficial?
 
 ### 2. Write PRD Template
