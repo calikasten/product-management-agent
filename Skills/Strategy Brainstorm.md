@@ -38,7 +38,7 @@ When discussing how to scale, evaluate these three primary vectors:
 - **Scale by KPI:** Directly aligns scaling efforts with achieving specific business goals. Highly effective for measurable impact, but risky if business priorities or KPIs change frequently.
 
 ### 4. Pressure-Test Assumptions (The "What Must Be True" Logic)
-Instead of asking if a strategy *is* true, ask what *would have to be true* for it to work. Evaluate:
+Instead of asking if a strategy _is_ true, ask what _would have to be true_ for it to work. Evaluate:
 - **Customer Needs:** Do they truly value this differentiation?
 - **Competitor Reaction:** Will they be unable or unwilling to respond effectively?
 - **Internal Capabilities:** Can we actually build and sustain the required assets?
