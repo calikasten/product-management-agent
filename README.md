@@ -1,5 +1,5 @@
 # Product Management Agent
-Instructions and prompts for using an agent as an autonomous partner for product management work. Last Updated 01/28/2026. 
+Instructions and prompts for using an agent as an autonomous partner for product management work. Last Updated 01/31/2026. 
 
 For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents/blob/main/README.md#llm-context-101) and [Cursor Set Up](https://github.com/calikasten/agents/blob/main/README.md#cursor-setup).
 
@@ -85,6 +85,9 @@ Creates an implementation-ready PRD (Product Requirements Document) by asking st
 
 [Create Jira Ticket](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20Jira%20Ticket.md) <br>
 Transforms prompts or meeting notes into clear, actionable Jira user stories and bug tickets through structured clarification and explicit acceptance criteria, ready for automated creation via the [Atlassian MCP server](https://www.atlassian.com/platform/remote-mcp-server).
+
+[Executive Update] <br>
+Creates a high-impact status report update for cross-functional executives by synthesizing Jira tickets into strategic outcomes, highlighting customer traction, and framing technical progress as business value.
 
 [Split User Story](https://github.com/calikasten/product-management-agent/blob/main/Skills/Split%20User%20Story) <br>
 Splits large or complex user stories into smaller, high-value units of work to reduce risk, increase visibility, and maintain a steady delivery cadence.
