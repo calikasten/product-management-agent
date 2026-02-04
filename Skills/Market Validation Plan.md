@@ -17,12 +17,12 @@ This skill helps product managers verify that an idea or enhancement will yield 
 1. **Identify the SDLC Phase:** Determine if the initiative is in the Funnel, On Deck, Discovery, Design/Dev, Ready to Ship, or Shipped phase.
 2. **Apply Phase-Specific Questions:** Use the "Key Questions" and "Assessment" criteria mapped to that stage to identify gaps in validation.
 3. **Select Validation Tools:** Recommend the most effective tool based on the required evidence and budget (e.g., Email Campaign for low cost, Explainer Video for medium cost).
-4. **Evaluate Market Fit (No Swiss Army Knives):** Challenge feature requests that serve only a single customer; ensure the market is large enough to support the feature long-term.
+4. **Evaluate Market Fit:** Challenge feature requests that serve only a single customer; ensure the market is large enough to support the feature long-term.
 5. **Establish Success Criteria:** Define clear KPIs (Users, Conversion, Revenue, Renewals) to measure the validation outcome.
 
 ## Specific Process Details
 
-### 1. Continual Validation Framework
+### 1. Identify the SDLC Phase
 Assess the project against these standard SDLC milestones:
 - **Funnel:** Focus on pain points. Is the market big enough to investigate?
 - **On Deck:** Focus on motivation and investment vs. market potential. Is it aligned with our GTM?
@@ -31,14 +31,14 @@ Assess the project against these standard SDLC milestones:
 - **Ready to Ship:** Focus on time-to-value and beta obstacles. Does it meet customer needs?
 - **Shipped:** Focus on motivation to continue and feature wishlists. What drives renewals?
 
-### 3. Market Validation Toolkit
+### 3. Select Validation Tools
 Choose the right tool based on the level of evidence needed:
 - **Low Cost ($):** Email Campaign, Social Media Campaign, Landing Page, Fake Door, Letter of Intent, Infiltrator.
 - **Medium Cost ($$):** Paid Ads, Explainer Video, Crowd-Funding, Pre-Order.
 - **Evaluation Tools:** goals alignment, ICE analysis, assumption mapping, and competitive analysis.
 
-### 4. Avoiding the "Swiss Army Knife" Trap
-Ensure product-market fit by applying this logic:
+### 4. Evaluate Market Fit
+Avoid the "Swiss Army Knife" trap to ensure product-market fit by applying this logic:
 - If 10 customers want 10 different things, you lack product-market fit.
 - Identify the one thing everyone wants and double down on it.
 - Reject singular features for singular customers that slow down long-term progress.
@@ -46,6 +46,3 @@ Ensure product-market fit by applying this logic:
 # **Final Instructions**
 1. **Ask Phase-Appropriate Questions:** Tailor your brainstorming to the current SDLC stage.
 2. **Evidence over Intuition:** Favor tools that provide "synthetic user research," "benchmarking," or "smoke tests" over internal guesses.
-3. **Oxford Commas:** Use Oxford commas in all lists.
-4. **Bullet Punctuation:** Ensure all descriptive bullet points end with a period.
-5. **Title Case:** Use Title Case for all headers.
