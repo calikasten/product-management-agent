@@ -73,7 +73,8 @@ Designs a strategy to validate product hypotheses using the leanest possible met
 
 [Create Storyboard]
 
-[Create User Story Map]
+[Create User Story Map](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20User%20Story%20Map.md) <br>
+Creates a visual user story map as a Mermaid diagram that organizes user activities, tasks, and stories to illustrate the user's journey and prioritize delivery.
 
 [Write PRD](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20PRD.md) <br>
 Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
