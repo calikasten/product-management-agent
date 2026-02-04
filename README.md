@@ -1,5 +1,5 @@
 # Product Management Agent
-Instructions and prompts for using an agent as an autonomous partner for product management work. Last Updated 01/31/2026. 
+Instructions and prompts for using an agent as an autonomous partner for product management work. Last Updated 02/03/2026. 
 
 For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents/blob/main/README.md#llm-context-101) and [Cursor Set Up](https://github.com/calikasten/agents/blob/main/README.md#cursor-setup).
 
@@ -26,8 +26,6 @@ Forecasts the profitability of a new product or feature by calculating the 3-yea
 [Calculate TAM](https://github.com/calikasten/product-management-agent/blob/main/Skills/Calculate%20TAM.md) <br>
 Sizes the Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) to expose, challenge, and test assumptions for market opportunity.
 
-[Conduct Market Research]
-
 [Create Now-Next-Later Roadmap](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20Now-Next-Later%20Roadmap.md) <br>
 Creates outcome-driven "Now, Next, Later" roadmaps that illustrate progress as predictions rather than rigid promises.
 
@@ -35,6 +33,9 @@ Creates outcome-driven "Now, Next, Later" roadmaps that illustrate progress as p
 
 [Lean Canvas Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Lean%20Canvas%20Brainstorm.md) <br>
 Facilitates a structured Lean Canvas brainstorming session to deconstruct product ideas into actionable business models, identifying market demand, core problems, and unique value.
+
+[Market Research](https://github.com/calikasten/product-management-agent/blob/main/Skills/Market%20Research.md) <br>
+Conducts comprehensive competitive market research on companies in the agentic commerce space, analyzing company profiles, funding, products, strategy, and go-to-market approaches.
 
 [Pricing Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Pricing%20Brainstorm.md) <br>
 Facilitates a strategic session to determine acquisition strategies, sales tactics, and pricing models using pricing frameworks.
