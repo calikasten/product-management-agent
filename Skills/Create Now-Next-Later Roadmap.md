@@ -16,11 +16,10 @@ This skill facilitates the creation and maintenance of a "Now, Next, Later" road
 1. **Inventory Problems:** Identify known units of work as problems to solve.
 2. **Map to PDLC:** Categorize each problem into its current Product Development Life Cycle (PDLC) stage.
 3. **Prioritize:** Perform an initial prioritization pass using an "Effort vs. Impact" matrix.
-4. **Draft Roadmap:** Plot items into Now, Next, and Later columns.
-5. **Collaborate & Refine:** Review with the user/stakeholders to identify missing items or priority errors.
-6. **Define Roll-ups:** Organize work into Epics and Features that roll up into specific Goals & Objectives.
-7. **Finalize Estimates:** Revisit scoping with Engineering and Design for level-of-effort (LOE) sizing.
-8. **Output Artifact:** Present the roadmap in a structured, digestible format.
+4. **Categorize by Time Horizon:** Plot items into Now, Next, and Later columns.
+5. **Define OKR Alignment:** Organize work into Epics and Features that roll up into specific Goals & Objectives.
+6. **Finalize Estimates:** Revisit scoping with Engineering and Design for level-of-effort (LOE) sizing.
+7. **Output Roadmap Artifact:** Present the roadmap in a structured, digestible format.
 
 ## Specific Process Details
 
@@ -38,7 +37,18 @@ Use the following stages to determine work maturity:
 - **Next:** Medium-fidelity work in Validation or Design. Consists of research, scoping, and upcoming builds.
 - **Later:** Low-fidelity work in Ideation. Assumed value items that may pivot based on earlier learnings.
 
-### 8. Output Format (Visual Layout)
+### 5. Define OKR Alignment (Interactive Step)
+**Ask the user the following questions:**
+1. "What are the current OKRs or strategic goals for this quarter/year?"
+2. Present a summary of the work items identified in Steps 1-4
+3. "Which OKR or goal does each work item support?"
+
+**Then:**
+- Propose alignments based on the user's responses
+- Group work items under their corresponding OKRs/Goals
+- Validate the groupings with the user before proceeding to Step 6
+
+### 7. Output Roadmap Artifact
 Present the roadmap using a clear table or column structure:
 
 ```markdown
@@ -55,6 +65,3 @@ Present the roadmap using a clear table or column structure:
 1. **Focus on Outcomes:** Ensure roadmap items are described as problems solved or value delivered, not just technical tasks.
 2. **Predictions, Not Promises:** Remind users that "Next" and "Later" items decrease in fidelity and are subject to change.
 3. **Audit Conjunctions:** Remove "and," "or," and "but" from roadmap item descriptions to maintain single-unit focus.
-4. **Oxford Commas:** Use Oxford commas in all lists.
-5. **Bullet Punctuation:** Ensure all descriptive bullet points end with a period.
-6. **Title Case:** Use Title Case for all headers and roadmap column titles.
