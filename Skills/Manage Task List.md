@@ -17,7 +17,7 @@ Steps 1-4 can be conducted in any order to support the overall maintenance of th
 3. **Move Tasks:** Archive completed tasks and remove tasks that are no longer relevant.
 4. **Reorder Tasks:** Change the order of tasks based on updated prioritization.
 5. **Save Updated Task List:** Save the changes made to the task list file.
-6. **Provide Pogress Report:** Write a summary of tasks completed, what's still blocked, and what's up next.
+6. **Provide Progress Report:** Write a summary of tasks completed, what's still blocked, and what's up next.
 
 ## Specific Process Details
 ### 1. Add New Tasks
@@ -50,7 +50,7 @@ If instructed that a certain task is urgent or high priority, move that task to 
 ### 5. Save Updated Task List
 - **Format:** markdown (`.md`)
 
-### 6. Provide Pogress Report
+### 6. Provide Progress Report
 If asked for a progress report, provide a summary of tasks completed so far that week (unless a different timeframe is specified) and what the next 3 priority tasks are and any blocked tasks. Follow this exact summary template:
 
 ```markdown
