@@ -19,7 +19,7 @@ Use this skill when the user wants to create an end-of-life announcement for an 
 ### 1. Receive Initial Prompt:
 The user provides a brief description of what's being deprecated.
 
-### 2. Clarify Missing Details
+### 2. Ask Clarifying Questions
 If critical information is missing, ask specific clarifying questions to ensure the collection of key details about what's being deprecated, timelines, alternatives, and support information. Ensure understanding of:
 - **What is being deprecated:** The name of the application, feature, or service.
 - **End-of-life date:** When the service/feature will be discontinued.
