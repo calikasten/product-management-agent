@@ -16,7 +16,7 @@ This skill helps product managers identify the fastest and most cost-effective w
 1. **Identify the Hypothesis:** Clarify what needs validation (Feasibility, Value, Usability, or Viability).
 2. **Determine the Stage:** Select the appropriate level of fidelity (PoC, Prototype, or MVP).
 3. **Select Validation Tools:** Choose specific methods from the validation toolkit based on cost and target outcome.
-4. **Map the MVP Progression:** Outline the steps from "Earliest Showable" to "Earliest Lovable."
+4. **Map the Critical Path for MVP:** Outline the steps from "Earliest Showable" to "Earliest Lovable."
 5. **Define Success Metrics:** Establish clear, measurable criteria for validation.
 
 ## Specific Process Details
@@ -26,7 +26,7 @@ This skill helps product managers identify the fastest and most cost-effective w
 - **Prototype:** Visual aid for **Usability** and **Value** feedback. Can range from napkin drawings to high-fidelity wireframes.
 - **Minimum Viable Product (MVP):** A production-ready version with the least number of features required to provide **Value** and validate the market hypothesis.
 
-### 3. Validation Toolkit
+### 3. Select Validation Tools
 Select tools based on the type of validation and budget:
 - **Minimal Products:**
     - **Piecemeal:** Combine existing components ($$).
@@ -45,7 +45,7 @@ Select tools based on the type of validation and budget:
     - **404 Test:** Evaluate user behavior on error pages ($).
     - **A/B Testing:** Compare performance of two versions ($$).
 
-### 4. MVP Progression (The Critical Path)
+### 4. Map the Critical Path for MVP
 Follow the progression to ensure the product remains valuable and lovable:
 1. **Earliest Showable:** Rough concept for initial feedback.
 2. **Earliest Testable:** Functional enough for user testing.
@@ -55,7 +55,4 @@ Follow the progression to ensure the product remains valuable and lovable:
 
 # **Final Instructions**
 1. **Prioritize Value:** Always aim for the "Minimum Valuable Product" that solves a real user pain point.
-2. **Differentiate PoC vs. MVP:** Remind users that a PoC proves it *can* be built, while an MVP proves it *should* be built.
-3. **Oxford Commas:** Use Oxford commas in all lists.
-4. **Bullet Punctuation:** Ensure all descriptive bullet points end with a period.
-5. **Title Case:** Use Title Case for all headers.
+2. **Differentiate PoC vs. MVP:** Remind users that a PoC proves it *can* be built, while an MVP proves it _should_ be built.
