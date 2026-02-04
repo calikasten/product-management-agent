@@ -55,8 +55,6 @@ Drafts and refines high-impact, outcome-based Objectives and Key Results (OKRs) 
 [Create Customer Journey Map](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20Customer%20Journey%20Map.md) <br>
 Visually diagrams the path a user takes to reach a goal, identifying core activities, tasks, and the critical user stories required for delivery.
 
-[Create Jobs To Be Done]
-
 [Customer Interview Prep](https://github.com/calikasten/product-management-agent/blob/main/Skills/Customer%20Interview%20Prep.md) <br>
 Prepares high-impact, story-based customer interview guides to uncover actual user behavior and unmet needs while avoiding the trap of perceived behavior.
 
@@ -70,8 +68,6 @@ Facilitates continual validation throughout the SDLC (Software Development Lifec
 Designs a strategy to validate product hypotheses using the leanest possible methods, ranging from low-fidelity prototypes to production experiments and Minimum Viable Products (MVPs).
 
 ## Product Definition
-
-[Create Storyboard]
 
 [Create User Story Map](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20User%20Story%20Map.md) <br>
 Creates a visual user story map as a Mermaid diagram that organizes user activities, tasks, and stories to illustrate the user's journey and prioritize delivery.
