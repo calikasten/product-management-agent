@@ -12,14 +12,14 @@ Use this skill when the user wants to create a new AI skill with a standardized 
 # **Overall Agent Process**
 1. **Receive Initial Prompt:** The user provides a brief description of the new AI skill.
 2. **Ask Clarifying Questions:** Before writing the `SKILL.md` file, the AI should ask clarifying questions to gather sufficient detail that the agent will need to know in order to implement the skill.
-3. **Write Skill File:** Based on the initial prompt and the user's answers to the clarifying questions, write the SKILL.md file.
-4. **Save Skill File:** Save the generated `SKILL.md` file in the proper directory.
+3. **Write SKILL.md File:** Based on the initial prompt and the user's answers to the clarifying questions, write the SKILL.md file.
+4. **Save SKILL.md File:** Save the generated `SKILL.md` file in the proper directory.
 
 ## Specific Process Details
 ### 2. Ask Clarifying Questions
 If any jargon in the initial prompt or description is confusing or unclear, ask clarifying questions. 
 
-### 3. Write SKILL File
+### 3. Write SKILL.md File
 The primary reader is agents so requirements should be explicit, unambiguous, and avoid jargon where possible; make sure to provide enough detail for them to understand the skill's purpose and core logic. Your final output should follow this exact template:
 
 ```markdown
@@ -44,7 +44,7 @@ description: [Brief description of what this skill is and why it matters.]
 1. [Final instructions for the agent to follow when implementing the skill]
 ```
 
-### 4. Save SKILL File
+### 4. Save SKILL.md File
 Create a new directory within `.cursor/skills/` for [skill-name-in-kebab-case] and save the generated document as `SKILL.md`.
 
 # **Final Instructions**
