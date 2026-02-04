@@ -197,7 +197,9 @@ For each company, create a detailed profile with these sections:
 - List all sources used with links
 
 ### 7. Save Research Output
-Use the current date in the filename. Structure the document with:
+Save the complete research document as a markdown file with the current date in the filename.
+
+Structure the document with:
 1. Executive Summary
 2. Comparison Table
 3. Individual Company Profiles (one section per company)
@@ -208,5 +210,4 @@ Use the current date in the filename. Structure the document with:
 2. When information is not publicly available, note that explicitly rather than speculating.
 3. Include direct links to all sources, especially press releases and announcements.
 4. If you discover companies that are tangentially related but not core to agentic commerce, note them separately as "Adjacent Companies" rather than full profiles.
-5. Prioritize recent information (last 3-12 months) for announcements and strategy analysis.
-6. After completing the research, provide the user with a brief summary of findings and the location of the saved document.
+5. Prioritize recent information (last 12-18 months) for announcements and strategy analysis.
