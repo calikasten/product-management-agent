@@ -19,7 +19,6 @@ This skill helps product managers and researchers move from "fuzzy" product idea
 3. **Map the Problem Space:** Identify market segments, customer needs, and "Opportunities" (pains, desires).
 4. **Build the Opportunity Solution Tree:** Branch the Outcome into Opportunities, then branch those into multiple potential Solutions.
 5. **Design Experiments:** For the target solutions, identify the riskiest assumptions and suggest tests/experiments.
-6. **Avoid the XY Problem:** Continuously challenge attempted solutions by drilling down into the underlying problem.
 
 ## Specific Process Details
 
