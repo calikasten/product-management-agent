@@ -19,7 +19,7 @@ This skill helps product managers and development teams decompose large or compl
 2. **Diagnose Splitting Method:** Determine if the story is better suited for "Splitting Case Logic" (outcome-oriented) or the "Hamburger Method" (technical/quality-oriented).
 3. **Apply 1+N Pattern:** If the story involves repetitive updates (e.g., "update 5 pages"), split into "1 proof-of-concept" and "N remaining items" to reduce risk.
 4. **Split Automatically:** Generate the smaller stories using the standard template.
-5. **Review against INVEST:** Ensure each split story is Independent, Negotiable, Valuable, Estimable, Small, and Testable.
+5. **Review Against INVEST:** Ensure each split story is Independent, Negotiable, Valuable, Estimable, Small, and Testable.
 
 ## Specific Process Details
 
@@ -32,7 +32,7 @@ For any story involving repetitive actions across multiple entities:
 - **Story 1:** Implement the change for a single representative entity (the "1"). This reduces risk and establishes the pattern.
 - **Story 2:** Implement the change for the remaining "N" entities following the established pattern.
 
-### 4. Split Automatically (Template)
+### 4. Split Automatically
 Each split story must follow the `create-jira-ticket` format:
 
 ```markdown
