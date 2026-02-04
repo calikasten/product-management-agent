@@ -29,8 +29,6 @@ Sizes the Total Addressable Market (TAM), Serviceable Available Market (SAM), an
 [Create Now-Next-Later Roadmap](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20Now-Next-Later%20Roadmap.md) <br>
 Creates outcome-driven "Now, Next, Later" roadmaps that illustrate progress as predictions rather than rigid promises.
 
-[Frame Problem Space]
-
 [Lean Canvas Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Lean%20Canvas%20Brainstorm.md) <br>
 Facilitates a structured Lean Canvas brainstorming session to deconstruct product ideas into actionable business models, identifying market demand, core problems, and unique value.
 
@@ -51,8 +49,6 @@ Acts as a strategic collaborator to pressure-test product ideas, identify market
 
 [Write OKRs](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20OKRs.md) <br>
 Drafts and refines high-impact, outcome-based Objectives and Key Results (OKRs) using leading indicators, North Star metrics, and growth frameworks to bridge the gap between vision and execution.
-
-[Write Positioning Statement]
 
 ## Discovery & Validation
 
