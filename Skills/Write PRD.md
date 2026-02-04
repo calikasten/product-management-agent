@@ -29,7 +29,7 @@ Structure questions as a numbered list with nested sub-questions (e.g., 1, 2, 2.
     - _Non-functional:_ Performance, reliability, scalability (Sprint 0 concerns).
 - **Success & Evaluation:** How will we measure if the solution was beneficial?
 
-### 2. Write PRD Template
+### 2. Write PRD
 The final output must follow the exact structure of this template:
 
 ```markdown
