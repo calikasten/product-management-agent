@@ -19,10 +19,11 @@ This skill helps product managers and UX designers visualize the process a perso
 4. **Detail Actions & Mindsets:** For each phase, describe the specific tasks the user performs and what they are thinking or feeling (including "what they want to avoid").
 5. **Generate User Stories:** Identify the specific stories needed to support each user task.
 6. **Determine Critical Path:** Highlight the user stories immediately required to reach the goal vs. those for future iterations.
+7. **Output Visual Diagram:** Present the final visual diagram.
 
 ## Specific Process Details
 
-### 1. Identify the Actor & Scenario
+### 1. Identify the Actor & Define the Scenario
 Ask the user for the "Who" and the "What."
 - **Persona:** Who is this journey about? (e.g., "The First-Time Buyer").
 - **Scenario:** What is the specific context? (e.g., "Buying a subscription for the first time").
@@ -39,7 +40,7 @@ For each phase, break down:
 - **Mindsets/Needs:** What the user is *thinking* or *needs to know*.
 - **Pain Points:** What the user *wants to avoid*.
 
-### 5. Visual Diagram Template
+### 7. Output Visual Diagram Template
 Present the journey map using a structured markdown format like the one below:
 
 ```markdown
@@ -60,5 +61,3 @@ Present the journey map using a structured markdown format like the one below:
 1. **Focus on One Persona:** If the user tries to map multiple roles in one map, suggest creating separate journeys to maintain a clear narrative.
 2. **Identify the Critical Path:** Explicitly mark which user stories are "Must-Haves" for the user to reach the defined outcome.
 3. **Ask Before Drafting:** If you don't have enough detail for a specific phase or persona, ask clarifying questions first.
-4. **Tone & Style:** Use clear, empathetic language. Ensure all descriptive bullet points end with a period.
-5. **Oxford Commas:** Apply Oxford commas in all lists.
