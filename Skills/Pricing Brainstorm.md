@@ -23,25 +23,25 @@ This skill helps product managers design a monetization strategy that aligns wit
 
 ## Specific Process Details
 
-### 1. Acquisition Models (The "Growth Vehicle")
+### 1. Define the Acquisition Strategy
 - **Demos:** Traditional, human-led sales for complex solutions.
 - **Free Trial:** Time-bound full access to build high-intent pipelines.
 - **Freemium:** Perpetual free tier to lower CAC and build a massive user base.
 - **Reverse Trial:** Start with full access, then revert to a gated free tier if no purchase occurs.
 
-### 3. Pricing Strategies
+### 3. Choose a Pricing Strategy
 - **Value-Based Pricing (Preferred):** Based on perceived customer value (higher margins).
 - **Cost-Plus Pricing:** Cost of delivery + fixed markup (lower risk).
 - **Usage-Based:** Scales with consumption (ideal for infrastructure/SaaS).
 - **Other Models:** Economy, Premium, Penetration, Loss Leader, Dynamic.
 
-### 4. Value Stick Logic
+### 4. Apply the Value Stick Framework
 - **Willingness To Pay (WTP):** The maximum a customer will pay. Increase this via "Customer Delight" (features, quality, brand).
 - **Willingness To Sell (WTS):** The minimum a supplier/firm will accept. Lower this via efficiency or "Supplier Surplus."
 - **Firm Margin:** The gap between **Price** and **Cost**.
 
-### 5. Van Westendorp Pricing Survey
-Formulate these four critical questions:
+### 5. Design Price Sensitivity Research
+Follow the Van Westendorp pricing survey by answering these four critical questions:
 1. **Too Cheap:** At what price is quality questionable?
 2. **Bargain:** At what price is it a great deal?
 3. **Expensive:** At what price does it start to feel pricey?
@@ -51,6 +51,3 @@ Formulate these four critical questions:
 1. **Prioritize PLG:** Favor models where "the product does the selling" (Freemium/Trials) to lower CAC.
 2. **No Swiss Army Knives:** Ensure pricing tiers don't force specialized development for singular customers.
 3. **Evidence-Based:** Always suggest validating "gut feelings" with Van Westendorp surveys or Conjoint Analysis.
-4. **Oxford Commas:** Use Oxford commas in all lists.
-5. **Bullet Punctuation:** Ensure all descriptive bullet points end with a period.
-6. **Title Case:** Use Title Case for all headers.
