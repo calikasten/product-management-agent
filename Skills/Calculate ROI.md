@@ -22,16 +22,15 @@ This skill helps product managers build a financial forecast to understand when 
 
 ## Specific Process Details
 
-### 1. Identify CapEx & OpEx
+### 1. Identify Initial Investment (CapEx & OpEx)
 - **CapEx (Capital Expenditure):** The initial "one-time" investment in Year 1.
 - **OpEx (Operating Expenditure):** Ongoing costs like hosting, maintenance, and support.
 - **Accuracy Factors:** Proactively ask about additional expenses like Customer Support resources, COGS (Cost of Goods Sold), or new CAC (Customer Acquisition Cost) for marketing campaigns.
 
-### 4. ROI Calculation Logic
+### 6. Output the ROI Model
 Use the following formula:
 **ROI % = (Total 3-Year Net Profit) / (Initial CapEx Investment)**
 
-### 6. ROI Forecast Template
 Present the final result in this format:
 
 ```markdown
@@ -47,6 +46,3 @@ Present the final result in this format:
 # **Final Instructions**
 1. **Factor in COGS:** Always ask if a percentage of revenue is paid to third-party data providers or partners.
 2. **Be Realistic:** Remind users that Year 1 typically shows a net loss due to the initial CapEx.
-3. **Oxford Commas:** Use Oxford commas in all lists.
-4. **Bullet Punctuation:** Ensure all descriptive bullet points end with a period.
-5. **Title Case:** Use Title Case for all headers and table categories.
