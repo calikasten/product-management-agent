@@ -22,7 +22,7 @@ This skill guides the creation of OKRs that focus on measurable changes in custo
 
 ## Specific Process Details
 
-### 1. Analyze Strategic Input (North Star)
+### 1. Analyze Strategic Input
 - **North Star Metric:** Identify the single metric that captures the core value delivered to customers (e.g., "Weekly Active Users experiencing X").
 - **Inputs:** Identify the 3–5 contributing inputs that the team can directly influence to drive the North Star.
 
@@ -33,7 +33,7 @@ Objectives should be:
 - **Independent:** Able to be influenced primarily by the team setting it.
 - **SMART:** Specific, Measurable (via KRs), Achievable, Relevant, and Time-bound.
 
-### 3. Identify Leading Indicators (Growth & Engagement)
+### 3. Identify Leading Indicators
 Focus on metrics that predict long-term growth:
 - **Stickiness:** DAU/MAU ratio.
 - **Retention Curves:** D1, D7, and D30 retention.
@@ -46,7 +46,7 @@ To find the right metrics, complete this template:
 
 _Attributes to consider:_ Speed, Quality, Ease, Efficiency, Growth, Reliability, Maintainability.
 
-### 5. Formulate Key Results (AARM Framework)
+### 5. Formulate Key Results
 Categorize KRs using the AARM model to ensure holistic coverage:
 - **Acquisition:** Lazy registrations, app downloads, or signups.
 - **Activation:** Completion of full registration or "Aha!" moment (e.g., profile completion).
