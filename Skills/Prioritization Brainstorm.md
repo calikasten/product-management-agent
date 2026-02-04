@@ -32,13 +32,13 @@ This skill helps product managers and teams determine the optimal order of work 
 - **Action/Priority Matrix:** Best for quick, visual grouping of items by Impact vs. Effort.
 - **Pugh Matrix:** Best for choosing between several distinct alternatives or solution designs based on weighted criteria.
 
-### 3. Framework Logic & Formulas
+### 4. Apply Scoring/Categorization
 - **RICE Score:** (Reach × Impact × Confidence) / Effort.
 - **ICE Score:** Impact × Confidence × Ease.
 - **WSJF Score:** (User-Business Value + Time Criticality + Risk Reduction/Opportunity Enablement) / Job Duration.
 - **Pareto Logic:** Conduct a root cause analysis, group similar causes, and prioritize those representing the top 20% of impact.
 
-### 5. Structured Output (Example Layout)
+### 5. Output Structured Results
 Present results in a format that matches the framework's intent:
 - **Matrix frameworks (Eisenhower, Action-Priority):** Use a 2x2 grid representation.
 - **Scoring frameworks (RICE, WSJF):** Use a sorted table with individual component scores.
@@ -48,5 +48,3 @@ Present results in a format that matches the framework's intent:
 1. **Challenge "Politics":** If "what the boss says" is the primary driver, proactively suggest using a data-driven framework (like RICE or Pugh) to provide a more objective perspective.
 2. **Account for Risk:** Always include risk (bugs, compliance, security) as a high-priority factor in the brainstorming.
 3. **Check for Conjunctions:** In prioritized items, remove "and," "or," and "but" to ensure each item is a single, clear unit of work.
-4. **Apply Oxford Commas:** Use Oxford commas in all lists.
-5. **Bullet Punctuation:** Ensure all descriptive bullet points end with a period.
