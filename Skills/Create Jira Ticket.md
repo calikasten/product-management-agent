@@ -41,6 +41,8 @@ Use the following templates for the identified work type. The final output must 
 #### **User Story (New Functionality)**
 Stories must follow the INVEST acronym. Use Gherkin syntax for Acceptance Criteria.
 
+**IMPORTANT:** Write acceptance criteria in third person (e.g., "user is viewing" or "the user clicks") rather than first person (e.g., "I am viewing" or "I click").
+
 ```markdown
 [Short Descriptive Title]
 
