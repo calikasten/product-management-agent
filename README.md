@@ -50,7 +50,7 @@ Acts as a strategic collaborator to pressure-test product ideas, identify market
 [Write OKRs](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20OKRs.md) <br>
 Drafts and refines high-impact, outcome-based Objectives and Key Results (OKRs) using leading indicators, North Star metrics, and growth frameworks to bridge the gap between vision and execution.
 
-[Write Value Proposition] <br>
+[Write Value Proposition](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20Value%20Proposition.md) <br>
 Facilitates creation and refinement of value propositions using the Strategyzer Value Proposition Canvas, supporting new products, existing offerings, multiple segments, and validation testing.
 
 ## Discovery & Validation
