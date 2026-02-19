@@ -141,108 +141,165 @@ Choose between Discovery and Validation based on uncertainty level:
 #### DISCOVERY EXPERIMENTS (Quick & Cheap, Weak-to-Moderate Evidence)
 
 **Research & Analysis**
-- **Customer Interviews** - Cost: $, Time: 1-3 days, Evidence: ★★★ (D/F/V)
-  Talk to users about jobs, pains, gains. Strong for understanding problems.
-  
-- **Search Trend Analysis** - Cost: $, Time: 1-3 hours, Evidence: ★★ (D)
-  Google Trends, keyword search volume to gauge interest.
-  
-- **Customer Support Analysis** - Cost: $, Time: 1-3 days, Evidence: ★★★ (D)
-  Mine support tickets for common pain points.
-  
-- **Discussion Forums** - Cost: $, Time: 1-3 days, Evidence: ★★ (D)
-  Reddit, forums, social media for user conversations about problems.
+```
+┌──────────────────────────┬──────┬──────────┬──────────┬─────────┬──────────────────────────────────────┐
+│ Experiment               │ Cost │ Time     │ Evidence │ Risk    │ Description                          │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Customer Interviews      │ $    │ 1-3 days │ ★★★      │ D/F/V   │ Talk to users about jobs, pains,     │
+│                          │      │          │          │         │ gains. Strong for understanding      │
+│                          │      │          │          │         │ problems.                            │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Search Trend Analysis    │ $    │ 1-3 hrs  │ ★★       │ D       │ Google Trends, keyword search volume │
+│                          │      │          │          │         │ to gauge interest.                   │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Customer Support         │ $    │ 1-3 days │ ★★★      │ D       │ Mine support tickets for common pain │
+│ Analysis                 │      │          │          │         │ points.                              │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Discussion Forums        │ $    │ 1-3 days │ ★★       │ D       │ Reddit, forums, social media for     │
+│                          │      │          │          │         │ user conversations about problems.   │
+└──────────────────────────┴──────┴──────────┴──────────┴─────────┴──────────────────────────────────────┘
+```
 
 **Interest Testing**
-- **Fake Door Test** - Cost: $, Time: 1-3 days, Evidence: ★★★ (D)
-  "Coming soon" link to measure clicks/interest. Strong signal.
-  
-- **Feature Stub** - Cost: $, Time: 1-3 days, Evidence: ★★★ (D)
-  Link to non-existent feature to measure demand within existing product.
-  
-- **Online Ad** - Cost: $$, Time: 1-3 days, Evidence: ★★★ (D)
-  Run targeted ads to measure click-through rates on value prop.
-  
-- **Email Campaign** - Cost: $, Time: 1-3 days, Evidence: ★★★ (D)
-  Test messaging, measure opens/clicks/replies.
-  
-- **Social Media Campaign** - Cost: $-$$, Time: 1-3 days, Evidence: ★★ (D)
-  Shares, likes, comments as interest signals.
+```
+┌──────────────────────────┬──────┬──────────┬──────────┬─────────┬──────────────────────────────────────┐
+│ Experiment               │ Cost │ Time     │ Evidence │ Risk    │ Description                          │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Fake Door Test           │ $    │ 1-3 days │ ★★★      │ D       │ "Coming soon" link to measure clicks/│
+│                          │      │          │          │         │ interest. Strong signal.             │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Feature Stub             │ $    │ 1-3 days │ ★★★      │ D       │ Link to non-existent feature to      │
+│                          │      │          │          │         │ measure demand within existing       │
+│                          │      │          │          │         │ product.                             │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Online Ad                │ $$   │ 1-3 days │ ★★★      │ D       │ Run targeted ads to measure click-   │
+│                          │      │          │          │         │ through rates on value prop.         │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Email Campaign           │ $    │ 1-3 days │ ★★★      │ D       │ Test messaging, measure opens/clicks/│
+│                          │      │          │          │         │ replies.                             │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Social Media Campaign    │ $-$$ │ 1-3 days │ ★★       │ D       │ Shares, likes, comments as interest  │
+│                          │      │          │          │         │ signals.                             │
+└──────────────────────────┴──────┴──────────┴──────────┴─────────┴──────────────────────────────────────┘
+```
 
 **Low-Fidelity Prototypes**
-- **Paper Prototype** - Cost: $, Time: 1-3 hours, Evidence: ★★ (D/F)
-  Hand-drawn screens for usability testing.
-  
-- **Storyboard** - Cost: $, Time: 1-3 hours, Evidence: ★★ (D)
-  Visual narrative of user journey.
-  
-- **Explainer Video** - Cost: $$, Time: 1-3 days, Evidence: ★★★ (D)
-  Demonstrate value prop, measure signup conversions.
-  
-- **Brochure/Data Sheet** - Cost: $, Time: 1-3 hours, Evidence: ★★ (D/V)
-  One-pager with value prop and pricing to test B2B interest.
+```
+┌──────────────────────────┬──────┬──────────┬──────────┬─────────┬──────────────────────────────────────┐
+│ Experiment               │ Cost │ Time     │ Evidence │ Risk    │ Description                          │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Paper Prototype          │ $    │ 1-3 hrs  │ ★★       │ D/F     │ Hand-drawn screens for usability     │
+│                          │      │          │          │         │ testing.                             │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Storyboard               │ $    │ 1-3 hrs  │ ★★       │ D       │ Visual narrative of user journey.    │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Explainer Video          │ $$   │ 1-3 days │ ★★★      │ D       │ Demonstrate value prop, measure      │
+│                          │      │          │          │         │ signup conversions.                  │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Brochure/Data Sheet      │ $    │ 1-3 hrs  │ ★★       │ D/V     │ One-pager with value prop and pricing│
+│                          │      │          │          │         │ to test B2B interest.                │
+└──────────────────────────┴──────┴──────────┴──────────┴─────────┴──────────────────────────────────────┘
+```
 
 **Card Sorting & Prioritization**
-- **Card Sorting** - Cost: $, Time: 1-3 hours, Evidence: ★★ (D)
-  Test information architecture with users.
-  
-- **Buy a Feature** - Cost: $, Time: 1-3 hours, Evidence: ★★★ (D/V)
-  Give users budget to "buy" features, reveals priorities.
+```
+┌──────────────────────────┬──────┬──────────┬──────────┬─────────┬──────────────────────────────────────┐
+│ Experiment               │ Cost │ Time     │ Evidence │ Risk    │ Description                          │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Card Sorting             │ $    │ 1-3 hrs  │ ★★       │ D       │ Test information architecture with   │
+│                          │      │          │          │         │ users.                               │
+├──────────────────────────┼──────┼──────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Buy a Feature            │ $    │ 1-3 hrs  │ ★★★      │ D/V     │ Give users budget to "buy" features, │
+│                          │      │          │          │         │ reveals priorities.                  │
+└──────────────────────────┴──────┴──────────┴──────────┴─────────┴──────────────────────────────────────┘
+```
 
 #### VALIDATION EXPERIMENTS (Higher Cost/Time, Strong Evidence)
 
 **Interactive Prototypes**
-- **Clickable Prototype** - Cost: $$, Time: 1-3 weeks, Evidence: ★★★★ (D/F)
-  High-fidelity interactive mockup. Strong usability evidence.
-  
-- **Life-Sized Prototype** - Cost: $$$, Time: 1-3 weeks, Evidence: ★★★★ (D/F)
-  Physical prototype at full scale for hardware/physical products.
-  
-- **3D Print** - Cost: $$, Time: 1-3 days, Evidence: ★★★ (D/F)
-  Physical prototype for hardware validation.
+```
+┌──────────────────────────┬──────┬───────────┬──────────┬─────────┬──────────────────────────────────────┐
+│ Experiment               │ Cost │ Time      │ Evidence │ Risk    │ Description                          │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Clickable Prototype      │ $$   │ 1-3 weeks │ ★★★★     │ D/F     │ High-fidelity interactive mockup.    │
+│                          │      │           │          │         │ Strong usability evidence.           │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Life-Sized Prototype     │ $$$  │ 1-3 weeks │ ★★★★     │ D/F     │ Physical prototype at full scale for │
+│                          │      │           │          │         │ hardware/physical products.          │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ 3D Print                 │ $$   │ 1-3 days  │ ★★★      │ D/F     │ Physical prototype for hardware      │
+│                          │      │           │          │         │ validation.                          │
+└──────────────────────────┴──────┴───────────┴──────────┴─────────┴──────────────────────────────────────┘
+```
 
 **Call-to-Action Tests**
-- **Simple Landing Page** - Cost: $, Time: 1-3 hours, Evidence: ★★★ (D/V)
-  One-page site with signup to measure conversion rates.
-  
-- **Presale** - Cost: $$, Time: 1-3 weeks, Evidence: ★★★★★ (D/V)
-  Accept actual orders before building. Payment = very strong evidence.
-  
-- **Mock Sale** - Cost: $$, Time: 1-3 days, Evidence: ★★★★ (D/V)
-  Present sale, collect emails instead of payment. Strong price testing.
-  
-- **Crowdfunding** - Cost: $$, Time: 1-3 months, Evidence: ★★★★★ (D/V)
-  Kickstarter/Indiegogo campaign. Actual payments = strongest evidence.
-  
-- **Split Test (A/B Test)** - Cost: $$, Time: 1-3 weeks, Evidence: ★★★★ (D/V)
-  Compare two versions to optimize conversion.
-  
-- **Validation Survey** - Cost: $, Time: 1-3 days, Evidence: ★★★ (D/V)
-  Structured survey after discovery phase to confirm insights at scale.
+```
+┌──────────────────────────┬──────┬───────────┬──────────┬─────────┬──────────────────────────────────────┐
+│ Experiment               │ Cost │ Time      │ Evidence │ Risk    │ Description                          │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Simple Landing Page      │ $    │ 1-3 hrs   │ ★★★      │ D/V     │ One-page site with signup to measure │
+│                          │      │           │          │         │ conversion rates.                    │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Presale                  │ $$   │ 1-3 weeks │ ★★★★★    │ D/V     │ Accept actual orders before building.│
+│                          │      │           │          │         │ Payment = very strong evidence.      │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Mock Sale                │ $$   │ 1-3 days  │ ★★★★     │ D/V     │ Present sale, collect emails instead │
+│                          │      │           │          │         │ of payment. Strong price testing.    │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Crowdfunding             │ $$   │ 1-3 mos   │ ★★★★★    │ D/V     │ Kickstarter/Indiegogo campaign.      │
+│                          │      │           │          │         │ Actual payments = strongest evidence.│
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Split Test (A/B Test)    │ $$   │ 1-3 weeks │ ★★★★     │ D/V     │ Compare two versions to optimize     │
+│                          │      │           │          │         │ conversion.                          │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Validation Survey        │ $    │ 1-3 days  │ ★★★      │ D/V     │ Structured survey after discovery    │
+│                          │      │           │          │         │ phase to confirm insights at scale.  │
+└──────────────────────────┴──────┴───────────┴──────────┴─────────┴──────────────────────────────────────┘
+```
 
 **Minimal Products (MVPs)**
-- **Concierge** - Cost: $$, Time: 1-3 weeks, Evidence: ★★★★★ (D/F/V)
-  Deliver value manually (human-powered). Customer knows it's manual. Very strong.
-  
-- **Wizard of Oz** - Cost: $$$, Time: 1-3 weeks, Evidence: ★★★★★ (D/F/V)
-  Deliver value manually, but customer thinks it's automated. Very strong.
-  
-- **Single Feature MVP** - Cost: $$$, Time: 1-3 months, Evidence: ★★★★★ (D/F/V)
-  Build one core feature only. Real product in production.
-  
-- **Mash-Up (Piecemeal)** - Cost: $$, Time: 1-3 weeks, Evidence: ★★★★ (D/F/V)
-  Combine existing tools/services (Zapier, APIs) to simulate product.
+```
+┌──────────────────────────┬──────┬───────────┬──────────┬─────────┬──────────────────────────────────────┐
+│ Experiment               │ Cost │ Time      │ Evidence │ Risk    │ Description                          │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Concierge                │ $$   │ 1-3 weeks │ ★★★★★    │ D/F/V   │ Deliver value manually (human-       │
+│                          │      │           │          │         │ powered). Customer knows it's manual.│
+│                          │      │           │          │         │ Very strong.                         │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Wizard of Oz             │ $$$  │ 1-3 weeks │ ★★★★★    │ D/F/V   │ Deliver value manually, but customer │
+│                          │      │           │          │         │ thinks it's automated. Very strong.  │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Single Feature MVP       │ $$$  │ 1-3 mos   │ ★★★★★    │ D/F/V   │ Build one core feature only. Real    │
+│                          │      │           │          │         │ product in production.               │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Mash-Up (Piecemeal)      │ $$   │ 1-3 weeks │ ★★★★     │ D/F/V   │ Combine existing tools/services      │
+│                          │      │           │          │         │ (Zapier, APIs) to simulate product.  │
+└──────────────────────────┴──────┴───────────┴──────────┴─────────┴──────────────────────────────────────┘
+```
 
 **B2B Specific**
-- **Letter of Intent** - Cost: $, Time: 1-3 weeks, Evidence: ★★★★★ (D/V)
-  Formal commitment from customer to purchase. Very strong (but not as strong as payment).
-  
-- **Pop-Up Store** - Cost: $$$, Time: 1-3 weeks, Evidence: ★★★★ (D/V)
-  Temporary physical presence to test retail/B2C concept.
+```
+┌──────────────────────────┬──────┬───────────┬──────────┬─────────┬──────────────────────────────────────┐
+│ Experiment               │ Cost │ Time      │ Evidence │ Risk    │ Description                          │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Letter of Intent         │ $    │ 1-3 weeks │ ★★★★★    │ D/V     │ Formal commitment from customer to   │
+│                          │      │           │          │         │ purchase. Very strong (but not as    │
+│                          │      │           │          │         │ strong as payment).                  │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Pop-Up Store             │ $$$  │ 1-3 weeks │ ★★★★     │ D/V     │ Temporary physical presence to test  │
+│                          │      │           │          │         │ retail/B2C concept.                  │
+└──────────────────────────┴──────┴───────────┴──────────┴─────────┴──────────────────────────────────────┘
+```
 
 **Technical**
-- **Extreme Programming Spike** - Cost: $$, Time: 1-3 days, Evidence: ★★★★ (F)
-  Time-boxed technical investigation to prove feasibility.
+```
+┌──────────────────────────┬──────┬───────────┬──────────┬─────────┬──────────────────────────────────────┐
+│ Experiment               │ Cost │ Time      │ Evidence │ Risk    │ Description                          │
+├──────────────────────────┼──────┼───────────┼──────────┼─────────┼──────────────────────────────────────┤
+│ Extreme Programming      │ $$   │ 1-3 days  │ ★★★★     │ F       │ Time-boxed technical investigation   │
+│ Spike                    │      │           │          │         │ to prove feasibility.                │
+└──────────────────────────┴──────┴───────────┴──────────┴─────────┴──────────────────────────────────────┘
+```
 
 #### EXPERIMENT SEQUENCES (Chaining Tests Together)
 
