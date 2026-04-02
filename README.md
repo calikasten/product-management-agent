@@ -1,5 +1,5 @@
 # Product Management Agent
-Instructions and prompts for using an agent as an autonomous partner for product management work. Last Updated 02/20/2026. 
+Instructions and prompts for using an agent as an autonomous partner for product management work. Last Updated 04/01/2026. 
 
 For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents/blob/main/README.md#llm-context-101) and [Cursor Set Up](https://github.com/calikasten/agents/blob/main/README.md#cursor-setup).
 
@@ -72,16 +72,19 @@ Designs a strategy to validate product hypotheses using the leanest possible met
 
 ## Product Definition
 
-[Create User Story Map](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20User%20Story%20Map.md) <br>
-Creates a visual user story map as a Mermaid diagram that organizes user activities, tasks, and stories to illustrate the user's journey and prioritize delivery.
-
-[Write PRD](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20PRD.md) <br>
+[PRD](https://github.com/calikasten/product-management-agent/blob/main/Skills/PRD.md) <br>
 Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
+
+[User Story Map](https://github.com/calikasten/product-management-agent/blob/main/Skills/User%20Story%20Map.md) <br>
+Creates a visual user story map as a Mermaid diagram that organizes user activities, tasks, and stories to illustrate the user's journey and prioritize delivery.
 
 ## Execution & Delivery
 
 [Create Jira Ticket](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20Jira%20Ticket.md) <br>
 Transforms prompts or meeting notes into clear, actionable Jira user stories and bug tickets through structured clarification and explicit acceptance criteria, ready for automated creation via the [Atlassian MCP server](https://www.atlassian.com/platform/remote-mcp-server).
+
+[End of Life Announcement](https://github.com/calikasten/product-management-agent/blob/main/Skills/End%20Of%20Life%20Announcement.md) <br>
+Creates clear, professional end-of-life announcements that inform users when an application or feature is being deprecated, including timelines, migration paths, and support information.
 
 [Executive Update](https://github.com/calikasten/product-management-agent/blob/main/Skills/Executive%20Update.md) <br>
 Creates a high-impact status report update for cross-functional executives by synthesizing Jira tickets into strategic outcomes, highlighting customer traction, and framing technical progress as business value.
@@ -92,10 +95,7 @@ Splits large or complex user stories into smaller, high-value units of work to r
 [Sprint Review Summary](https://github.com/calikasten/product-management-agent/blob/main/Skills/Sprint%20Review%20Summary.md) <br>
 Summarizes weekly sprint progress by analyzing Jira tickets to highlight shipped work, blockers, in-progress items, and upcoming priorities.
 
-[Write End of Life Announcement](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20End%20Of%20Life%20Announcement.md) <br>
-Creates clear, professional end-of-life announcements that inform users when an application or feature is being deprecated, including timelines, migration paths, and support information.
-
-[Write Release Notes](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20Release%20Notes.md) <br>
+[Release Notes](https://github.com/calikasten/product-management-agent/blob/main/Skills/Release%20Notes.md) <br>
 Creates clear, non-technical release notes by analyzing shipped Jira tickets and translating recent features and fixes into concise explanations of workflow changes and user benefits.
 
 ---
