@@ -1,5 +1,5 @@
 ---
-name: write-release-notes
+name: release-notes
 description: Creates clear, non-technical release notes by analyzing shipped Jira tickets and translating recent features and fixes into concise explanations of workflow changes and user benefits.
 ---
 
