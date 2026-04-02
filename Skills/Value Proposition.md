@@ -1,5 +1,5 @@
 ---
-name: write-value-proposition
+name: value-proposition
 description: Facilitates creation and refinement of value propositions using the Strategyzer Value Proposition Canvas, supporting new products, existing offerings, multiple segments, and validation testing.
 ---
 
