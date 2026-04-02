@@ -1,5 +1,5 @@
 ---
-name: split-user-stories
+name: split-user-story
 description: Splits large or complex user stories into smaller, high-value units of work to reduce risk, increase visibility, and maintain a steady delivery cadence.
 ---
 
