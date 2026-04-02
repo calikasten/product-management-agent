@@ -12,7 +12,7 @@ Creates or edits content to be concise, clear, and high-impact, preserving the u
 [Manage Task List](https://github.com/calikasten/product-management-agent/blob/main/Skills/Manage%20Task%20List.md) <br>
 Maintains an up-to-date Markdown task list by adding, updating, reordering, and archiving tasks, tracking blockers and priorities, and generating clear progress summaries for fast visibility and informed decision-making.
 
-[New AI Skill](https://github.com/calikasten/product-management-agent/blob/main/Skills/0New%20AI%20Skill.md) <br>
+[New AI Skill](https://github.com/calikasten/product-management-agent/blob/main/Skills/New%20AI%20Skill.md) <br>
 Generates a standardized SKILL.md file for a new AI skill by clarifying requirements, producing clear, agent-ready instructions, and saving it to the correct directory.
 
 [Provide Critical Feedback](https://github.com/calikasten/product-management-agent/blob/main/Skills/Provide%20Critical%20Feedback.md) <br>
