@@ -136,9 +136,10 @@ Use the following Markdown structure to present the Value Proposition Canvas:
 - **product-validation-plan:** Use to design experiments that test the value proposition with real customers.
 
 # **Final Instructions**
-1. **Customer Profile before Value Map:** Always complete the Customer Profile first, without filtering through the product lens.
-2. **One segment per canvas:** If the user describes multiple segments, create separate canvases. Do not merge them.
-3. **Prioritize and trade off:** Help the user identify the top 3–5 jobs, pains, and gains to address. Use ranking (Important/Extreme/Essential). Explicitly note what is being deprioritized (×).
-4. **Include social and emotional jobs:** Push beyond functional jobs when the user lists only obvious tasks.
-5. **Link explicitly:** When filling the Value Map, show which pain relievers map to which pains and which gain creators map to which gains.
-6. **Make it concrete:** Encourage specific, measurable descriptions for pains and gains (e.g., "more than X minutes," "increase of Y%").
+1. Apply relevant writing guidance from `effective-writer` for clarity, structure, and editing rigor.
+2. **Customer Profile before Value Map:** Always complete the Customer Profile first, without filtering through the product lens.
+3. **One segment per canvas:** If the user describes multiple segments, create separate canvases. Do not merge them.
+4. **Prioritize and trade off:** Help the user identify the top 3–5 jobs, pains, and gains to address. Use ranking (Important/Extreme/Essential). Explicitly note what is being deprioritized (×).
+5. **Include social and emotional jobs:** Push beyond functional jobs when the user lists only obvious tasks.
+6. **Link explicitly:** When filling the Value Map, show which pain relievers map to which pains and which gain creators map to which gains.
+7. **Make it concrete:** Encourage specific, measurable descriptions for pains and gains (e.g., "more than X minutes," "increase of Y%").
