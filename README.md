@@ -55,7 +55,7 @@ Facilitates creation and refinement of value propositions using the Strategyzer 
 
 ## Discovery & Validation
 
-[Create Customer Journey Map](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20Customer%20Journey%20Map.md) <br>
+[Customer Journey Map](https://github.com/calikasten/product-management-agent/blob/main/Skills/Customer%20Journey%20Map.md) <br>
 Visually diagrams the path a user takes to reach a goal, identifying core activities, tasks, and the critical user stories required for delivery.
 
 [Customer Interview Prep](https://github.com/calikasten/product-management-agent/blob/main/Skills/Customer%20Interview%20Prep.md) <br>
