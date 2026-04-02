@@ -1,5 +1,5 @@
 ---
-name: create-now-next-later-roadmap
+name: now-next-later-roadmap
 description: Creates outcome-driven "Now, Next, Later" roadmaps that illustrate progress as predictions rather than rigid promises.
 ---
 
