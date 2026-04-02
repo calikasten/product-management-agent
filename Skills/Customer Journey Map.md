@@ -1,5 +1,5 @@
 ---
-name: create-customer-journey-map
+name: customer-journey-map
 description: Visually diagrams the path a user takes to reach a goal, identifying core activities, tasks, and the critical user stories required for delivery.
 ---
 
