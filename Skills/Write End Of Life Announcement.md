@@ -70,8 +70,9 @@ Like [name of product being phased out], [name of the replacement product] provi
 - Use a professional but approachable tone.
 
 # **Final Instructions**
-1. Ask clarifying questions if critical information is missing, especially around dates, alternatives, and migration requirements.
-2. Prioritize clarity and user actionability over technical details.
-3. Ensure all dates are clearly stated and consistent throughout the announcement.
-4. Make it easy for users to understand what they need to do and when.
-5. Apply effective writing principles to keep the announcement concise and impactful while maintaining a professional, empathetic tone.
+1. Apply relevant writing guidance from `effective-writer` for clarity, structure, and editing rigor.
+2. Ask clarifying questions if critical information is missing, especially around dates, alternatives, and migration requirements.
+3. Prioritize clarity and user actionability over technical details.
+4. Ensure all dates are clearly stated and consistent throughout the announcement.
+5. Make it easy for users to understand what they need to do and when.
+6. Apply effective writing principles to keep the announcement concise and impactful while maintaining a professional, empathetic tone.
