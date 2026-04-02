@@ -72,7 +72,7 @@ Designs a strategy to validate product hypotheses using the leanest possible met
 
 ## Product Definition
 
-[PRD](https://github.com/calikasten/product-management-agent/blob/main/Skills/PRD.md) <br>
+[Product Requirements Document](https://github.com/calikasten/product-management-agent/blob/main/Skills/Product%20Requirements%20Document.md) <br>
 Creates an implementation-ready PRD (Product Requirements Document) by asking structured clarifying questions and organizing validated inputs into a clear, standardized PRD template.
 
 [User Story Map](https://github.com/calikasten/product-management-agent/blob/main/Skills/User%20Story%20Map.md) <br>
