@@ -1,5 +1,5 @@
 ---
-name: write-okrs
+name: objectives-and-key-results
 description: Drafts and refines high-impact, outcome-based Objectives and Key Results (OKRs) using leading indicators, North Star metrics, and growth frameworks to bridge the gap between vision and execution.
 ---
 
