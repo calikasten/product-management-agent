@@ -6,14 +6,14 @@ For more information on how to effectively use these prompt files and set up age
 ## General Skills
 _AI skills that can be used across multiple tasks regardless of domain._
 
-[Create New AI Skill](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20New%20AI%20Skill.md) <br>
-Generates a standardized SKILL.md file for a new AI skill by clarifying requirements, producing clear, agent-ready instructions, and saving it to the correct directory.
-
 [Effective Writer](https://github.com/calikasten/product-management-agent/blob/main/Skills/Effective%20Writer.md) <br>
 Creates or edits content to be concise, clear, and high-impact, preserving the user’s tone while optimizing for busy professionals, applying evidence-based writing principles and rigorous editing standards.
 
 [Manage Task List](https://github.com/calikasten/product-management-agent/blob/main/Skills/Manage%20Task%20List.md) <br>
 Maintains an up-to-date Markdown task list by adding, updating, reordering, and archiving tasks, tracking blockers and priorities, and generating clear progress summaries for fast visibility and informed decision-making.
+
+[New AI Skill](https://github.com/calikasten/product-management-agent/blob/main/Skills/0New%20AI%20Skill.md) <br>
+Generates a standardized SKILL.md file for a new AI skill by clarifying requirements, producing clear, agent-ready instructions, and saving it to the correct directory.
 
 [Provide Critical Feedback](https://github.com/calikasten/product-management-agent/blob/main/Skills/Provide%20Critical%20Feedback.md) <br>
 Provides direct, evidence-based feedback on product ideas and artifacts by challenging assumptions, surfacing strategic gaps, and offering concrete guidance to strengthen product thinking, decision-making, and communication.
