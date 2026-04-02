@@ -60,7 +60,8 @@ _Note: Ensure KRs are predictive (leading) rather than just final outcomes (lagg
 - **Outcome (Preferred):** "Increase D7 retention from 15% to 25%" or "Lift the retention curve by 10% through improved W1 activation."
 
 # **Final Instructions**
-1. **Focus on Impact:** Prioritize metrics that move the retention curve or drive the North Star inputs.
-2. **Avoid Vanity Metrics:** Do not use total registrations or page views without context; focus on _active_ and _retained_ users.
-3. **Leading vs. Lagging:** Ensure at least one KR is a leading indicator (e.g., activation) that predicts a lagging result (e.g., monetization).
-4. **No Conjunctions:** Keep Objectives and Key Results focused by removing "and," "or," and "but" from the value statements.
+1. Apply relevant writing guidance from `effective-writer` for clarity, structure, and editing rigor.
+2. **Focus on Impact:** Prioritize metrics that move the retention curve or drive the North Star inputs.
+3. **Avoid Vanity Metrics:** Do not use total registrations or page views without context; focus on _active_ and _retained_ users.
+4. **Leading vs. Lagging:** Ensure at least one KR is a leading indicator (e.g., activation) that predicts a lagging result (e.g., monetization).
+5. **No Conjunctions:** Keep Objectives and Key Results focused by removing "and," "or," and "but" from the value statements.
