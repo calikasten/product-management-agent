@@ -20,20 +20,20 @@ Provides direct, evidence-based feedback on product ideas and artifacts by chall
 
 ## Strategy & Planning
 
-[Calculate ROI](https://github.com/calikasten/product-management-agent/blob/main/Skills/Calculate%20ROI.md) <br>
+[Forecast ROI](https://github.com/calikasten/product-management-agent/blob/main/Skills/Forecast%20ROI.md) <br>
 Forecasts the profitability of a new product or feature by calculating the 3-year Return on Investment (ROI) based on initial CapEx, ongoing OpEx, and projected revenue.
-
-[Calculate TAM](https://github.com/calikasten/product-management-agent/blob/main/Skills/Calculate%20TAM.md) <br>
-Sizes the Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) to expose, challenge, and test assumptions for market opportunity.
-
-[Create Now-Next-Later Roadmap](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20Now-Next-Later%20Roadmap.md) <br>
-Creates outcome-driven "Now, Next, Later" roadmaps that illustrate progress as predictions rather than rigid promises.
 
 [Lean Canvas Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Lean%20Canvas%20Brainstorm.md) <br>
 Facilitates a structured Lean Canvas brainstorming session to deconstruct product ideas into actionable business models, identifying market demand, core problems, and unique value.
 
 [Market Research](https://github.com/calikasten/product-management-agent/blob/main/Skills/Market%20Research.md) <br>
 Conducts comprehensive competitive market research on companies in the agentic commerce space, analyzing company profiles, funding, products, strategy, and go-to-market approaches.
+
+[Now-Next-Later Roadmap](https://github.com/calikasten/product-management-agent/blob/main/Skills/Now-Next-Later%20Roadmap.md) <br>
+Creates outcome-driven "Now, Next, Later" roadmaps that illustrate progress as predictions rather than rigid promises.
+
+[OKRs](https://github.com/calikasten/product-management-agent/blob/main/Skills/OKRs.md) <br>
+Drafts and refines high-impact, outcome-based Objectives and Key Results (OKRs) using leading indicators, North Star metrics, and growth frameworks to bridge the gap between vision and execution.
 
 [Pricing Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Pricing%20Brainstorm.md) <br>
 Facilitates a strategic session to determine acquisition strategies, sales tactics, and pricing models using pricing frameworks.
@@ -44,13 +44,13 @@ Facilitates a structured brainstorming session to prioritize problems, features,
 [Risk Mitigation Plan](https://github.com/calikasten/product-management-agent/blob/main/Skills/Risk%20Mitigation%20Plan.md) <br>
 Facilitates risk identification and mitigation using pre-mortems, anti-pattern detection, and structured likelihood vs. impact matrices to safeguard project success.
 
+[Size TAM](https://github.com/calikasten/product-management-agent/blob/main/Skills/Size%20TAM.md) <br>
+Sizes the Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) to expose, challenge, and test assumptions for market opportunity.
+
 [Strategy Brainstorm](https://github.com/calikasten/product-management-agent/tree/main/Skills) <br>
 Acts as a strategic collaborator to pressure-test product ideas, identify market opportunities, and apply structured stratagic frameworks.
 
-[Write OKRs](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20OKRs.md) <br>
-Drafts and refines high-impact, outcome-based Objectives and Key Results (OKRs) using leading indicators, North Star metrics, and growth frameworks to bridge the gap between vision and execution.
-
-[Write Value Proposition](https://github.com/calikasten/product-management-agent/blob/main/Skills/Write%20Value%20Proposition.md) <br>
+[Value Proposition](https://github.com/calikasten/product-management-agent/blob/main/Skills/Value%20Proposition.md) <br>
 Facilitates creation and refinement of value propositions using the Strategyzer Value Proposition Canvas, supporting new products, existing offerings, multiple segments, and validation testing.
 
 ## Discovery & Validation
