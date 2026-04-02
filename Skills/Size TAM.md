@@ -1,5 +1,5 @@
 ---
-name: calculate-tam
+name: size-tam
 description: Sizes the Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) to expose, challenge, and test assumptions for market opportunity.
 ---
 
