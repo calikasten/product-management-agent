@@ -1,5 +1,5 @@
 ---
-name: strategic-brainstorm-partner
+name: strategy-brainstorm
 description: Acts as a strategic collaborator to pressure-test product ideas, identify market opportunities, and apply structured strategic frameworks.
 ---
 
