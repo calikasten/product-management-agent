@@ -54,7 +54,8 @@ Write a status report update geared towards executive cross-functional partners 
 ```
 
 # **Final Instructions**
-1. Ask clarifying questions if context is missing, such as the specific timeframe to analyze or which Jira project to review.
-2. Ensure all ticket titles are hyperlinked to their corresponding Jira tickets.
-3. Focus on user and business value when describing work items.
-4. Clearly call out any blockers or delays mentioned in ticket comments.
+1. Apply relevant writing guidance from `effective-writer` for clarity, structure, and editing rigor.
+2. Ask clarifying questions if context is missing, such as the specific timeframe to analyze or which Jira project to review.
+3. Ensure all ticket titles are hyperlinked to their corresponding Jira tickets.
+4. Focus on user and business value when describing work items.
+5. Clearly call out any blockers or delays mentioned in ticket comments.
