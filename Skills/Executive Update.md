@@ -53,6 +53,7 @@ The final output must follow this exact markdown template:
 ```
 
 # **Final Instructions**
-1. Prioritize business outcomes and user value over a list of completed tasks.
-2. Ensure all headers for the accomplishments and focus sections use the correct months based on today's date.
-3. If brand names are detected, they must be included in a "Customer Traction" or similar strategic pillar.
+1. Apply relevant writing guidance from `effective-writer` for clarity, structure, and editing rigor.
+2. Prioritize business outcomes and user value over a list of completed tasks.
+3. Ensure all headers for the accomplishments and focus sections use the correct months based on today's date.
+4. If brand names are detected, they must be included in a "Customer Traction" or similar strategic pillar.
