@@ -1,5 +1,5 @@
 ---
-name: create-user-story-map
+name: user-story-map
 description: Creates a visual user story map as a Mermaid diagram that organizes user activities, tasks, and stories to illustrate the user's journey and prioritize delivery.
 ---
 
