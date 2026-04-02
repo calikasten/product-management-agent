@@ -32,7 +32,7 @@ Conducts comprehensive competitive market research on companies in the agentic c
 [Now-Next-Later Roadmap](https://github.com/calikasten/product-management-agent/blob/main/Skills/Now-Next-Later%20Roadmap.md) <br>
 Creates outcome-driven "Now, Next, Later" roadmaps that illustrate progress as predictions rather than rigid promises.
 
-[OKRs](https://github.com/calikasten/product-management-agent/blob/main/Skills/OKRs.md) <br>
+[Objectives and Key Results](https://github.com/calikasten/product-management-agent/blob/main/Skills/Objectives%20and%20Key%20Results.md) <br>
 Drafts and refines high-impact, outcome-based Objectives and Key Results (OKRs) using leading indicators, North Star metrics, and growth frameworks to bridge the gap between vision and execution.
 
 [Pricing Brainstorm](https://github.com/calikasten/product-management-agent/blob/main/Skills/Pricing%20Brainstorm.md) <br>
