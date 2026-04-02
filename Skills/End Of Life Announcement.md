@@ -1,5 +1,5 @@
 ---
-name: write-end-of-life-announcement
+name: end-of-life-announcement
 description: Creates clear, professional end-of-life announcements that inform users when an application or feature is being deprecated, including timelines, migration paths, and support information.
 ---
 
