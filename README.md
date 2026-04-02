@@ -47,7 +47,7 @@ Facilitates risk identification and mitigation using pre-mortems, anti-pattern d
 [Size TAM](https://github.com/calikasten/product-management-agent/blob/main/Skills/Size%20TAM.md) <br>
 Sizes the Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) to expose, challenge, and test assumptions for market opportunity.
 
-[Strategy Brainstorm](https://github.com/calikasten/product-management-agent/tree/main/Skills/Strategy%20Brainstorm) <br>
+[Strategy Brainstorm](https://github.com/calikasten/product-management-agent/tree/main/Skills/Strategy%20Brainstorm.md) <br>
 Acts as a strategic collaborator to pressure-test product ideas, identify market opportunities, and apply structured stratagic frameworks.
 
 [Value Proposition](https://github.com/calikasten/product-management-agent/blob/main/Skills/Value%20Proposition.md) <br>
