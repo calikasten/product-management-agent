@@ -89,7 +89,7 @@ Creates clear, professional end-of-life announcements that inform users when an 
 [Executive Update](https://github.com/calikasten/product-management-agent/blob/main/Skills/Executive%20Update.md) <br>
 Creates a high-impact status report update for cross-functional executives by synthesizing Jira tickets into strategic outcomes, highlighting customer traction, and framing technical progress as business value.
 
-[Split User Story](https://github.com/calikasten/product-management-agent/blob/main/Skills/Split%20User%20Story) <br>
+[Split User Story](https://github.com/calikasten/product-management-agent/blob/main/Skills/Split%20User%20Story.md) <br>
 Splits large or complex user stories into smaller, high-value units of work to reduce risk, increase visibility, and maintain a steady delivery cadence.
 
 [Sprint Review Summary](https://github.com/calikasten/product-management-agent/blob/main/Skills/Sprint%20Review%20Summary.md) <br>
