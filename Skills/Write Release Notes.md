@@ -55,7 +55,8 @@ Write release notes geared towards a non-technical user that describes everythin
 ```
 
 # **Final Instructions**
-1. Ask clarifying questions if context is missing, such as the specific timeframe or which Jira project to analyze.
-2. Focus on user-facing changes and benefits rather than technical implementation details.
-3. Group related tickets into cohesive features or functionality.
-4. Write in clear, non-technical language that users can easily understand.
+1. Apply relevant writing guidance from `effective-writer` for clarity, structure, and editing rigor.
+2. Ask clarifying questions if context is missing, such as the specific timeframe or which Jira project to analyze.
+3. Focus on user-facing changes and benefits rather than technical implementation details.
+4. Group related tickets into cohesive features or functionality.
+5. Write in clear, non-technical language that users can easily understand.
