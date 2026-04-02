@@ -4,96 +4,120 @@ description: Creates an implementation-ready PRD (Product Requirements Document)
 ---
 
 # **Purpose**
-Creates a detailed, implementation-ready PRD (Product Requirements Document ) to align goals, outcomes, and requirements. It serves as the initial proposal to guide discovery, structure development efforts, and define the MVP critical path.
+Creates a detailed, implementation-ready PRD that aligns goals, outcomes, and requirements while staying concise and scannable for Product, Design, and Engineering. It serves as the initial proposal to guide discovery, structure development efforts, and define the MVP critical path.
 
 ## When To Use
-Use this skill when the user wants to create a PRD for a new product, feature, or functionality. It is especially useful for complex projects requiring alignment across business, user, and technical perspectives.
+Use this skill when the user wants to create, rewrite, expand, or clean up a PRD for a new product, feature, or functionality. It is especially useful for complex projects that require alignment across business, user, and technical perspectives. Do not use this skill for Jira ticket creation, release notes, or executive updates unless the user explicitly asks for PRD output.
 
 # **Overall Agent Process**
-1. **Ask Clarifying Questions:** Gather details across the five requirement types (Business, Functional, User, Technical, Non-functional) and identify the core problem/root cause.
-2. **Write PRD:** Organize inputs into the standardized template, including gap analysis and MVP definition.
-3. **Save PRD:** Save as "PRD - [Feature Name].md" in the user's specified directory.
+1. **Confirm Context:** Identify the initiative, audience, and whether the PRD is net-new or a revision.
+2. **Ask Structured Clarifying Questions:** Gather details across the five requirement types (Business, Functional, User, Technical, Non-functional), plus problem/root cause and success evaluation.
+3. **Capture Core Inputs:** Organize the problem, gap analysis, goal, users, workflow, features, dependencies, risks, and MVP critical path.
+4. **Draft in House Style:** Write the PRD using the required section order, header hierarchy, and bullet patterns.
+5. **Refine for Clarity:** Remove fluff, tighten language, and ensure every section is specific and actionable.
+6. **Validate Completeness:** Confirm scope boundaries, assumptions, dependencies, and acceptance criteria are clear and testable.
+7. **Save PRD:** Save the final PRD as `PRD - [Feature Name].md` in the user-specified directory.
 
 ## Specific Process Details
+### 1. Confirm Context
+If critical context is missing, ask focused clarifying questions before drafting:
+- What initiative or feature does this PRD cover?
+- Who is the primary audience and decision-maker?
+- Is this net-new or a revision of an existing PRD?
+- What timeline, constraints, or dependencies matter most?
 
-### 1. Ask Clarifying Questions
-Structure questions as a numbered list with nested sub-questions (e.g., 1, 2, 2.1). Cover:
-- **Problem & Root Cause:** Why is this important? Who is impacted? What is the root cause?
-- **Gap Analysis:** What is the current state? What is the desired state?
-- **Target Audience:** Market assessment and target demographics.
-- **Requirement Types:**
-    - _Business:_ Why is the product needed?
-    - _Functional:_ What should the product do?
-    - _User:_ Tasks the user can perform.
-    - _Technical:_ Security, network, platform, or integration needs.
-    - _Non-functional:_ Performance, reliability, scalability (Sprint 0 concerns).
-- **Success & Evaluation:** How will we measure if the solution was beneficial?
+### 2. Ask Structured Clarifying Questions
+Ask questions as a numbered list with nested sub-questions when needed (for example: 1, 2, 2.1). Cover:
+- Problem and root cause:
+  - Why is this important now?
+  - Who is impacted?
+  - What is the root cause?
+- Gap analysis:
+  - What is the current state?
+  - What is the desired state?
+  - What is the specific gap between the two?
+- Target users and market context:
+  - Who is this for?
+  - What user segments, roles, or demographics matter most?
+- Requirement types:
+  - Business requirements (why the product/feature is needed)
+  - Functional requirements (what behaviors the system must support)
+  - User requirements (what tasks users must be able to perform)
+  - Technical requirements (security, platform, network, integrations)
+  - Non-functional requirements (performance, reliability, scalability, maintainability, usability)
+- Success and evaluation:
+  - How will we measure whether the solution is beneficial?
 
-### 2. Write PRD
-The final output must follow the exact structure of this template:
+### 3. Capture Core Inputs
+Collect and organize the minimum inputs needed for a strong PRD:
+- Problem statement grounded in user and business impact
+- Root cause framing
+- Gap analysis (Current State, Desired State, The Gap)
+- Goal and intended outcomes
+- Target user definition
+- End-to-end user workflow
+- Feature-level requirements
+- Input dependencies, data sources, and systems
+- Assumptions and risks
+- MVP critical path definition
+- Scope exclusions and non-goals
 
-```markdown
-# **Overview**
-[Brief 2-3 sentence description of what this feature/product is and why it matters.]
+### 4. Draft in House Style
+Use this structure by default unless the user explicitly asks for a different template:
 
-## Problem Statement & Root Cause
-[What problem does this feature solve? Why is solving it important now? What is the root cause?]
-
+```
+# Overview
+## Problem Statement
 ## Goal
-[What is the primary goal? How does it align with business requirements?]
-
-### Success Metrics & Evaluation Plan
-[What are the specific, measurable objectives? How will we measure if the solution was beneficial?]
-
-## Target Users & Market Assessment
-[Who is this feature for? Include user segments, roles, or personas and target demographics.]
-
-## Gap Analysis
-### Current State
-[Description of the existing problem or how things work today.]
-### Desired State
-[The vision for how things should work once implemented.]
-### The Gap
-[The specific delta between current and desired states.]
-
-# **Core Functionality**
-## Workflow & Features Summary
-[Break these out into individual sub-features numbered chronologically as ## Feature Name. Include both User Requirements (tasks) and Functional Requirements (behaviors). Each individual sub-feature should clearly state the specific functionalities that feature must have.]
-
-# **MVP & Implementation Considerations**
-## Critical Path & MVP Definition
-[Identify the coherent list of what needs to be done to deliver the MVP as the first releasable instance for user feedback.]
-
+### Success Metrics
+## Target Users
+# Core Functionality
+## User Journey/Workflow
+### Feature 1: ... (repeat for each feature)
+# Considerations
 ## Scope
-[Clearly state what this feature will NOT include.]
-
-## [Optional] Design Considerations
-[Layout, wireframes/mockups, descriptions of relevant components/styles, accessibility requirements, and/or operational logistics like workflows or process maps.]
-
-## [Optional] Technical & Non-Functional Requirements
-[Security, network, platform, or integrations. Include Sprint 0 concerns like performance, reliability, maintainability, scalability, or usability.]
-
-## [Optional] Data
-[Considerations of what kind of data this feature will require as inputs and what kind of data this feature will produce.]
-
-# **Assumptions & Risks**
-## Assumptions
-[Hypothesis that must be true in order for this feature to be successful.]
-
-## [Optional] Edge Cases & Dependencies
-[Potential scenarios that "break" the workflow and how to handle them. Include any known technical constraints or third-party dependencies.]
-
-## Risks
-[List of risks, impact, and mitigation strategies.]
 ```
 
-### 3. Save PRD
-- **Format:** markdown (`.md`).
-- **Filename:** `PRD - [Feature Name].md`.
-- **Location:** Ask the user which directory to save the file in.
+Formatting and tone requirements:
+- Use concise, direct prose with short paragraphs.
+- Use numbered lists for sequential workflows.
+- Use bullet points for capabilities, details, and inputs.
+- Use bolded subsection labels within feature sections, for example:
+  - `**Front-End Screen:**`
+  - `**Back-End Workflow:**`
+  - `**Inputs:**`
+- Keep language concrete and operational; avoid filler and vague claims.
+- Focus on the "why" and the "what"; avoid over-specifying the implementation "how."
+
+### 5. Refine for Clarity
+Pressure-test each section before finalizing:
+- Does the problem clearly explain why now and why it matters?
+- Is the root cause explicit and evidence-based?
+- Does the gap analysis clearly connect current state to desired state?
+- Are goals measurable and tied to outcomes?
+- Are workflows readable from end to end without ambiguity?
+- Are feature details specific enough for Design and Engineering planning?
+- Are dependencies and input sources explicit?
+
+### 6. Validate Completeness
+Before delivering the PRD:
+- Confirm sections are complete and in the right order.
+- Ensure scope explicitly lists non-goals.
+- Ensure acceptance criteria, when included, use GIVEN/WHEN/THEN syntax.
+- Flag assumptions, open questions, and unresolved decisions.
+- Include non-functional requirements where they materially affect architecture or delivery planning.
+
+### 7. Save PRD
+- Format: markdown (`.md`)
+- Filename: `PRD - [Feature Name].md`
+- Location: ask the user which directory to save the file in.
 
 # **Final Instructions**
-1. **Focus on the "Why" and "What":** Communicate the value and behaviors needed, leaving the "how" for design/system blueprints.
-2. **Prioritize the MVP:** Clearly distinguish between the critical path for the MVP and future iterations.
-3. **Address the Gap:** Ensure the transition from Current State to Desired State is logical and fully addressed by the requirements.
-4. **Sprint 0 Thinking:** Include explicit non-functional requirements to inform the system's architecture and constraints.
+1. Default to the house PRD format and style from `agentic-discovery/PRD - Content Readiness.md`.
+2. Preserve the user's domain language: Foundry is a platform; Agentic Discovery is a solution.
+3. Follow all relevant writing guidance from `effective-writer` (clarity, precision, direct voice, and editing rigor) unless it conflicts with PRD structure requirements in this skill.
+4. Prioritize PRD succinctness and skimmability from this skill over broader writing preferences when there is any conflict.
+5. Keep output high-signal with clear headers and bullet discipline.
+6. Prioritize the MVP by explicitly distinguishing critical path requirements from future iterations.
+7. Ensure the transition from Current State to Desired State is logically addressed by requirements.
+8. Ask clarifying questions only when missing context would materially reduce PRD quality.
