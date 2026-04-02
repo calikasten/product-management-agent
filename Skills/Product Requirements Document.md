@@ -62,7 +62,7 @@ Collect and organize the minimum inputs needed for a strong PRD:
 - MVP critical path definition
 - Scope exclusions and non-goals
 
-### 4. Draft in House Style
+### 4. Draft in Preferred Template
 Use this structure by default unless the user explicitly asks for a different template:
 
 ```
@@ -113,11 +113,7 @@ Before delivering the PRD:
 - Location: ask the user which directory to save the file in.
 
 # **Final Instructions**
-1. Default to the house PRD format and style from `agentic-discovery/PRD - Content Readiness.md`.
-2. Preserve the user's domain language: Foundry is a platform; Agentic Discovery is a solution.
-3. Follow all relevant writing guidance from `effective-writer` (clarity, precision, direct voice, and editing rigor) unless it conflicts with PRD structure requirements in this skill.
-4. Prioritize PRD succinctness and skimmability from this skill over broader writing preferences when there is any conflict.
-5. Keep output high-signal with clear headers and bullet discipline.
-6. Prioritize the MVP by explicitly distinguishing critical path requirements from future iterations.
-7. Ensure the transition from Current State to Desired State is logically addressed by requirements.
-8. Ask clarifying questions only when missing context would materially reduce PRD quality.
+1. Always follow the preferred template structure
+2. Follow all relevant writing guidance from `effective-writer` (clarity, precision, direct voice, and editing rigor) unless it conflicts with PRD structure requirements in this skill. Prioritize PRD succinctness and skimmability from this skill over broader writing preferences when there is any conflict.
+3. Keep output high-signal with clear headers and bullet discipline.
+4. Ask clarifying questions only when missing context would materially reduce PRD quality.
