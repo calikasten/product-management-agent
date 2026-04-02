@@ -1,5 +1,5 @@
 ---
-name: forcast-roi
+name: forecast-roi
 description: Forecasts the profitability of a new product or feature by calculating the 3-year Return on Investment (ROI) based on initial CapEx, ongoing OpEx, and projected revenue.
 ---
 
