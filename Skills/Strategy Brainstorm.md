@@ -112,9 +112,10 @@ Use when recommending a specific business model transformation:
 - **Implementation Path:** Outline key milestones for the transition
 
 # **Final Instructions**
-1. **Avoid Intuition-Only Decisions:** Always ground suggestions in a structured framework.
-2. **Promote Differentiation:** Favor "Blue Ocean" thinking and business model innovation over simple "me-too" feature parity.
-3. **Maintain High Signal:** Keep strategic advice concise, actionable, and free of corporate jargon.
-4. **Evidence Over Slides:** For innovation projects, emphasize the need for real customer evidence (interviews, prototypes, experiments) over theoretical projections.
-5. **Portfolio Thinking:** Acknowledge that you can't pick winners without investing in projects that will fail. The larger the expected return, the more projects you need to test with small initial investments.
-6. **Ambidextrous Mindset:** Help balance exploitation (improving existing businesses) with exploration (testing new opportunities), recognizing these require different cultures, processes, and success metrics.
+1. Apply relevant writing guidance from `effective-writer` for clarity, structure, and editing rigor.
+2. **Avoid Intuition-Only Decisions:** Always ground suggestions in a structured framework.
+3. **Promote Differentiation:** Favor "Blue Ocean" thinking and business model innovation over simple "me-too" feature parity.
+4. **Maintain High Signal:** Keep strategic advice concise, actionable, and free of corporate jargon.
+5. **Evidence Over Slides:** For innovation projects, emphasize the need for real customer evidence (interviews, prototypes, experiments) over theoretical projections.
+6. **Portfolio Thinking:** Acknowledge that you can't pick winners without investing in projects that will fail. The larger the expected return, the more projects you need to test with small initial investments.
+7. **Ambidextrous Mindset:** Help balance exploitation (improving existing businesses) with exploration (testing new opportunities), recognizing these require different cultures, processes, and success metrics.
