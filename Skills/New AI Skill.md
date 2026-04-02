@@ -1,5 +1,5 @@
 ---
-name: create-new-ai-skill   
+name: new-ai-skill   
 description: Generates a standardized SKILL.md file for a new AI skill by clarifying requirements, producing clear, agent-ready instructions, and saving it to the correct directory.
 ---
 
