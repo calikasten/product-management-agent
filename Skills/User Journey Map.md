@@ -21,7 +21,7 @@ This skill helps product managers and UX designers visualize the process a perso
    - **If it doesn’t fit:** Say so and switch or blend—e.g. funnel (taxonomy A) for purchase/adoption, operational shorthand (C) for internal tooling, or **rename/merge** stages (e.g. combine Frame + first Interpret beat) when the user’s flow is simpler or collaboration-heavy.
    - **Table columns:** one column per agreed stage _unless_ **Interpret** is split into explicit sub-lenses; that yields more columns but stays one logical **Interpret** stage.
 4. **Detail Journey Dimensions (vertical axis):** For each phase column, fill the rows using either the **generic** row set or the **portal / in-product analytics** row set (see **Output rows**).
-5. **Output Structured Map:** Present the journey using the **appropriate table template**; add optional banner, swimlane, or metrics sections when useful. Follow **Markdown table formatting** so the file stays readable and diff-friendly.
+5. **Output Structured Map:** Present the journey using the **appropriate table template**; add optional banner, swimlane, or metrics sections when useful. Follow **Markdown Table Formatting** (this skill) for every journey table.
 
 ## Journey Taxonomies
 
@@ -85,14 +85,16 @@ Use **Title Case** for row labels that are proper product labels and stay consis
 
 ## Markdown Table Formatting
 
-Keep tables **maintainable in source**:
+**Use this format for every user journey map table** unless the user explicitly asks for something else (e.g. slide export, transposed layout). Goals: readable in source control, clean in preview, no wide “ASCII art” padding.
 
 - **Stages = columns; dimensions = rows.** First header cell may be empty (`| |`).
-- **No column padding:** do not pad cells with spaces to align pipes; one space after each `|` is enough.
-- **Separator row:** minimal `| --- | --- | ... |` only (no wide dashed cells).
-- **Empty cells:** use an em dash **—** (not `--`).
-- **Multiple lines in one cell:** use HTML **`<br>`** between lines (most Markdown renderers honor this in tables). Put each distinct bullet or sentence on its own line in the source via `<br>`, not as one enormous unbroken string.
-- **Emphasis:** **bold** a small number of terms per cell (metrics, page names, key actions) for scannability—avoid bolding entire cells.
+- **No column padding:** never pad cells with spaces to align pipes; one space after each `|` is enough.
+- **Separator row:** only `| --- | --- | ... |` (no extra-long dashed cells).
+- **Empty / N/A cells:** em dash **—** (not `--`).
+- **Line breaks inside cells:** use HTML `<br>`. Stack **distinct actions, pages, questions, or blocks** with **double breaks** **`<br><br>`** so there is a clear visual gap between items (e.g. separate user actions, separate portal pages, separate evidence paths). Do not rely on long single-line paragraphs in cells.
+- **Inline bullet lists using `•`:** do not run items as `foo • bar • baz` on one line. Put the **first** segment first, then **`<br>•`** before each additional item (e.g. KPI cluster lines, Growth Drivers sub-bullets).
+- **Italics vs bold in tables:** use **single-underscore** `_italic_` for light emphasis (parentheticals, qualifiers). Use **`**bold**`** for load-bearing terms (actions, page names, metrics). Do not use `*italic*` in journey tables if `_italic_` will work—keeps emphasis unambiguous next to `**bold**`.
+- **Scannable emphasis:** bold only the highest-signal words per cell; avoid bolding entire cells.
 
 ## Standard Output Template: Classic Funnel
 
@@ -156,4 +158,4 @@ Use when the journey is anchored in **named product surfaces** and **UI modules*
 4. **Pick the row set deliberately:** Generic vs **portal / in-product analytics**—default the latter for **analytics, dashboards, and B2B reporting** in a named product.
 5. **Ask before drafting:** If persona, scenario, or success is unclear, ask clarifying questions first. If **only** the phase model is ambiguous (e.g. funnel vs analytics), state a **recommended** column set and offer an alternative in one line rather than blocking.
 6. **Format preference:** If the user will paste into Miro or a slide, offer **stages as rows** instead of columns on request—same content, transposed layout.
-7. **Apply Markdown table formatting** (compact pipes, `—`, `<br>` in cells) so outputs stay readable in version control and in preview.
+7. **Apply Markdown table formatting** per **Markdown Table Formatting** above: compact pipes, `—` for empty cells, `<br><br>` between stacked items, `<br>•` for `•`-style sub-lists, and `_` / `**` for italics vs bold.
