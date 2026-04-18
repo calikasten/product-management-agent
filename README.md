@@ -1,5 +1,5 @@
 # Product Management Agent
-Instructions and prompts for using an agent as an autonomous partner for product management work. Last Updated 04/01/2026. 
+Instructions and prompts for using an agent as an autonomous partner for product management work. Last Updated 04/18/2026. 
 
 For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents/blob/main/README.md#llm-context-101) and [Cursor Set Up](https://github.com/calikasten/agents/blob/main/README.md#cursor-setup).
 
@@ -55,9 +55,6 @@ Facilitates creation and refinement of value propositions using the Strategyzer 
 
 ## Discovery & Validation
 
-[Customer Journey Map](https://github.com/calikasten/product-management-agent/blob/main/Skills/Customer%20Journey%20Map.md) <br>
-Visually diagrams the path a user takes to reach a goal, identifying core activities, tasks, and the critical user stories required for delivery.
-
 [Customer Interview Prep](https://github.com/calikasten/product-management-agent/blob/main/Skills/Customer%20Interview%20Prep.md) <br>
 Prepares high-impact, story-based customer interview guides to uncover actual user behavior and unmet needs while avoiding the trap of perceived behavior.
 
@@ -69,6 +66,9 @@ Facilitates continual validation throughout the SDLC (Software Development Lifec
 
 [Product Validation Plan](https://github.com/calikasten/product-management-agent/blob/main/Skills/Product%20Validation%20Plan.md) <br>
 Designs a strategy to validate product hypotheses using the leanest possible methods, ranging from low-fidelity prototypes to production experiments and Minimum Viable Products (MVPs).
+
+[User Journey Map](https://github.com/calikasten/product-management-agent/blob/main/Skills/User%20Journey%20Map.md) <br>
+Visually diagrams the path a user takes to reach a goal, identifying core activities, tasks, and the critical user stories required for delivery.
 
 ## Product Definition
 
