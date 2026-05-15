@@ -1,6 +1,6 @@
 ---
 name: cleanup-jira-tickets
-description: Audits Jira tickets in the project for a given time range, identifies formatting violations, drafts corrected versions, and pushes approved fixes to Jira — including descriptions, title casing, spike title format, and reporter assignment.
+description: Audits Jira tickets in the project for a given time range, identifies formatting violations, drafts corrected versions, and pushes approved fixes to Jira.
 ---
 
 # **Purpose**
