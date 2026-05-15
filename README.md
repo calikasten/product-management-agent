@@ -80,6 +80,9 @@ Creates a visual user story map as a Mermaid diagram that organizes user activit
 
 ## Execution & Delivery
 
+[Clean Up Jira Tickets](https://github.com/calikasten/product-management-agent/blob/main/Skills/Clean%20Up%20Jira%20Tickets.md) <br>
+Audits Jira tickets in the project for a given time range, identifies formatting violations, drafts corrected versions, and pushes approved fixes to Jira.
+
 [Create Jira Ticket](https://github.com/calikasten/product-management-agent/blob/main/Skills/Create%20Jira%20Ticket.md) <br>
 Transforms prompts or meeting notes into clear, actionable Jira user stories and bug tickets through structured clarification and explicit acceptance criteria, ready for automated creation via the [Atlassian MCP server](https://www.atlassian.com/platform/remote-mcp-server).
 
