@@ -121,13 +121,8 @@ An AI model's context can be compared to a layer cake, where higher layers can *
 ```
 These layers generally exist across different model providers and tools, though their exact behavior and naming vary.
 
-| **Model Provider** | **Tool Name** | **Tool Format** | **Projects** | **Custom Tool** | **User Preferences**                             |
-| ------------------ | ------------- | --------------- | ------------ | --------------- | ------------------------------------------------ |
-| Anthropic          | Claude        | UI              | Projects     |                 | Settings > General > Personal Preferences        |
-| OpenAI             | ChatGPT       | UI              | Projects     | Custom GPTs     | Settings > Personalization > Custom Instructions |
-| Google             | Gemini        | UI              | NotebookLM   | Gemini Gems     | Settings > Instructions                          |
-
 Where available, custom tools and projects can be used together. Projects act as the top-level container for collaboration, shared context, and workflow organization. Custom tools then operate within a project, inheriting shared resources and configuration while remaining reusable assistants with their own prompts, tools, and task focus.
+
 ```
 ┌─────────────────────────────────────────────────┐
 │ Project                                         │
@@ -173,7 +168,7 @@ Skills can be utilized on a project level or on a global level:
 | Antigravity   | `.agent/skills/`  | `~/.gemini/antigravity/skills/` |
 | Codex         | `.codex/skills/`  | `~/.codex/skills/`              |
 
-Each skill resides in its own subdirectory under `.cursor/skills/` and contains a `SKILL.md` file:
+Each skill resides in its own subdirectory under `skills/` and contains a `SKILL.md` file:
 ```
 skills/
 ├── my-skill/                       
@@ -185,36 +180,30 @@ skills/
 ```
 
 ---
-# Cursor Setup
-[Cursor](https://cursor.com/) is currently my preferred tool for its filesystem-based customization, built-in MCP server integration, and familiar IDE interface. To use the agent instructions and skills from this GitHub repo, follow these steps to pull the latest agent or skill files and create symlinks to reference additional context in your Cursor project.
+# Setup
+To use the agent instructions and skills from this GitHub repo, follow these steps to pull the latest agent or skill files and create symlinks to reference additional context in your project.
 
-## Setting Up Cursor Rules
-Cursor rules control agent behavior within the codebase, similar to `AGENTS.md` files. Store rules in `.cursor/rules/` and create multiple files in `.md` or `.mdc` formats.
+## Setting Up Instructions
+Add an `AGENTS.md` file (or `CLAUDE.md` file) to the project by pulling the latest version of the agent instructions prompt (`AGENTS.md`) from this repo and save it as a `.md` file:
 
-1. Create the `.cursor/rules` folders in your project.
-2. Navigate to the `rules` folder:
 ```shell
-cd /full/folder/path/for/project/.cursor/rules
-```
-3. Pull the latest version of the agent instructions prompt (`AGENTS.md`) from this repo and save it as a `.mdc` file:
-```shell
- curl -s 'https://raw.githubusercontent.com/calikasten/product-management-agent/refs/heads/main/AGENTS.md' > './AGENTS.mdc'
+ curl -s 'https://raw.githubusercontent.com/calikasten/product-management-agent/refs/heads/main/AGENTS.md' > './AGENTS.md'
 ```
 
-## Setting Up Cursor Skills
-Cursor skills are step-by-step guides that teach agents specific tasks. 
+## Setting Up Skills
+Add individual skills to serve as step-by-step guides that teach agents a specific tasks. 
 
-1. Create the `.cursor/skills/` folders and a subdirectory for the skill.
+1. Within the `skills/` folders, add a new subdirectory for the specific skill you want to save.
 2. Navigate to the specific skill folder:
 ```shell
-cd /full/folder/path/for/project/.cursor/skills/specific-skill-name
+cd /full/folder/path/for/project/skills/specific-skill-name
 ```
 3. Pull the latest version of a skill from this repo:
 ```shell
  curl -s 'https://raw.githubusercontent.com/calikasten/product-management-agent/main/Skills/Writete%20PRD.md' > './SKILL.md'  
 ```
 ## Setting Up Additional Context
-Additional contextcan be provided to Cursor by by linking other files or folders in your project. Use symlinks to point to the original location so updates are automatically reflected.
+Additional contextcan be provided by linking other files or folders in your project. Use symlinks to point to the original location so updates are automatically reflected.
 
 1. Navigate to the project folder:
 ```shell
