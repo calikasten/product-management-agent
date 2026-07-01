@@ -206,7 +206,7 @@ cd /full/folder/path/for/project/skills/specific-skill-name
  curl -s 'https://raw.githubusercontent.com/calikasten/product-management-agent/main/Skills/Writete%20PRD.md' > './SKILL.md'  
 ```
 ## Setting Up Additional Context
-Additional contextcan be provided by linking other files or folders in your project. Use symlinks to point to the original location so updates are automatically reflected.
+Additional context can be provided by linking other files or folders in your project. Use symlinks to point to the original location so updates are automatically reflected.
 
 1. Navigate to the project folder:
 ```shell
