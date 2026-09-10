@@ -114,6 +114,7 @@ Miscellaneous work for the product team.
 - Project: Ask the user to specify which project to create the ticket in.
 - Link to an Epic as a child task if an Epic is mentioned.
 - - **Summary format:** Always use title case for ticket summaries.
+- After creating the ticket, add a comment containing the original prompt and any clarifying questions and answers from the drafting conversation.
 
 # **Final Instructions**
 1. **Validate against INVEST:** Before finalizing a User Story, ensure it is Small enough for one sprint and Testable.
