@@ -14,6 +14,7 @@ Use this skill when the user wants to a create Jira ticket from a brief descript
 2. **Ask Clarifying Questions:** Gather sufficient details for the specific work type to ensure a "definition of done" can be established.
 3. **Draft Ticket:** Format the ticket using the appropriate template and principles (INVEST for stories, reproduction steps for bugs, etc.).
 4. **Create Ticket:** Use the Atlassian MCP server to create the ticket in Jira.
+5. **Add Attribution Comment:** Add a comment to the newly created ticket noting that it was authored by Claude.
 
 ## Specific Process Details
 
@@ -43,6 +44,8 @@ Stories must follow the INVEST acronym. Use Gherkin syntax for Acceptance Criter
 
 **IMPORTANT:** Write acceptance criteria in third person (e.g., "user is viewing" or "the user clicks") rather than first person (e.g., "I am viewing" or "I click").
 
+**Persona defaults:** Use **Foundry engineer**, **Foundry PM**, or **Agentic Discovery app user** when one clearly matches who benefits from the story. Use another short, specific role only if none of those fit; avoid vague “user” unless the story is truly cross-role.
+
 ```markdown
 [Short Descriptive Title]
 
@@ -56,6 +59,31 @@ THEN [expected result/value]
 [Optional] **Notes:**
 - [Important reminders or technical specifications]
 ```
+
+**Formatting:** Bold **As a**, **I want**, **so that**. Use **Acceptance Criteria:** (bold, title case, colon). GIVEN/WHEN/THEN in all caps, not bold, no bullets, each on its own line — separate GIVEN, WHEN, and THEN with a hard return/carriage return (an actual line break in the markdown), never wrapped together in a single paragraph line.
+
+**Multiple acceptance criteria:** When a story has 2+ distinct acceptance scenarios, use fully-bolded, numbered `**AC #N: <Title Case Description>**` blocks (one per scenario, each followed by its own GIVEN/WHEN/THEN) instead of a single grouped list. **Do not** precede these with a separate `**Acceptance Criteria:**` header — the numbered `AC #N:` heading itself replaces it:
+
+```markdown
+[Short Descriptive Title]
+
+**As a** [persona], **I want** [action/outcome] **so that** [reasoning/value].
+
+**AC #1: [Title Case Scenario Description]**
+GIVEN [condition/context]
+WHEN [trigger/action]
+THEN [expected result/value]
+
+**AC #2: [Title Case Scenario Description]**
+GIVEN [condition/context]
+WHEN [trigger/action]
+THEN [expected result/value]
+
+[Optional] **Notes:**
+- [Important reminders or technical specifications]
+```
+
+**Voice (match product owner style):** PM-to-eng tone—short clauses, not policy-manual prose. **I want** = tight hook (often ticket-title close), not a paragraph. **so that** = one plain-language benefit. Use real surfaces in AC: page names, table/row/column, exact UI labels. Default to **one** GIVEN/WHEN/THEN for the main behavior; put edge cases, math, rounding, backward compatibility, and historical ticket context in **Notes** unless “done” depends on them. GIVEN = minimum precondition; WHEN = user action or trigger; THEN = what is visible or measurable.
 
 #### **Fixing Something (Bug)**
 Bugs do not undergo estimation and should focus on reproduction.
@@ -83,7 +111,7 @@ Bugs do not undergo estimation and should focus on reproduction.
 Spikes are timeboxed and focus on exploration rather than implementation.
 
 ```markdown
-[Short Descriptive Title] - Spike
+SPIKE -- [Short Descriptive Title]
 
 **Background:** [Context and why this research is necessary.]
 
@@ -111,15 +139,19 @@ Miscellaneous work for the product team.
 ```
 
 ### 4. Create Ticket
-- Project: Ask the user to specify which project to create the ticket in.
+- **Project:** Default to the **SFO** Jira project. Only ask the user if they specify a different project.
 - Link to an Epic as a child task if an Epic is mentioned.
 - - **Summary format:** Always use title case for ticket summaries.
-- After creating the ticket, add a comment containing the original prompt and any clarifying questions and answers from the drafting conversation.
+
+### 5. Add Attribution Comment
+- Immediately after the ticket is created, use `addCommentToJiraIssue` to add a comment noting that the ticket was authored by Claude, e.g. "This ticket was authored by Claude."
+- Use `contentFormat: markdown`. This applies to every ticket created via this skill, regardless of work type.
 
 # **Final Instructions**
 1. **Validate against INVEST:** Before finalizing a User Story, ensure it is Small enough for one sprint and Testable.
 2. **Story Splitting:** If a user story covers multiple outcomes or seems too large for a single sprint, proactively suggest "splitting" it into multiple smaller, more focused stories.
-3. **Gherkin Syntax:** Always use GIVEN/WHEN/THEN for User Story acceptance criteria to ensure a clear "definition of done."
+3. **Gherkin Syntax:** Always use GIVEN/WHEN/THEN for User Story acceptance criteria to ensure a clear "definition of done." Each clause must be on its own line, separated by a hard return/carriage return — never run together in a single paragraph.
 4. **Avoid Implementation in User Stories:** Ensure User Stories focus on *what* and *why*. If implementation details (the *how*) are provided, move them to the "Notes" section instead of the Story description.
 4. **Timebox Spikes:** Never leave a Spike open-ended; always include a suggested or requested timebox.
 5. **Automate:** Use the Atlassian MCP tool to create the ticket after the draft is approved.
+6. **Attribute:** After creation, always add a Jira comment noting the ticket was authored by Claude — no exceptions.
