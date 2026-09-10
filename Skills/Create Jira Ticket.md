@@ -139,7 +139,6 @@ Miscellaneous work for the product team.
 ```
 
 ### 4. Create Ticket
-- **Project:** Default to the **SFO** Jira project. Only ask the user if they specify a different project.
 - Link to an Epic as a child task if an Epic is mentioned.
 - - **Summary format:** Always use title case for ticket summaries.
 
