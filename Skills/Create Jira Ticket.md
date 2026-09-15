@@ -14,7 +14,7 @@ Use this skill when the user wants to a create Jira ticket from a brief descript
 2. **Ask Clarifying Questions:** Gather sufficient details for the specific work type to ensure a "definition of done" can be established.
 3. **Draft Ticket:** Format the ticket using the appropriate template and principles (INVEST for stories, reproduction steps for bugs, etc.).
 4. **Create Ticket:** Use the Atlassian MCP server to create the ticket in Jira.
-5. **Add Attribution Comment:** Add a comment to the newly created ticket noting that it was authored by Claude.
+5. **Add Attribution Comment:** Add a comment to the newly created ticket noting that it was authored by Claude, including the original prompt and any clarifying questions/answers that shaped the ticket.
 
 ## Specific Process Details
 
@@ -143,8 +143,22 @@ Miscellaneous work for the product team.
 - - **Summary format:** Always use title case for ticket summaries.
 
 ### 5. Add Attribution Comment
-- Immediately after the ticket is created, use `addCommentToJiraIssue` to add a comment noting that the ticket was authored by Claude, e.g. "This ticket was authored by Claude."
-- Use `contentFormat: markdown`. This applies to every ticket created via this skill, regardless of work type.
+- Immediately after the ticket is created, use `addCommentToJiraIssue` to add a comment noting that the ticket was authored by Claude. Use `contentFormat: markdown`. This applies to every ticket created via this skill, regardless of work type.
+- The comment must also capture the context that produced the ticket, so the reasoning behind it is traceable later:
+  - **Original prompt:** the user's original request verbatim (or a faithful summary if it was extremely long, e.g. pasted meeting notes — note that it was summarized).
+  - **Clarifying questions & answers:** every clarifying question asked in Step 2 and the answer given, as a list. Omit this section entirely if no clarifying questions were needed.
+- Template:
+
+```markdown
+This ticket was authored by Claude.
+
+**Original prompt:**
+> [verbatim or faithfully summarized original request]
+
+**Clarifying questions & answers:**
+- Q: [question] — A: [answer]
+- Q: [question] — A: [answer]
+```
 
 # **Final Instructions**
 1. **Validate against INVEST:** Before finalizing a User Story, ensure it is Small enough for one sprint and Testable.
@@ -153,4 +167,4 @@ Miscellaneous work for the product team.
 4. **Avoid Implementation in User Stories:** Ensure User Stories focus on *what* and *why*. If implementation details (the *how*) are provided, move them to the "Notes" section instead of the Story description.
 4. **Timebox Spikes:** Never leave a Spike open-ended; always include a suggested or requested timebox.
 5. **Automate:** Use the Atlassian MCP tool to create the ticket after the draft is approved.
-6. **Attribute:** After creation, always add a Jira comment noting the ticket was authored by Claude — no exceptions.
+6. **Attribute:** After creation, always add a Jira comment noting the ticket was authored by Claude, including the original prompt and any clarifying Q&A — no exceptions.
