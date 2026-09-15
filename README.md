@@ -1,5 +1,5 @@
 # Product Management Agent
-Instructions and prompts for using an agent as an autonomous partner for product management work. Last Updated 09/10/2026. 
+Instructions and prompts for using an agent as an autonomous partner for product management work. Last Updated 09/15/2026. 
 
 For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents/blob/main/README.md#llm-context-101) and [Cursor Set Up](https://github.com/calikasten/agents/blob/main/README.md#cursor-setup).
 
