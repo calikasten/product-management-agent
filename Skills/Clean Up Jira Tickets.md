@@ -23,8 +23,11 @@ Use this skill when the user wants to review and clean up recently created Jira 
 ### 1. Fetch Tickets
 
 **Defaults (use unless the user specifies otherwise):**
+- Project: ask the user which Jira project to audit if they haven't specified one.
 - Time range: **past 7 days** (`created >= -7d`)
-Use `searchJiraIssuesUsingJql` with fields: `summary`, `description`, `issuetype`, `status`, `assignee`, `created`. Request up to 50 results. Use `responseContentFormat: markdown`.
+- Cloud ID: look it up with `getAccessibleAtlassianResources`.
+
+Use `searchJiraIssuesUsingJql` with fields: `summary`, `description`, `issuetype`, `status`, `assignee`, `reporter`, `created`. Request up to 50 results. Use `responseContentFormat: markdown`.
 
 ### 2. Audit Each Ticket
 
@@ -33,10 +36,17 @@ For each ticket, check the following based on its Jira issue type:
 #### Story (issue type: "Story")
 The description must contain all of the following:
 - `**As a**` ... `**I want**` ... `**so that**` — one-line user story statement
+- **Approved persona** in the `**As a**` clause — it must be exactly one of: **Foundry engineer**, **Foundry PM**, or **Agentic Discovery app user**. Flag any other persona (e.g. "Foundry operator", "Foundry data engineer", "signal author", "product owner", "brand user in Foundry", a brand name). Map to the closest approved persona from the ticket's content (backend/data pipeline/infrastructure → Foundry engineer; internal tooling, process, or PM-run skills/DAGs → Foundry PM; dashboard or brand-facing app features → Agentic Discovery app user). **If the right persona isn't clear from the ticket, don't guess — ask the user which one to use** before drafting that ticket.
 - Acceptance criteria header — either `**Acceptance Criteria:**` **or** incrementally numbered blocks. Both formats are compliant. For numbered blocks, the entire label plus description must be bolded as one unit — `**AC #1: <description>**` — not just the `AC #1:` label with a plain-text description after it.
 - `GIVEN` / `WHEN` / `THEN` — all caps, no bullets, each on its own line separated by a hard return/carriage return (an actual line break, not just wrapped text within one paragraph)
 
 Flag if any of these are missing or if the description is empty. Also flag GIVEN/WHEN/THEN clauses that are present but run together without a hard return between them (e.g. merged into one line or one paragraph).
+
+**Line spacing in numbered AC blocks:** The AC title and its GIVEN / WHEN / THEN (and AND) lines are stacked with single hard returns only — no blank lines between the AC title and `GIVEN`, or between `GIVEN`, `WHEN`, `THEN`, and `AND`. Use a blank line only to separate one AC block from the next. These should be soft returns (Shift+Enter in Jira), not separate paragraphs.
+
+**Tooling limitation:** The Jira update tool converts every line break in a markdown description into a separate paragraph, so it cannot produce soft returns. Trailing spaces, single newlines, backslash line endings, and ADF input all fail, and sending HTML (`<br>`) rewrites the whole ticket as HTML — do not use it. So when a numbered AC block has blank lines between its lines, flag it in the report and tell the user it needs a manual Shift+Enter fix in Jira. Do not re-push those descriptions, and never overwrite a description that already has soft returns, since the push would replace them with paragraphs.
+
+Wrap identifiers containing underscores or braces in backticks, and avoid braces inside code spans (the converter mangles them).
 
 #### Bug (issue type: "Bug")
 The description must contain:
@@ -62,15 +72,16 @@ The description must contain:
 
 #### All Ticket Types
 - **Title casing:** Summary must be in title case. Lowercase: prepositions (`in`, `on`, `for`, `from`, `to`, `of`, `at`, `via`, `with`), articles (`a`, `an`, `the`), and short conjunctions (`and`, `but`, `or`, `nor`). Exception: always capitalize the first word.
-- **Reporter:** Should be set to Cali Kasten (`5f15b1e8591bbc001bcc4dd1`). Flag if not set to her.
-- **Team member names:** Do not include role qualifiers. Write "Jessie", not "Jessie (SVP)".
+- **Reporter:** Should be set to Cali Kasten. Flag if not set to her.
+- **Team member names:** Do not include role qualifiers. Use the person's name only (e.g., "Alex", not "Alex (SVP)").
+- **Environment names:** Any reference to an environment must state **DEV** or **PROD**, always in all caps (not "dev", "Dev", "prod", "Prod", or "production"). Flag lowercase or mixed-case mentions, and flag tickets where an environment is implied but not stated. Don't change `dev`/`prod` inside code identifiers, paths, or table names (e.g., a `prod` schema); only the prose. If the intended environment isn't clear from the ticket, ask the user.
 
 ### 3. Report Violations
 
 Present a table or list showing:
 - Ticket key + linked summary
 - Issue type
-- What's wrong (e.g., "Empty description", "Missing GIVEN/WHEN/THEN", "Title not title case", "Spike missing Timebox")
+- What's wrong (e.g., "Empty description", "Missing GIVEN/WHEN/THEN", "Title not title case", "Spike missing Timebox", "Non-approved persona")
 
 Clearly separate tickets that are **fully compliant** from those that **need fixes**.
 
@@ -80,6 +91,8 @@ For each non-compliant ticket, draft:
 1. A corrected **summary** (proper title case; spike prefix if applicable)
 2. A corrected **description** using the appropriate template
 
+**Personas:** Every story must use one of the approved personas below, whether the description is sparse or fully written. Replace non-approved personas when drafting fixes, and ask the user when the correct one can't be determined from the ticket.
+
 **When drafting from sparse context (e.g., empty description):** Infer intent from the title. Use the correct persona defaults:
 - **Foundry engineer** — for backend, data pipeline, or infrastructure work
 - **Foundry PM** — for internal tooling or process stories
@@ -87,7 +100,7 @@ For each non-compliant ticket, draft:
 
 **Voice:** PM-to-eng tone. Short clauses. `**I want**` = tight hook. `**so that**` = one plain-language benefit. One GIVEN/WHEN/THEN for the main behavior; edge cases go in Notes.
 
-**Do not** include team member role qualifiers (e.g., write "Jessie", not "Jessie (SVP)").
+**Do not** include team member role qualifiers (e.g., write "Alex", not "Alex (SVP)").
 
 **For issue type mismatches** (e.g., a Bug filed as a Story): Draft the description in the correct format and note the suggested issue type change. Warn the user that issue type cannot be changed via the API and must be updated manually in Jira.
 
@@ -104,9 +117,7 @@ Present all drafts grouped by ticket. Ask the user to confirm before pushing. Al
 For approved tickets, use `editJiraIssue` to update **in parallel**:
 - `summary` — corrected title
 - `description` — corrected body (use `contentFormat: markdown`)
-- `reporter` — always set to `{"id": "5f15b1e8591bbc001bcc4dd1"}`
-
-Cloud ID: `0ec0c56c-e73e-483d-9aeb-4b4741d9749e`
+- `reporter` — set to Cali Kasten's account ID (look it up once with `lookupJiraAccountId`)
 
 After all updates succeed, confirm which tickets were updated with links.
 

@@ -8,6 +8,7 @@ Creates or edits content to be concise, clear, and high-impact by applying evide
 
 ## When To Use
 Use this skill when the user wants to write, edit, or improve written content (drafts, documents, presentations, messages, etc.) to make it more concise, clear, and impactful. Do not use this skill for tasks that don't involve writing or editing, or when the user explicitly wants to maintain their current writing style without optimization.
+When the request is specifically for PRD creation or PRD rewrites, prefer the `product-requirements-document` skill as the primary skill and use this skill as supporting guidance.
 
 # **Overall Agent Process**
 1. **Receive Content:** The user provides content to write, edit, or review (draft, document, presentation, message, etc.).
