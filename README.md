@@ -1,5 +1,5 @@
 # Product Management Agent
-Instructions and prompts for using an agent as an autonomous partner for product management work. Last Updated 09/29/2026. 
+Instructions and prompts for using an agent as an autonomous partner for product management work. Last Updated 11/5/2026. 
 
 For more information on how to effectively use these prompt files and set up agents, see [LLM Context 101](https://github.com/calikasten/agents/blob/main/README.md#llm-context-101) and [Set Up](https://github.com/calikasten/agents/blob/main/README.md#setup).
 
@@ -158,8 +158,6 @@ This pattern exists across tools, though implementations and file naming convent
 | ------------- | ------------------- | -------------------------- | --------------------------------------- | ------------------------------ |
 | Claude Code   | CLI                 | Project folder             | `CLAUDE.md`                             | `SKILL.md`                     |
 | Cursor        | IDE                 | Project folder             | Files in `.cursor/rules/`               | `SKILL.md`                     |
-| Gemini CLI    | CLI                 | Project folder             | `GEMINI.md`                             | `SKILL.md`                     |
-| Antigravity   | IDE                 | Project folder             | `GEMINI.md` (also supports `AGENTS.md`) | `SKILL.md`                     |
 | Codex         | CLI / IDE extension | Project folder             | `AGENTS.md`                             | `SKILL.md`                     |
 
 Skills can be utilized on a project level or on a global level:
@@ -167,8 +165,6 @@ Skills can be utilized on a project level or on a global level:
 | ------------- | ----------------- | ------------------------------- |
 | Claude Code   | `.claude/skills/` | `~/.claude/skills/`             |
 | Cursor        | `.cursor/skills/` | `~/.cursor/skills/`             |
-| Gemini CLI    |	`.gemini/skills/` |	`~/.gemini/skills/`             |
-| Antigravity   | `.agent/skills/`  | `~/.gemini/antigravity/skills/` |
 | Codex         | `.codex/skills/`  | `~/.codex/skills/`              |
 
 Each skill resides in its own subdirectory under `skills/` and contains a `SKILL.md` file:
@@ -203,7 +199,7 @@ cd /full/folder/path/for/project/skills/specific-skill-name
 ```
 3. Pull the latest version of a skill from this repo:
 ```shell
- curl -s 'https://raw.githubusercontent.com/calikasten/product-management-agent/main/Skills/Writete%20PRD.md' > './SKILL.md'  
+ curl -s 'https://raw.githubusercontent.com/calikasten/product-management-agent/main/Skills/Effective%20Writer.md' > './SKILL.md'  
 ```
 ## Setting Up Additional Context
 Additional context can be provided by linking other files or folders in your project. Use symlinks to point to the original location so updates are automatically reflected.
