@@ -140,10 +140,11 @@ Miscellaneous work for the product team.
 
 ### 4. Create Ticket
 - Link to an Epic as a child task if an Epic is mentioned.
-- - **Summary format:** Always use title case for ticket summaries.
+- **Summary format:** Always use title case for ticket summaries.
+- **Reporter:** Set the reporter to the current user. Look up their account ID once with `atlassianUserInfo`. This applies only to newly created tickets; don't change the reporter on existing tickets.
 
 ### 5. Add Attribution Comment
-- Immediately after the ticket is created, use `addCommentToJiraIssue` to add a comment noting that the ticket was authored by Claude. Use `contentFormat: markdown`. This applies to every ticket created via this skill, regardless of work type.
+- Immediately after the ticket is created, use `addOrEditJiraIssueComment` (omit `commentId`) to add a comment noting that the ticket was authored by Claude. Use `contentFormat: markdown`. This applies to every ticket created via this skill, regardless of work type.
 - The comment must also capture the context that produced the ticket, so the reasoning behind it is traceable later:
   - **Original prompt:** the user's original request verbatim (or a faithful summary if it was extremely long, e.g. pasted meeting notes — note that it was summarized).
   - **Clarifying questions & answers:** every clarifying question asked in Step 2 and the answer given, as a list. Omit this section entirely if no clarifying questions were needed.
